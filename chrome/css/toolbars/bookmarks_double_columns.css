@@ -1,0 +1,48 @@
+/* FF 66 Multi-Row Bookmarks Toolbar */
+#PersonalToolbar {
+  min-height: unset !important;
+  max-height: unset !important;
+/* text-align: center !important; */
+}
+
+#PersonalToolbar #PlacesToolbarItems {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  display: inline-block !important;
+}
+
+/* Set Width for uniform look - Don't Add Separators */
+toolbarbutton.bookmark-item:not(.subviewbutton) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+  border: 1px solid #555 !important;
+}
+
+/* Hover Effects */
+toolbarbutton.bookmark-item:not(.subviewbutton):hover {
+  background-color: #336699 !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+}
+
+/* Shrink Favicon */
+#PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon {
+  transform: scale(.8);
+}
+
+/* Move Favicon Left */
+#PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon[label]:not([label=""]) {
+  margin-inline-start: -3px !important;
+}
+
+/* Bookmarks - Adjust Text - Helps with short names */
+#PlacesToolbarItems > .bookmark-item > .toolbarbutton-text {
+  margin-inline-start: -3px !important;
+  text-align: left !important;
+}
+
+/* Container Bookmark - Adjust Text */
+#PlacesToolbarItems > .bookmark-item[container] > .toolbarbutton-text {
+  margin-inline-start: 2px !important;
+  text-align: left !important;
+}

@@ -1,0 +1,12 @@
+/* bookmarkbar to fade-out if you don't focus on it.*/
+
+ #PlacesToolbarItems{
+    opacity: 0.5;
+    transition-delay: 1s; 
+    transition-duration: .5s;
+}
+#PlacesToolbarItems:hover{
+    transition-delay: 0s;
+    opacity: 1;
+	
+	
