@@ -1,0 +1,26 @@
+/*Manage Your Addons Button changes it to green */
+#add-ons-button > .toolbarbutton-icon { fill: green !important; }
+
+/*Changes the More Tools/Overflow Button I icon */
+#nav-bar-overflow-button > .toolbarbutton-icon { list-style-image: url("./image/overflow.png") !important;}
+
+/*Changes the Open Menu Button I icon */
+#PanelUI-menu-button {list-style-image: url("./image/open_menu.png") !important;}
+
+
+/* CHANGE ADDON BUTTONS */
+
+/*Behind The Overlay Revival */
+#_c0e1baea-b4cb-4b62-97f0-278392ff8c37_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/behind_overlay_revival.png") !important;
+}
+
+/* CHANGE ADDON BADGES */
+
+/* uBlock Origin */
+#ublock0_raymondhill_net-browser-action  label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+

@@ -1,0 +1,130 @@
+/* ONLY WORKS IN ROOT FOLDER */
+@import url(./!!css_ONLY_works_in_ROOT.css); /* only works in root chrome folder*/
+@import url(./!bottomtoolbar.css); /* colors and sizes bottombar*/
+@import url(./!!extensionOptionsMenu.uc.css); /* changes volor of menu text*/
+
+/* NEW CODE */
+@import url(./css/various/menubar_weird_fix_with_no_titlebar.css); /* repairs weird double image when titlebar in disabled - hidden min, max and close buttons*/
+@import url(./css/buttons/button_effect_icon_glow.css); /* Adds glow effect to hovered addon icons*/
+/*@import url(./css/various/grid_overflow_menu.css); /* Changes overflow list to icon grid*/
+
+
+/**/
+@import url(./css/locationbar/urlbar_caret_color.css); /* changes caret color in navbar*/
+@import url(./css/locationbar/identity_box_icon_order.css); /* change order of identity box icons*/
+@import url(./css/locationbar/identitybox_no_label_text.css); /* removes name some sites show*/
+@import url(./css/locationbar/locationbar_zoom.css); /* puts zoom to end in bold and ..............also hides history dropdowm marker*/
+@import url(./css/locationbar/navbar_hide.css); /* hides the navbar when not hovered*/
+@import url(./css/locationbar/locationbar_color_security.css); /* colors navbar blue red yellow and green to site security factors*/
+@import url(./css/locationbar/locationbar_broken_lock_red_bg.css); /* highlights broken locks on broken sites*/
+@import url(./css/locationbar/background_color_dark.css); /* navbar color dark*/
+@import url(./css/locationbar/compact_mode_reduce_fontsize.css); /* reduces font in compact mode*/
+@import url(./css/locationbar/icons_colorized.css); /* colorizes navbar icons*/
+@import url(./css/locationbar/identitybox_colors.css); /* identity background color*/
+@import url(./css/locationbar/identitybox_padlock_icon_modern.css); /* better looking locks*/
+@import url(./css/locationbar/locationbar_adjustments.css); /* minor fixes*/
+@import url(./css/locationbar/reader_alternative_icon.css); /* better looking icon*/
+@import url(./css/locationbar/starbutton_alternative_icon.css); /* better looking navbar bookmark button*/
+@import url(./css/locationbar/dropdown_selection_color.css); /* rich list dropdown and text selection color*/
+@import url(./css/locationbar/identitybox_dropdown_dark.css); /* makes identity box dropdown dark theme*/
+
+
+/**/
+@import url(./css/various/about_waterfox_logo.css); /* change the about:update popup screen */
+@import url(./css/various/generic_addon_colors.css); /* The background color for addon popups not directly changed by userContents.css*/
+@import url(./css/various/hide_page_actions.css); /* hide/collapse this button navbar*/
+@import url(./css/various/darken_load_screen.css); /* darkens loading screen color*/
+@import url(./css/various/context_menu_stuff.css); /* moves Context Plus up, removes other entries.*/
+@import url(./css/various/remove_sign_in_to_sync.css); /* removesSign in to Sync hamburger menu*/
+@import url(./css/various/flexible_spring.css); /* removesSign in to Sync hamburger menu*/
+
+
+/**/
+@import url(./css/toolbars/bookmarksbar_fade.css); /* fades bar when not hovered*/
+/*@import url(./css/toolbars/bookmarksbar_autohide_show_on_hover.css); /* autohides bookmarks bar until hovered*/
+@import url(./css/toolbars/bookmarksbar_navbar_bg_transparent.css); /* transparent background bookmark and nav bar*/
+@import url(./css/toolbars/bookmarksbar_double_row.css); /* creates double row on bookmark bar if single line fills up*/
+@import url(./css/toolbars/bookmarks_toolbar_old_height.css); /* restores the old bar height*/
+@import url(./css/toolbars/bookmarksbar_visible_fullscreen.css); /* keeps bookmark bar visible in fullscreen*/
+/*@import url(./css/toolbars/bookmarks_double_columns.css); /* creates double columns in  bookmarks menus*/
+/*@import url(./css/toolbars/bookmarks_toolbar_bookmark_labels_hidden.css); /* hides text and only shows icons/favicons in bookmark bar */ 
+
+
+/**/
+@import url(./css/buttons/appbutton_popup_icons_colorized.css); /* different app button colors*/
+/**/
+/*@import url(./css/buttons/buttons_on_NAVIGATOR-TOOLBOX_glass_appearance.css); /* glass appearance ALL TOP buttons*/
+/*@import url(./css/buttons/buttons_on_bookmarks_toolbar_glass_appearance.css); /* glass appearance bookmark bar buttons*/
+@import url(./css/buttons/buttons_on_menubar_toolbar_glass_appearance.css); /* glass appearance menu bar buttons*/
+@import url(./css/buttons/buttons_on_navbar_glass_appearance.css); /* glass appearance navbar buttons*/
+/*@import url(./css/buttons/buttons_on_tabtoolbar_glass_appearance.css); /* glass appearance navbar buttons*/
+@import url(./css/buttons/buttons_on_addonbar_glass_appearance.css); /* glass appearance bottom addon bar buttons*/
+/**/
+@import url(./css/buttons/custom_backforward_large_ff3.css); /* change default back/forward buttons*/
+@import url(./css/buttons/custom_home_dewman.css); /* change default home button*/
+@import url(./css/buttons/custom_sidebar_dewman.css); /* change default side button*/
+@import url(./css/buttons/icons_colorized.css); /* changes button colors*/
+
+
+/**/
+@import url(./css/tabs/tab_loading_animation.css); /* puts tabs below the navbar*/ 
+/*@import url(./css/tabs/tabs_below_navigation_toolbar.css); /* puts tabs below the navbar*/ 
+@import url(./css/tabs/tabs_below_navigation_toolbar_fx65.css); /**/
+@import url(./css/tabs/tab_close_always_visible.css); /* makes close visible on all tabs*/
+@import url(./css/tabs/tab_border_color_kill_bottom_line.css); /* changes selected tab border color and removes long bottom line*/
+@import url(./css/tabs/custom_tab_color_and_line_normal.css); /* changes default container line to top of tab..  removes container label/symbol from navbar*/
+@import url(./css/tabs/custom_tab_icon_color.css); /* changes default tabs icon to greyscale and selected/hovered colored*/
+@import url(./css/tabs/custom_tab_text_color.css); /* changes text color/bold/style to tab state*/
+@import url(./css/tabs/tab_icon_colors.css); /* effects tab color of about pages icone???*/
+@import url(./css/tabs/missing_tab_favicon_restored_default.css); /* replaces missing icon with circular generic icon*/
+@import url(./css/tabs/tab_icon_pause_play.css); /* changes color of mute/unmute icons*/
+@import url(./css/tabs/tab_throbber_green.css); /* makes tab throbber circular green of old firefox*/
+@import url(./css/tabs/tab_close_spin_hover.css); /* makes close red and spin when hovered*/  /* Has remove box code also */
+@import url(./css/tabs/multiple_tabs_selected_mark.css); /* blue square marks multiple selected tabs*/
+
+
+/**/
+@import url(./css/generalui/popup_menu_dark_context_menus.css); /* makes bookmarks and context menus dark*/
+@import url(./css/generalui/popup_bookmark_edit_panel_dark.css); /* edit/save bookmark panel dark*/
+/*@import url(./css/generalui/popup_menu_OLD_colors.css); /* OLD popup menu color probably don't work */
+/*@import url(./css/generalui/bookmark_icons_colorized_1.css); /* colors bookmark icons???*/
+@import url(./css/generalui/bookmark_icons_colorized_2.css); /* colors bookmark icons???*/
+@import url(./css/generalui/sidebar_library_popup_menu.css);  /* side bar dark*/
+@import url(./css/generalui/sidebar_appearance_dark.css);  /* side bar dark*/
+@import url(./css/generalui/sidebar_appearance_lwtheme_dark.css);  /* side bar dark*/
+@import url(./css/generalui/sidebar_header_icons_colorized.css); /* side bar dark colored icons*/
+@import url(./css/generalui/sidebar_header_lwtheme.css); /* side bar dark*/
+@import url(./css/generalui/sidebar_autohide.css); /* autohides sidebar???*/
+@import url(./css/generalui/fullscreen_hide_min_max_close.css); /* hides the min_max_close buttons fullsreen*/
+@import url(./css/generalui/menubar_text.css); /* changes menubar text color*/ 
+@import url(./css/generalui/findbar_on_top_solid.css); /* findbar tweak top left solid*/
+/*@import url(./css/generalui/status_panel_color.css); /* colors status panel*/
+/*@import url(./css/generalui/status_inside_urlbar.css); /* changes status bar color and puts it in locationbar also*/
+@import url(./css/generalui/status_in_bottombar.css); /* rich list dropdown and text selection color*/
+/**/
+/* at bottom below bookmark custom favicons is userChrome.js code and code for addon bar and status panel inside it*/
+/**/
+
+
+/* Set icon for "News" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="News"],
+#personal-bookmarks .bookmark-item[container][label="News"],
+#BMB_bookmarksPopup .bookmark-item[container][label="News"],
+#bookmarksMenuPopup .bookmark-item[container][label="News"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-News),
+#placesView     treechildren::-moz-tree-image(primary,container,label-News),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-News),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="News"]
+  { list-style-image:url("BookmarksFolderImages/news.ico")!important; -moz-image-region:auto!important; }
+
+  
+/* ENABLE JAVASCRIPT FILES - requires userChrome.xml file in chrome folder
+
+Copyright (c) 2017 Haggai Nuchi   Available for use under the MIT License: https://opensource.org/licenses/MIT */
+
+@charset "utf-8";
+
+toolbarbutton#alltabs-button {
+    -moz-binding: url("userChrome.xml#js");
+}

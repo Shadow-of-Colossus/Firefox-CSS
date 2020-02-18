@@ -1,0 +1,50 @@
+/**/
+#addonbar {
+  background-color: black !important;
+}
+
+#browser-bottombox { 
+  background-color: black !important;
+  height: 24px !important; /* The value should be between 24-40px */
+ /* direction: rtl !important; /* This makes the toolbar buttons positioned from right to left
+Should be used with the pseudo Separators below */
+}
+
+/* Pseudo Separators
+This technically transforms the flexible spaces to separators whenever they are put to the bottombar.
+The down side is that you cannot use flexible spaces on bottombar anymore */
+#browser-bottombox toolbarspring {
+  background: transparent !important;
+  max-width: 0px !important;
+  min-width: 0px !important;
+  width: 0px !important;
+  border-left: 0px none !important;
+  border-right: 0px none !important;
+  border-top: 0px none !important;
+  border-right: 0px none !important;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  /*margin-left: 6px !important;*/
+  margin-right: 6px !important;
+}
+
+/* Change these if you want more or less space between each button */
+#browser-bottombox toolbarbutton {
+  --toolbarbutton-inner-padding: 2px!important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  margin-left: 0px !important;
+  margin-right: 6px !important;
+}
+
+/* Don't like the flat look? Try these lines! This is for dark theme, if you want light, you can try using rgba(112,112,112,1) 0%, rgba(237,237,237,1) 100% */
+#browser-bottombox-vbox {
+  background: -moz-radial-gradient(center, ellipse cover, rgba(55,55,55,1) 0%, rgba(12,12,12,1) 100%);
+}
+
+/* Hide bar in fullscreen */
+:root[inFullscreen="true"] #browser-bottombox { display:none !important; }
+:root[inFullscreen="true"] #statuspanel  { display:none !important; }
+
