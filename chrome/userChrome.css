@@ -30,7 +30,6 @@
 
 
 /**/
-@import url(./css/various/about_waterfox_logo.css); /* change the about:update popup screen */
 @import url(./css/various/generic_addon_colors.css); /* The background color for addon popups not directly changed by userContents.css*/
 @import url(./css/various/hide_page_actions.css); /* hide/collapse this button navbar*/
 @import url(./css/various/darken_load_screen.css); /* darkens loading screen color*/
