@@ -1,0 +1,71 @@
+/* #D1D1D1 = light grey */
+/* #474749 = dark grey */
+/* #323234 = very dark grey */
+#bookmarksPanel.sidebar-panel {
+  color: #DDD !important;
+}
+
+
+#sidebar,
+#sidebar-header,
+#bookmarksPanel,
+#bookmarks-view,
+#history-panel,
+#historyTree,
+#viewButton {
+  background: #323234 !important;
+  color: #DDD !important;
+}
+
+.sidebar-placesTreechildren::-moz-tree-cell(hover),
+.sidebar-placesTreechildren::-moz-tree-row(selected),
+.sidebar-placesTreechildren::-moz-tree-cell-text(hover),
+.sidebar-placesTreechildren::-moz-tree-cell-text(selected),
+#viewButton:hover {
+ background: #666666 !important;
+ color: #DDD !important;
+}
+   
+/* Fix for remaining hovering borders */
+.sidebar-placesTreechildren::-moz-tree-row {
+ color: #DDD !important;
+ outline: none !important;
+ border: none !important;
+}
+
+/* Make search box dark */
+#sidebar-search-container > textbox {
+-moz-appearance: none !important;
+background-color: #4d4d4d !important;
+color: #ffffff !important;
+}
+
+
+/* Hide white splitter (also appears on top right of scrollbar) *//*
+#sidebar-splitter {
+  opacity: 0 !important;
+}
+ 
+/* Add custom splitter between sidebar and content *//*
+#sidebar,
+#sidebar-header {
+  -moz-border-end: 3px solid #474749 !important;
+}
+
+
+/*sidebar popup*/
+#sidebarMenu-popup .panel-arrowcontent {
+  background: #323234 !important;
+   color: #DDD !important;
+   border: 1px solid #DDD !important; 
+}
+
+.sidebar-placesTree treechildren::-moz-tree-separator { 
+   border: 1px solid #4b4b57 !important;
+}
+
+.sidebar-panel #search-box{
+  -moz-appearance: none !important;
+  background-color: rgba(249,249,250,0.1) !important; 
+  color: inherit !important;
+}

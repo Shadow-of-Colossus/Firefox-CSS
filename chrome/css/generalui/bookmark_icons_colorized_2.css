@@ -1,0 +1,35 @@
+/* Colored bookmark sidebar, toolbar, menu button containers */
+  /* Standard folder */
+  #bookmarks-view treechildren::-moz-tree-image(container),
+  #PlacesToolbarItems toolbarbutton[container="true"] .toolbarbutton-icon,
+  #PlacesToolbarItems menu[container="true"] .menu-iconic-left,
+  #BMB_bookmarksPopup menu[container="true"] .menu-iconic-icon {
+    fill: gold !important;
+  }
+  
+  /* Live Bookmark (RSS Feed) */
+  #bookmarks-view treechildren::-moz-tree-image(container, livemark),
+  #PlacesToolbarItems toolbarbutton[container="true"][livemark="true"] .toolbarbutton-icon,
+  #PlacesToolbarItems menu[container="true"][livemark="true"] .menu-iconic-left,
+  #BMB_bookmarksPopup menu[container="true"][livemark="true"] .menu-iconic-icon {
+    fill: orange !important;
+  }
+  
+  /* Smart bookmark folder */
+  #bookmarks-view treechildren::-moz-tree-image(container, query),
+  #PlacesToolbarItems toolbarbutton[container="true"][query="true"] .toolbarbutton-icon,
+  #PlacesToolbarItems menu[container="true"][query="true"] .menu-iconic-left,
+  #BMB_bookmarksPopup menu[container="true"][query="true"] .menu-iconic-icon {
+    fill: dimgray !important;
+  }
+  
+  /* These "containers" are SVG in the sidebar, not yet on the menu */
+  #bookmarks-view treechildren::-moz-tree-image(container, OrganizerQuery_BookmarksMenu) {
+    fill: olive !important;
+  }
+  #bookmarks-view treechildren::-moz-tree-image(container, OrganizerQuery_BookmarksToolbar) {
+    fill: olive !important;
+  }
+  #bookmarks-view treechildren::-moz-tree-image(container, OrganizerQuery_UnfiledBookmarks) {
+    fill: olive !important;
+  }

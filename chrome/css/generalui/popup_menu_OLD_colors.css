@@ -1,0 +1,55 @@
+/* popup menu colors */
+menupopup, popup,
+popup > menu > menupopup,
+menupopup > menu > menupopup {
+  -moz-appearance: none !important;
+/*  background: #222 !important; /* #323234 */
+  color: #aaa !important;	
+  border: 2px solid #ddd !important;
+  padding: 2px 0px 2px 0px  !important;
+}
+
+menupopup menuseparator {
+-moz-appearance: none !important;
+background: transparent !important;
+border-color: transparent !important;
+}
+
+#appmenu_historyMenupopup,
+#appmenu_customizeMenu,
+#appmenu_helpMenupopup,
+#appmenu_bookmarksPopup {
+  -moz-appearance: none !important;
+  background: #222 !important; /* #323234 */
+  color: #aaa !important;	
+  border: 2px solid #ddd !important;
+  padding: 2px 0px 2px 0px  !important;
+}
+
+#appmenu_bookmarksPopup menupopup {
+  -moz-appearance: none !important;
+  background: #222 !important; /* #323234 */
+  color: #aaa !important;	
+  border: 2px solid #ddd !important;
+  padding: 2px 0px 2px 0px  !important;
+}
+
+#appmenu_historyMenupopup menupopup {
+  -moz-appearance: none !important;
+  background: #222 !important; /* #323234 */
+  color: #aaa !important;	
+  border: 2px solid #ddd !important;
+  padding: 2px 0px 2px 0px  !important;
+}
+
+/* Menu Hover Color */
+/*
+menuitem:hover, menu:hover, menu[open="true"], menuitem[_moz-menuactive="true"]	 {
+	-moz-appearance: none !important;
+	padding: 1px 0px 1px 0px !important;
+	background-color: #b54fc9 !important;
+    color: #FFFFFF !important;
+}
+
+/*.menu-iconic-text{ color: #ddd !important; } 
+

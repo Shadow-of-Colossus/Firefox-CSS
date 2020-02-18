@@ -1,0 +1,28 @@
+/* Status Bar ONLY */
+#statuspanel-inner > #statuspanel-label{
+  height:23px;
+  min-width: 400px;
+  max-width: 750px;
+  padding-top: 3px !important;
+/*  background-color: black !important;*/
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 12!important;
+  /* Yellow */
+  color: #faff68 !important;
+}
+/* If you use a theme where urlbar is partially transparent you should edit this color to something that closely matches the perceived color of urlbar. Or perhaps use background-image - linear-gradient() can work well here. But keep the color or image opaque or otherwise you'll face an issue where urlbar text bleeds through */
+#statuspanel-inner{background-image:none !important}
+#statuspanel{background-image:none !important}
+
+/* #statuspanel-inner{ background-color: #222222 }
+#statuspanel{ color: #222222; z-index: -1; } */
+#statuspanel[type="status"] { color: #70AAEC }
+
+/* Moves panel to bottom left */
+#statuspanel {
+    margin: 5 !important;
+    bottom: 0px !important;
+    left: 70px !important;
+    z-index: 2 !important;
+}
