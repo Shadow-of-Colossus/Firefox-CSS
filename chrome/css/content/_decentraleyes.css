@@ -1,0 +1,18 @@
+/*! Alters the webextension Decentraleyes */
+@-moz-document url-prefix("moz-extension://049f6f7c-e2b0-4348-87f9-249958572276/") {
+  body {
+    background-color: #323234!important;
+    color: #bbb !important
+  }
+  .panel:not(:last-child),
+  header {
+    border-color: var(--tone-5)!important
+  }
+  .button {
+    background-color: #323234!important;
+    border-color: var(--tone-5)!important
+  }
+  .button:hover {
+    background-color: #323234!important
+  }
+}

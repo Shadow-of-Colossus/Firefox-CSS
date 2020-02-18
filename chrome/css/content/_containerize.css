@@ -1,0 +1,44 @@
+/*------ CONTAINERIZE ------*/
+@-moz-document url-prefix(moz-extension://0b40c6ba-8101-4f09-91c6-706686ab732d/) {
+html, body {background: #222 !important}
+
+h3, legend {color: #fff !important}
+span:not(#current-container), #container-info-movetabs,
+.container-info-tab-title, .truncate-text {color: #ccc !important}
+
+#sort-containers-link, .userContext-wrapper, .show-tabs:not(.pop-button-image-small), 
+#edit-containers-link, #container-add-link, #edit-container-cancel-link, .panel-back-arrow,
+.container-panel-row {
+	background-color: #333 !important;
+	color: #ccc !important}
+
+#sort-containers-link:hover, .userContext-wrapper:hover, .show-tabs:hover, 
+#edit-containers-link:hover, #container-add-link:hover, #edit-container-cancel-link:hover,
+.panel-back-arrow:hover, .clickable:hover, .pop-button:hover {
+	background-color: #444 !important;
+	color: #fff !important}
+
+.pop-button-image-small {fill: #fff !important}
+
+#container-page-assigned {filter: invert(80%)}
+
+#sort-containers-link, .container-panel-row {border-color: #666 !important}
+#edit-containers-link {border: 1px solid #666 !important}
+
+#container-add-link {
+	border-top: 1px solid #666 !important;
+	border-right: 1px solid #666 !important;
+	border-bottom: 1px solid #666 !important}
+
+.edit-containers-text {border-inline-end: transparent !important}
+.scrollable {border-block-start: 1px solid #666 !important}
+.panel-footer {border-block-end: transparent !important}
+
+#redirect-url {background-color: #333 !important}
+}
+
+@-moz-document url-prefix(http){
+.container-notification {
+	background-color: rgba(50,50,50,0.7) !important;
+	color: #0c0 !important}
+}

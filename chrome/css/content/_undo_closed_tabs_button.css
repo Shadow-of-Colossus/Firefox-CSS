@@ -1,0 +1,18 @@
+/*! Alters the webextension undo_closed_tabs_button */
+@-moz-document url-prefix("moz-extension://fefe514a-b0e2-4146-a5e9-0fb11803cc9b/") {
+  body {
+    color: #999 !important;
+    background: #000 !important
+  }
+  html {
+    background-color: #000 !important
+  }
+  a {
+    color: #000 !important
+  }
+  h3 {
+    color: #000 !important
+  }
+
+
+}

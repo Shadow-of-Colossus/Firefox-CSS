@@ -1,0 +1,25 @@
+/* Remove New Tab Flash */
+
+@-moz-document url-prefix(about:blank), url-prefix(about:newtab), url(moz-extension://e9518bb3-7ffc-4260-bdc8-c62be69fbc68/redirect.html), url(moz-extension://67af9bc8-7ba8-4477-9afa-924b0139681a/html/newtab.html)
+{
+    html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay
+    {
+        background: #68798a !important;
+    } 
+}
+
+
+/*
+@-moz-document url("about:home"), url("about:newtab") {
+body { 
+background-color: #68798a !important;
+}
+}
+
+/*If that doesn't help maybe try this: */
+/*
+@-moz-document url("about:home"), url("about:newtab") {
+.outer-wrapper { 
+background-color: #68798a !important;
+}
+}

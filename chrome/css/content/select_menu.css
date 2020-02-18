@@ -1,0 +1,5 @@
+/* select changes select menu, input is like pasword fields and textarea hmmm*/
+select/*, input, textarea */ {
+    color:#222  !important;
+    background-color: #fff !important;
+}

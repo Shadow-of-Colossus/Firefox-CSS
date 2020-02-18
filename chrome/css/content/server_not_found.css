@@ -1,0 +1,29 @@
+@-moz-document url-prefix("about:neterror") {
+body {
+  background-color: #F2E3A8 !important;
+  color: #000 !important;
+}
+
+#errorPageContainer {
+  background-color: #F2E3A8 !important;
+  color: #000 !important;
+   }
+   
+button.try-again {
+  background-color: #288B08 !important;
+  font-weight: bold !important;
+  color: #fff !important;
+   }
+
+.title-text {
+  color: #FF0000 !important;
+  font-size: 25pt !important;
+  text-shadow:	0px 2px 0px black,
+				0px 2px 8px black !important;
+  font-weight: bold !important;
+  font-style: italic!important; 
+   }
+   
+}
+
+

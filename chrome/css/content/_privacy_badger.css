@@ -1,0 +1,95 @@
+/*------ PRIVACY BADGER ADDON SETTINGS PAGE ------*/
+@-moz-document url-prefix(moz-extension://a85a42d7-56b1-4366-8f2c-36948c5b6875/skin/options.html) {
+body, html {background: #222 !important; color: #fff !important}
+
+#tabs {background: #444 !important; color: #ccc !important; border: 1px solid #666 !important}
+
+#tabs > ul {background-image: linear-gradient(#333, #222) !important; border: 1px solid #666 !important}
+
+label, p, span.i18n_show_tracking_domains_acknowledgement, .origin.tooltip {color: #ddd !important}
+
+span.i18n_options_webrtc_warning {color: #aaa !important}
+
+span.i18n_import_user_data, span.i18n_export_user_data {color: #fff !important}
+
+#tabs > ul > li {
+	background: #252525 !important; 
+	border: 1px solid #555 !important}
+
+#tabs > ul > li span {color: #ccc !important}
+
+#tabs > ul > li.ui-state-hover {
+	background: #333 !important; 
+	border: 1px solid #606060 !important}
+
+#tabs > ul > li.ui-state-hover span {color: #ddd !important}
+
+#tabs > ul > li.ui-state-active {
+	background: #444 !important; 
+	color: #fff !important; 
+	border: 1px solid #666 !important}
+
+#tabs > ul > li.ui-state-active span {color: #fff !important}
+
+#newWhitelistDomain, #excludedDomainsBox, #trackingDomainSearch {
+	-moz-appearance: none !important;
+	color: #ddd !important;
+	background: #303030 !important;
+	border: 1px solid #666 !important}
+
+#trackingDomainSearch:hover, #newWhitelistDomain:hover {
+	border: 1px solid #db7924 !important}
+
+#blockedResources > .keyContainer > .key {background: none !important}
+
+#blockedResourcesInner > div {
+	background: #444 !important; 
+	color: #ccc !important;
+	border-top: 1px solid #666 !important}
+
+button {
+  -moz-appearance: none !important;
+  border-radius: 3px !important;
+  background: #666 !important;
+  color: #ddd !important;
+  border: none !important}
+
+button:hover {
+	background: #555 !important;
+	color: #fff !important}
+
+a:link, a {color: #0bb !important}
+a:visited, a:active {color: #088 !important}
+a:hover {color: #0dd !important}
+}
+
+/*------ PRIVACY BADGER ADDON POPUP ------*/
+@-moz-document url-prefix(moz-extension://a85a42d7-56b1-4366-8f2c-36948c5b6875/skin/popup.html) {
+body, html {background: #333 !important; color: #fff !important}
+
+label, span, .origin.tooltip {color: #ddd !important}
+span.i18n_name {color: #fff !important}
+
+button {
+  -moz-appearance: none !important;
+  border-radius: 3px !important;
+  background: #666 !important;
+  color: #ddd !important;
+  border: none !important}
+
+button:hover {
+  background: #444 !important;
+  color: #fff !important}
+
+a:link, a {color: #fc9336 !important}
+a:visited, a:active {color: #a3540f !important}
+a:hover {color: #f0a15c !important}
+
+#instruction {background: #444 !important; color: #ddd !important}
+
+#blockedResources > .keyContainer > .key {background: none !important}
+#blockedResourcesInner > div {
+	background: #333 !important; 
+	color: #ccc !important;
+	border-top: 1px solid #555 !important}
+}
