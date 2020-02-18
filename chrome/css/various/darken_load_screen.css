@@ -1,0 +1,14 @@
+/* Remove New Tab Flash */
+
+#browser vbox#appcontent tabbrowser,
+#content,
+#tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content] > html {
+  background: #68798a !important
+}
+
+/*browser, browser.display.background_color, tabbrowser tabpanels {
+  background-color: #68798a !important;
+}
+

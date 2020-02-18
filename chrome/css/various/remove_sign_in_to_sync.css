@@ -1,0 +1,3 @@
+/*  Remove the "Sign in to sync" from top of photon hamburger menu */
+
+#appMenu-fxa-container, #appMenu-fxa-container + toolbarseparator {display: none !important;}

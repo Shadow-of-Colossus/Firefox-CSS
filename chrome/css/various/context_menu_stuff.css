@@ -1,0 +1,65 @@
+/* Change order of context entries */
+
+#bookmark-menu-container_robwu_nl-menuitem-_bookmark-menu-item { -moz-box-ordinal-group: 0  !important;}
+
+
+#context-searchselect:not([hidden])~#_3923146e-98cb-472b-9c13-f6849d34d6b8_-menuitem-_selection{ -moz-box-ordinal-group: 0  !important;}
+#context-searchselect:not([hidden])~#_3923146e-98cb-472b-9c13-f6849d34d6b8_-menuitem-16{ -moz-box-ordinal-group: 0  !important;}
+#context-searchselect {-moz-box-ordinal-group: 0 !important;}
+/*#context-copy {-moz-box-ordinal-group: 2 !important;} */
+/*#context-selectall {-moz-box-ordinal-group: 3 !important;} */
+/*#context-viewpartialsource-selection {-moz-box-ordinal-group: 3 !important;} */
+#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement {-moz-box-ordinal-group: 4 !important;} 
+#_73a6fe31-595d-460b-a920-fcc0f8843232_-menuitem-_noscript-ctx-menu {-moz-box-ordinal-group: 5 !important;} 
+#_windscribeff-menuitem-_copySecureLink {-moz-box-ordinal-group: 6 !important;} 
+#zoomlevelplus_zoomlevelplus_net-menuitem-2 {-moz-box-ordinal-group: 7 !important;}
+#s3google_translator-menuitem-17 {-moz-box-ordinal-group: 8 !important;} 
+#s3google_translator-menuitem-18 {-moz-box-ordinal-group: 8 !important;} 
+#s3google_translator-menuitem-19 {-moz-box-ordinal-group: 8 !important;} 
+#s3google_translator-menuitem-20 {-moz-box-ordinal-group: 8 !important;} 
+#s3google_translator-menuitem-22 {-moz-box-ordinal-group: 8 !important;} 
+#openwith_darktrojan_net-menuitem-10 {-moz-box-ordinal-group: 9 !important;} 
+#openwith_darktrojan_net-menuitem-11 {-moz-box-ordinal-group: 9 !important;} 
+#openwith_darktrojan_net-menuitem-12 {-moz-box-ordinal-group: 9 !important;} 
+#openwith_darktrojan_net-menuitem-13 {-moz-box-ordinal-group: 9 !important;} 
+#openwith_darktrojan_net-menuitem-37 {-moz-box-ordinal-group: 9 !important;} 
+
+#context-openlinkintab:not([hidden]),
+#context-openlinkintab:not([hidden])~#_36bde3a5-9f17-4ad9-a587-d4a3c8e8d200_-menuitem-_background-tab_link{ -moz-box-ordinal-group: 0 }
+#_36bde3a5-9f17-4ad9-a587-d4a3c8e8d200_-menuitem-_background-tab_link > label{ display: none }
+#_36bde3a5-9f17-4ad9-a587-d4a3c8e8d200_-menuitem-_background-tab_link::before{
+  content: "Open Link in New Background Tab";
+  display: -moz-box;
+  -moz-appearance: menuitemtext
+}
+
+/* Remove these Context Menu Entries */
+#context_sendTabToDevice, #context-sep-sendTabToDevice {  display: none !important;}
+#context-sendpagetodevice, #context-sep-sendpagetodevice {  display: none !important;}
+#context-sendlinktodevice, #context-sep-sendlinktodevice {  display: none !important;}
+#context-navigation, #context-sep-sendlinktodevice {  display: none !important;}
+#context-navigation, #context-sendimage { display: none !important; }
+
+/* #context_reloadTab,
+#context_toggleMuteTab,
+#context_pinTab,
+#context_unpinTab,
+#context_bookmarkTab,
+#context_reopenInContainer,
+#context_moveTabOptions,
+#context_sendTabToDevice,
+#context_closeTabsToTheEnd,
+#context_closeOtherTabs,
+#context_undoCloseTab,
+#context_closeTab,
+#context_pinSelectedTabs,
+#context_unpinSelectedTabs,
+#context_selectAllTabs,
+#context_bookmarkSelectedTabs,
+#context_closeSelectedTabs
+*/
+#inspect-separator,
+#context-inspect,
+ {
+ display: none !important;
+}

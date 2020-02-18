@@ -1,0 +1,14 @@
+/* Hide separator, only show *** button after 2-sec hover */
+#pageActionSeparator {
+ display: none !important;
+}
+#page-action-buttons #pageActionButton {
+ width: 0 !important;
+ padding: 4px !important;
+ transition: all 1s ease-in-out;
+}
+#page-action-buttons:hover #pageActionButton {
+ width: 24px !important;
+ padding: 4px !important;
+ transition: all 1s ease-in-out 2s;
+}

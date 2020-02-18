@@ -1,0 +1,5 @@
+/* Change flexible spring widths */
+toolbarspring {
+    min-width: 50px !important;
+    max-width: 500px !important;
+}
