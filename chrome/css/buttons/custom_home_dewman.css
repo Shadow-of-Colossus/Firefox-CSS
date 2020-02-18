@@ -1,0 +1,7 @@
+@import url(./custom_backforward_large.css);
+
+/* custom home button */
+#main-window toolbox toolbar :-moz-any(#home-button) .toolbarbutton-icon {
+  list-style-image: url("./../../image/dewhome1.png") !important;
+}
+

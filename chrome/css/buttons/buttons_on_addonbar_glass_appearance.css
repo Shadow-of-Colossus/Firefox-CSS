@@ -1,0 +1,58 @@
+/* button spacing */
+#addonbar .toolbarbutton-1{
+  margin-left: 2px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 1px !important;
+  width: 28px !important;
+}
+
+/* classic button style */
+#main-window:not([customizing]) #addonbar .toolbarbutton-1[disabled=true]:-moz-any([open],[checked],:hover:active,:active),
+#addonbar toolbarbutton[type="menu-button"],
+#addonbar .toolbarbutton-1 > .toolbarbutton-menubutton-button[open] + .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#addonbar .toolbarbutton-1[open] > .toolbarbutton-menubutton-button,
+#addonbar .toolbarbutton-1[open] > .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#addonbar .toolbarbutton-1:not([checked]):not([open]):not(:active),
+#addonbar .toolbarbutton-1:not([buttonover]):not([open]):not(:active) > .toolbarbutton-menubutton-dropmarker:not([disabled]) > .dropmarker-icon {
+  background: rgba(151,152,153,.05) linear-gradient(rgba(251,252,253,.55), rgba(246,247,248,.17) 49%, 
+			  rgba(231,232,233,.25) 51%, rgba(225,226,229,.1)) !important;
+  border-color: rgba(0,0,0,.10) rgba(0,0,0,.16) rgba(0,0,0,.18) !important;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset,
+			  0 0 0 2px rgba(255,255,255,.1) inset,
+			  0 0 0 1px rgba(0,0,0,.4) inset !important;
+}
+#addonbar .toolbarbutton-1:not([disabled=true]) > .toolbarbutton-menubutton-button[open] + .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#addonbar .toolbarbutton-1:not([disabled=true]):-moz-any(:hover,[open]) > .toolbarbutton-menubutton-button ,
+#addonbar .toolbarbutton-1:not([disabled=true]):-moz-any(:hover,[open]) > .toolbarbutton-menubutton-dropmarker > .dropmarker-icon,
+#addonbar .toolbarbutton-1:not([disabled=true]):not([checked]):not([open]):not(:active):hover,
+#addonbar .toolbarbutton-1:not([buttonover]):not([open]):not(:active):hover > .toolbarbutton-menubutton-dropmarker:not([disabled]) > .dropmarker-icon {
+  background-color: hsla(190,60%,70%,.3) !important;
+  border-color: hsla(190,50%,65%,.8) hsla(190,50%,50%,.8) hsla(190,50%,40%,.8) !important;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.3) inset,
+			  0 0 0 1.5px rgba(255,255,255,.1) inset,
+			  0 0 3.5px hsl(190,90%,80%),
+			  0 0 0 1px rgba(0,0,0,.4) inset !important;
+  transition: background-color .3s ease-in,
+			  border-color .2s ease-in,
+			  box-shadow .2s ease-in !important;
+}
+#addonbar toolbarbutton[type="menu"][open]:not([disabled]),
+#addonbar toolbarbutton[type="menu-button"]:not([open]):hover:not([disabled]):active ,
+#addonbar .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([disabled=true]):-moz-any(:hover:active,:active, [open]),
+#addonbar .toolbarbutton-1[open] > .toolbarbutton-menubutton-dropmarker:not([disabled=true]) > .dropmarker-icon,
+#addonbar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) {
+  background-color: transparent !important;
+  border-color: rgba(0,0,0,.65) rgba(0,0,0,.55) rgba(0,0,0,.5) !important;
+  box-shadow: 0 0 6.5px rgba(0,0,0,.4) inset,
+			  0 0 2px rgba(0,0,0,.4) inset,
+			  0 1px 0 rgba(255,255,255,.4),
+			  0 0 0 1px rgba(0,0,0,.4) inset !important;
+}
+#addonbar toolbarbutton[disabled=true] > .toolbarbutton-icon {
+  opacity: .6 !important;
+}
+
+#addonbar toolbarbutton[disabled=true]{
+  opacity: 1.0 !important;
+}

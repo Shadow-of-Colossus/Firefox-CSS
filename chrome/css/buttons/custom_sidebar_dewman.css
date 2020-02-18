@@ -1,0 +1,7 @@
+@import url(./custom_backforward_large.css);
+
+/* custom sidebar button */
+#main-window toolbox toolbar :-moz-any(#sidebar-button) .toolbarbutton-icon {
+  list-style-image: url("./../../image/bookmarksMenu1.png") !important;
+}
+
