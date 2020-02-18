@@ -1,0 +1,8 @@
+.searchbar-textbox, #urlbar {
+  background-color: #474749 !important;
+  color: lightgrey !important;
+}
+
+#identity-icon{
+  opacity: 1 !important;
+}

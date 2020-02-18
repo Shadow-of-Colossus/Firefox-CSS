@@ -1,0 +1,43 @@
+#favimginurlbar {
+  -moz-box-ordinal-group: 0;
+}
+
+#identity-icon {
+  -moz-box-ordinal-group: 0;
+}
+
+#connection-icon {
+  -moz-box-ordinal-group: 0;
+}
+
+#tracking-protection-icon-container {
+  margin-right: -27px !important;
+  border-right: -27px !important;
+   border-image-slice: 0 !important;
+  opacity: 0.0;
+  /*display: none;*/
+}
+
+#tracking-protection-icon {
+    display: none;
+}
+
+#geo-notification-icon {
+    display: none;;
+}
+
+
+#permissions-granted-icon {
+    display: none;
+}
+
+.blocked-permission-icon.desktop-notification-icon {
+	display: none !important
+}
+
+.blocked-permission-icon.autoplay-media-icon {
+	display: none !important
+}
+	
+
+

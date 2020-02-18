@@ -1,0 +1,4 @@
+/* reduce text font size in location/search bar (to what is was on Win7)*/
+#main-window[uidensity="compact"] :-moz-any(.searchbar-textbox, #urlbar) {
+  font-size: 12px !important;
+}

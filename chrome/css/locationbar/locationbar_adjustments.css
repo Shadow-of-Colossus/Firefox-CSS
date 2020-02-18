@@ -1,0 +1,24 @@
+/* identity box */
+#identity-box {
+  padding-inline-start: 4px !important;
+}
+
+/* adjust icons for compact mode */
+#main-window[uidensity="compact"] .urlbar-icon {
+  width: 22px !important;
+  height: 22px !important;
+  padding: 3px !important;
+}
+
+/* search box */
+#main-window[uidensity="compact"] .searchbar-search-icon {
+  margin-inline-start: 4px !important;
+  margin-inline-end: 4px !important;
+}
+
+/*  color border */
+/* #urlbar[focused=true] {
+    border-color: red !important;
+    border-width: 1px !important;
+}*/
+

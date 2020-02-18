@@ -1,0 +1,4 @@
+/* Change urlbar caret color */
+#urlbar {
+     caret-color: yellow !important;
+}

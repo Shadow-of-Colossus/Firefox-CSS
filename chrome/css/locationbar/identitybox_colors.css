@@ -1,0 +1,190 @@
+/* colorize identity box based on level of security */
+#urlbar[pageproxystate="valid"] .verifiedDomain {
+  background: linear-gradient(hsl(115,60%,92%), hsl(115,58%,88%)) !important;
+  box-shadow: 0 1px 0 hsla(115,54%,33%,.05) inset !important;
+  color: hsl(115,54%,33%) !important;
+  border-inline-end: 1px solid hsla(115,54%,33%,.2) !important;
+  border-image: unset !important;
+  border-image-slice: unset !important;
+  opacity: 1 !important;
+}
+
+#urlbar[pageproxystate="valid"] .verifiedDomain:hover {
+  background: linear-gradient(hsl(115,85%,85%), hsl(115,70%,68%)) !important;
+  opacity: 1 !important;
+}
+
+#urlbar[pageproxystate="valid"] .verifiedDomain:-moz-any([open="true"],:hover:active) {
+  background: linear-gradient(hsl(115,80%,80%), hsl(115,67%,65%)) !important;
+  box-shadow: 0 1px 1px hsla(115,54%,33%,.7) inset,
+			  0 1px 3px 1px hsla(115,54%,33%,.5) inset !important;
+			  opacity: 1 !important;
+}
+
+#urlbar[pageproxystate="valid"] .verifiedIdentity {
+  background: linear-gradient(hsl(91,70%,90%), hsl(93,60%,81%)) !important;
+  box-shadow: 0 1px 0 hsla(92,81%,16%,.05) inset !important;
+  color: #2f6600 !important;
+  font-weight:bold !important;
+  border-inline-end: 1px solid hsla(92,81%,16%,.2) !important;
+  border-image: unset !important;
+  border-image-slice: unset !important;
+  opacity: .8 !important;
+}
+
+
+
+#urlbar[pageproxystate="valid"] :-moz-any(.insecureLoginForms,.mixedActiveContent,.notSecure) {
+  background: linear-gradient(hsl(6,35%,88%), hsl(0,53%,82%)) !important;
+  box-shadow: 0 1px 0 hsla(92,81%,16%,.05) inset !important;
+  border-inline-end: 1px solid hsla(92,81%,16%,.2) !important;
+  border-image: unset !important;
+  border-image-slice: unset !important;
+  opacity: 1 !important;
+}
+
+#urlbar[pageproxystate="valid"] :-moz-any(.insecureLoginForms,.mixedActiveContent,.notSecure):hover {
+  background: linear-gradient(hsl(6,65%,88%), hsl(0,73%,82%)) !important;
+  opacity: 1 !important;
+}
+
+#urlbar[pageproxystate="valid"] :-moz-any(.insecureLoginForms,.mixedActiveContent,.notSecure):-moz-any([open="true"],:hover:active) {
+  background: linear-gradient(hsl(6,70%,88%), hsl(0,78%,82%)) !important;
+  box-shadow: 0 1px 1px hsla(0,85%,15%,.7) inset,
+			  0 1px 3px 1px hsla(0,85%,15%,.5) inset !important;
+			  opacity: 1 !important;
+}
+
+#urlbar[pageproxystate="valid"] :-moz-any(.weakCipher,.mixedDisplayContent,.mixedActiveBlocked,.mixedDisplayContentLoadedActiveBlocked) {
+  background: linear-gradient(hsl(48,100%,93%), hsl(49,97%,85%)) !important;
+  box-shadow: 0 1px 0 hsla(92,81%,16%,.05) inset !important;
+  border-inline-end: 1px solid hsla(92,81%,16%,.2) !important;
+  border-image: unset !important;
+  border-image-slice: unset !important;
+  opacity: .8 !important;
+}
+
+#urlbar[pageproxystate="valid"] :-moz-any(.weakCipher,.mixedDisplayContent,.mixedActiveBlocked,.mixedDisplayContentLoadedActiveBlocked):hover {
+  background: linear-gradient(hsl(54,85%,67%), hsl(54,90%,50%)) !important;
+  opacity: .8 !important;
+}
+
+#urlbar[pageproxystate="valid"] :-moz-any(.weakCipher,.mixedDisplayContent,.mixedActiveBlocked,.mixedDisplayContentLoadedActiveBlocked):-moz-any([open="true"],:hover:active) {
+  background: linear-gradient(hsl(54,95%,67%), hsl(54,100%,50%)) !important;
+  box-shadow: 0 1px 1px hsla(0,85%,15%,.7) inset,
+			  0 1px 3px 1px hsla(0,85%,15%,.5) inset !important;
+			  opacity: .8 !important;
+}
+
+#urlbar:-moz-any([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked), 
+#urlbar[pageproxystate="valid"] :-moz-any(.chromeUI,.extensionPage) {
+  background: linear-gradient(#fcfcfc,#d4d4d4) !important;
+  color: black !important;
+  border-inline-end: 1px solid #bebebe !important;
+  border-image: unset !important;
+  border-image-slice: unset !important;
+  opacity: .8 !important;
+}
+	
+#urlbar:-moz-any([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked) #identity-icon, 
+#urlbar[pageproxystate="valid"] :-moz-any(.chromeUI,.extensionPage) #identity-icon{
+  background-color: unset !important;
+}
+	
+#urlbar:-moz-any([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked):hover,
+#urlbar[pageproxystate="valid"] :-moz-any(.chromeUI,.extensionPage):hover {
+  background: linear-gradient(#f2f2f2,#c0c0c0) !important;
+  opacity: .8 !important;
+}
+
+#urlbar:-moz-any([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked):-moz-any([open="true"],:hover:active),
+#urlbar[pageproxystate="valid"] :-moz-any(.chromeUI,.extensionPage):-moz-any([open="true"],:hover:active) {
+  background: linear-gradient(#f0f0f0,#c0c0c0) !important;
+  box-shadow: 0 1px 1px hsla(0,0%,48%,1.0) inset,
+			  0 1px 3px 1px hsla(0,0%,48%,1.0) inset !important;
+			  opacity: .8 !important;
+}
+
+/* for dark lw-theme */
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] .verifiedDomain {
+  background: linear-gradient(hsl(115,85%,85%), hsl(115,70%,68%)) !important;
+  box-shadow: 0 1px 1px rgba(0,0,0,1.0) inset !important;
+  color: white !important;
+  border-inline-end: 1px solid #262627 !important;
+  opacity: 1 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] .verifiedDomain:-moz-any(:hover,[open="true"],:hover:active) {
+  box-shadow: 0 1px 1px hsla(115,54%,33%,.7) inset,
+			  0 1px 3px 1px hsla(115,54%,33%,.5) inset !important;
+			  opacity: 1 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] .verifiedIdentity {
+  background: linear-gradient(hsl(92,69%,77%), hsl(92,44%,51%)) !important;
+  box-shadow: 0 1px 1px rgba(0,0,0,1.0) inset !important;
+  color: #00771f !important;
+  border-inline-end: 1px solid #262627 !important;
+  opacity: .8 !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity > #identity-icon-labels:-moz-lwtheme-brighttext {
+  color: #00771f !important;
+  opacity: .8 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] .verifiedIdentity:-moz-any(:hover,[open="true"],:hover:active) {
+  box-shadow: 0 1px 1px hsla(92,81%,16%,.6) inset,
+			  0 1px 3px 1px hsla(92,81%,16%,.5) inset !important;
+			  opacity: .8 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :-moz-any(.insecureLoginForms,.mixedActiveContent) {
+  background: linear-gradient(hsl(6,65%,88%), hsl(0,73%,82%)) !important;
+  box-shadow: 0 1px 1px rgba(0,0,0,1.0) inset !important;
+  border-inline-end: 1px solid #ff0000 !important;
+  opacity: 1 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :-moz-any(.insecureLoginForms,.mixedActiveContent):-moz-any(:hover,[open="true"],:hover:active) {
+  box-shadow: 0 1px 1px hsla(0,85%,15%,.7) inset,
+			  0 1px 3px 1px hsla(0,85%,15%,.5) inset !important;
+  opacity: 1 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :-moz-any(.weakCipher,.mixedDisplayContent,.mixedActiveBlocked,.mixedDisplayContentLoadedActiveBlocked) {
+  box-shadow: 0 1px 1px rgba(0,0,0,1.0) inset !important;
+  background: linear-gradient(hsl(54,85%,67%), hsl(54,90%,50%)) !important;
+  border-inline-end: 1px solid #262627 !important;
+  opacity: .8 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :-moz-any(.weakCipher,.mixedDisplayContent,.mixedActiveBlocked,.mixedDisplayContentLoadedActiveBlocked):-moz-any(:hover,[open="true"],:hover:active) {
+  box-shadow: 0 1px 1px hsla(0,85%,15%,.7) inset,
+			  0 1px 3px 1px hsla(0,85%,15%,.5) inset !important;
+			  opacity: .8 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar:-moz-any([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked), 
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :-moz-any(.chromeUI,.extensionPage) {
+  background: linear-gradient(#474749,#414141,#333333) !important;
+  color: white !important;
+  border-inline-end: 1px solid #262627 !important;
+  opacity: .8 !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #urlbar:-moz-any([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked):-moz-any(:hover,[open="true"],:hover:active),
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :-moz-any(.chromeUI,.extensionPage):-moz-any(:hover,[open="true"],:hover:active) {
+  box-shadow: 0 1px 1px hsla(0,0%,48%,1.0) inset,
+			  0 1px 3px 1px hsla(0,0%,48%,1.0) inset !important;
+			  opacity: .8 !important;
+}
+
+/* other tweaks */
+#urlbar[pageproxystate="valid"]  :-moz-any(.urlbar-input-box, #urlbar-display-box) {
+  border-image: unset !important;
+}
+
+#connection-icon {
+  filter: unset !important;
+}
