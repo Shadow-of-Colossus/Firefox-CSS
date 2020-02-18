@@ -1,0 +1,31 @@
+/* tab close - always visible*/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned]) .tab-close-button {
+  visibility: visible !important;
+  display: block !important;
+  color: #a2a9ab !important; 
+}
+
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned])[faviconized="true"] .tab-close-button {
+  visibility: visible !important;
+  display: none !important;
+  color: #ffd043 !important;
+}
+/*selected */
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned])[selected] .tab-close-button {
+  visibility: visible !important;
+  display: block !important;
+  color: lime !important;
+}
+/* hover default*/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:hover:not([pinned]) .tab-close-button {
+  visibility: visible !important;
+  display: block !important;
+  color: #ffd043 !important;
+}
+/* hover selected*/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:hover:not([pinned])[selected] .tab-close-button {
+  visibility: visible !important;
+  display: block !important;
+  color: lime !important;
+}
+

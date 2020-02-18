@@ -1,0 +1,10 @@
+/* tabs --- rotate close button */
+#tabbrowser-tabs  .tab-close-button:hover {
+transform: rotate(720deg) !important;
+transition: transform ease-in-out 2s !important;
+}
+
+/* tabs --- hide box on close button *
+.tab-close-button:hover {
+    fill-opacity: 0 !important;
+}

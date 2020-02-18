@@ -1,0 +1,16 @@
+/*Change pause/play icon color and size */
+
+.tab-icon-sound[soundplaying]{
+width: 20px !important;
+height: 20px !important;
+opacity: 1 !important;
+color: #08eb2a !important;
+}
+
+.tab-icon-sound[muted]{
+width: 20px !important;
+height: 20px !important;
+opacity: 1 !important;
+color: #ff9f05 !important;
+}
+ 

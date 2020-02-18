@@ -1,0 +1,8 @@
+/* show favicon for tabs without favicons */
+.tabbrowser-tab:not([pinned]) .tab-icon-image:not([src]) {
+  display: inline !important;
+}
+
+.tabbrowser-tab:not([pinned])[busy] .tab-icon-image {
+  display: none !important;
+}

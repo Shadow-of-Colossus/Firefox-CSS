@@ -1,0 +1,15 @@
+.tabbrowser-tab .tab-icon-image {
+ filter: grayscale(100%) !important;
+ opacity: .7 !important;
+ }
+
+.tabbrowser-tab[selected] .tab-icon-image {
+ filter: none !important;
+ opacity: 1 !important;
+}
+
+.tabbrowser-tab:hover:not([selected]) .tab-icon-image {
+ filter: none !important;
+ opacity: 1 !important;
+}
+

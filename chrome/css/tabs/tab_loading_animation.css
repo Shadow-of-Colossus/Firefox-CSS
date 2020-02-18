@@ -1,0 +1,29 @@
+/* Tab Animation: Loading progress line indicator */
+
+.tabbrowser-tab .tab-loading-burst {
+    background-image: linear-gradient(90deg, transparent, #F7BF81 ) !important;
+    background-repeat: no-repeat !important;
+    transition: background-size 0.5s ease-out !important;
+    opacity: 0.3s linear !important;
+    background-size: 0px 100% !important;
+    background-position-y: bottom !important;
+}
+
+.tabbrowser-tab:not([busy]) .tab-loading-burst {
+    opacity: 0 !important;
+}
+
+.tabbrowser-tab[busy] .tab-loading-burst {
+    background-size: 20% 100% !important;
+    transition: background-size 0.3s ease-out !important;
+}
+
+.tabbrowser-tab[busy][progress] .tab-loading-burst {
+    background-size: 100% 100% !important;
+    transition-duration: 2s !important;
+}
+
+.tabbrowser-tab[bursting] .tab-loading-burst {
+    background-size: 100% 100% !important;
+    transition-duration: 0.5s !important;
+}

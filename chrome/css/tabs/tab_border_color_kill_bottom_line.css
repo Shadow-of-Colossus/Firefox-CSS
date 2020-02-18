@@ -1,0 +1,20 @@
+/* removes solid background on tabs */
+#TabsToolbar.browser-toolbar.titlebar-color {
+	background: none !important;
+}
+
+#TabsToolbar-customization-target {
+background: none !important;
+}
+
+/*remove long line below tab bar */
+#nav-bar {
+  box-shadow: none !important;
+}
+
+/* change active tab border color *
+
+#navigator-toolbox:not([selected]) {
+--tabs-border-color: transparent !important;
+}
+
