@@ -61,5 +61,22 @@ menuitem[_moz-menuactive]{ background-color: #666666 !important; color: white !i
 
 menu[disabled="true"],
 menuitem[disabled="true"]{ color: var(--uc-menu-disabled) !important; }
+
+/* This does something to menu separators */
+menuseparator.small-separator,
+menupopup menuseparator {
+    -moz-appearance: none !important;
+    color: #333) !important;
+    margin: 1px 0px 1px 0px !important;
+    padding: 0px !important;
+}
+
+/* this removes menu separators */ /*
+menuseparator.small-separator,
+menupopup menuseparator {
+    display: none !important;
+}
+
 /*
 menu:not(.subviewbutton) > .menu-right{ filter: invert(1) }
+/*
