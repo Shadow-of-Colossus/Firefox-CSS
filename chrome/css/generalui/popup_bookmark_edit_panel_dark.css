@@ -10,8 +10,8 @@
 #editBMPanel_namePicker,
 #editBMPanel_tagsField ,
 #editBMPanel_folderMenuList{
-  color: #eee !important; 
-  background-color: #333 !important;
+  color: #000 !important; 
+  background-color: #aaa !important;
 }
 
 #editBMPanel_folderTree.placesTree treechildren {
