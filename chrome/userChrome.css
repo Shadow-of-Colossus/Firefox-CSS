@@ -39,6 +39,7 @@
 
 
 /**/
+@import url(./css/toolbars/bookmark_tab_generic_icon.css); /* change the generic globe icon in tabs and bookmarks*/
 @import url(./css/toolbars/bookmarksbar_fade.css); /* fades bar when not hovered*/
 /*@import url(./css/toolbars/bookmarksbar_autohide_show_on_hover.css); /* autohides bookmarks bar until hovered*/
 @import url(./css/toolbars/bookmarksbar_navbar_bg_transparent.css); /* transparent background bookmark and nav bar*/
