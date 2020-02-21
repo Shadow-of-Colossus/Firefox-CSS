@@ -1,15 +1,15 @@
+/* drop-shadow add glow */
 .tabbrowser-tab .tab-icon-image {
- filter: grayscale(100%) !important;
+ filter: grayscale(100%) drop-shadow(0px 0px 1px white) !important;
  opacity: .7 !important;
  }
 
 .tabbrowser-tab[selected] .tab-icon-image {
- filter: none !important;
+ filter: drop-shadow(0px 0px 1px white) !important;
  opacity: 1 !important;
 }
 
 .tabbrowser-tab:hover:not([selected]) .tab-icon-image {
- filter: none !important;
+ filter: drop-shadow(0px 0px 1px white) !important;
  opacity: 1 !important;
 }
-
