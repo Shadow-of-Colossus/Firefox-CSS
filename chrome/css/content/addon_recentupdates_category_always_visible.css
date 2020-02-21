@@ -1,4 +1,4 @@
-@-moz-document url-prefix(chrome://mozapps/content/extensions/extensions.xul), url-prefix(about:addons),url-prefix(chrome://mozapps/content/extensions/aboutaddons.html) {
+@-moz-document url-prefix(chrome://mozapps/content/extensions/extensions.xhtml), url-prefix(about:addons),url-prefix(chrome://mozapps/content/extensions/aboutaddons.html) {
 	#category-recentUpdates[disabled] {
 	  overflow: visible !important;
 	  height: 48px !important;
@@ -22,5 +22,3 @@
 	}
 
 }
-
-
