@@ -1,4 +1,7 @@
 # Firefox-CSS
+
+Updated Feb 21, 2020
+
 This gives Firefox an older style appearance with security enhanced features in the identity box and location bar, it should work fine in v73.
 
 I suugest you install a Firefox the like Black Abstract Fox... https://addons.mozilla.org/en-US/firefox/addon/black-abstract-fox/
