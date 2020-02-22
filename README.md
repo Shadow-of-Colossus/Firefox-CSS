@@ -1,6 +1,8 @@
 # Firefox-CSS
 This gives Firefox an older style appearance with security enhanced features in the identity box and location bar, it should work fine in v73.
 
+I suugest you install a Firefox the like Black Abstract Fox... https://addons.mozilla.org/en-US/firefox/addon/black-abstract-fox/
+
 You should install javascript functionality, here is how you do it....https://github.com/xiaoxiaoflood/firefox-scripts
 
 Then download this script that puts a favicon in the identity box... https://github.com/Aris-t2/CustomJSforFx/blob/master/scripts/favicon_in_urlbar.uc.js
