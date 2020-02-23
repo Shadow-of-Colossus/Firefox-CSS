@@ -1,13 +1,6 @@
 /* Makes context menus dark. Also affects some portions of menu popups .....edited by me... origninal code by MrOtherGuy*/
 /* Uses dark theme colors but does not respect dark theme variables (don't work on sidebar context menu) */
 
-:root{
-  --uc-menu-bkgnd: rgb(34,34,34);
-  --uc-menu-color: rgb(180,180,180);
-  --uc-menu-dimmed: rgb(189,183,107);
-  --uc-menu-disabled: rgb(226,166,4);
-}
-
 panel richlistbox,
 panel tree,
 /*panel button,*/
@@ -31,11 +24,10 @@ panel menulist,
 panel textbox,
 panel input,
 panel #searchbar,
-menupopup:not(#BMB_bookmarksPopup),
 #main-menubar > menu > menupopup,
 #context-navigation{
-  color: var(--uc-menu-color) !important;
-  background-color: var(--uc-menu-bkgnd) !important;
+  color: #ddd !important;
+  background-color: #222 !important;
   border: 2px solid #ddd !important;
   padding: 2px 0px 2px 0px  !important;
 }
@@ -57,10 +49,10 @@ menu[_moz-menuactive],
 menu[open],
 menuitem:hover,
 /*menuitem[_moz-menuactive]{ background-color: var(--uc-menu-dimmed) !important; color: inherit !important; } */
-menuitem[_moz-menuactive]{ background-color: #666666 !important; color: white !important; }
+menuitem[_moz-menuactive]{ background-color: #666 !important; color: white !important; }
 
 menu[disabled="true"],
-menuitem[disabled="true"]{ color: var(--uc-menu-disabled) !important; }
+menuitem[disabled="true"]{ color: #C8830A !important; }
 
 /*
 menu:not(.subviewbutton) > .menu-right{ filter: invert(1) }
