@@ -84,9 +84,10 @@
 
 
 /**/
+@import url(./css/generalui/appMenu_update_available_notification.css); /* block app update doorhanger */
+@import url(./css/generalui/popup_menu_colors.css); /* popup menu color probably don't work */
 @import url(./css/generalui/popup_menu_dark_context_menus.css); /* makes bookmarks and context menus dark*/
 @import url(./css/generalui/popup_bookmark_edit_panel_dark.css); /* edit/save bookmark panel dark*/
-@import url(./css/generalui/popup_menu_OLD_colors.css); /* OLD popup menu color probably don't work */
 /*@import url(./css/generalui/bookmark_icons_colorized_1.css); /* colors bookmark icons???*/
 @import url(./css/generalui/bookmark_icons_colorized_2.css); /* colors bookmark icons???*/
 @import url(./css/generalui/sidebar_library_popup_menu.css);  /* side bar dark*/
