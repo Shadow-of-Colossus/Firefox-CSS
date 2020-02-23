@@ -37,7 +37,7 @@ border-color: transparent !important;
 #appmenu_historyMenupopup menupopup {
   -moz-appearance: none !important;
   background: #222 !important;
-  color: #aaa !important;	
+  color: #ddd !important;	
   border: 2px solid #ddd !important;
   padding: 2px 0px 2px 0px  !important;
 }
@@ -60,3 +60,4 @@ menuitem:hover, menu:hover, menu[open="true"], menuitem[_moz-menuactive="true"]	
 }
 
 /*.menu-iconic-text{ color: #ddd !important; } 
+
