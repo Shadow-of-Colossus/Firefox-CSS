@@ -1,0 +1,38 @@
+/*hide page action button */
+#pageActionButton {
+  visibility: collapse !important;
+}
+
+/*flagfox */
+#pageAction-urlbar-_1018e4d6-728f-4b20-ad56-37578a4de76b_  {
+  -moz-box-ordinal-group: 97 !important;  
+}
+
+/* boolmark */
+#star-button-box {
+  -moz-box-ordinal-group: 98 !important;  
+}
+
+/* reload addon */
+#pageAction-urlbar-_e1ed7a80-7c11-4f7e-968b-79b551a0067f_ {
+  -moz-box-ordinal-group: 99 !important;  
+}
+
+/* zoom */
+#urlbar-container #urlbar-zoom-button{
+  color:white !important;
+  font-size: 9pt !important;
+  text-shadow:	0px 1px 0px black,
+				0px 1px 4px black !important;
+  font-weight: bold !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  -moz-box-ordinal-group: 100 !important;  
+}
+
+/* make dropmarker always hidden */
+#urlbar .autocomplete-history-dropmarker,
+#urlbar .urlbar-history-dropmarker,
+#urlbar:not(:hover) > .urlbar-textbox-container > .urlbar-history-dropmarker {
+  visibility: hidden !important;
+}
