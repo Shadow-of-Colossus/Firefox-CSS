@@ -13,7 +13,7 @@
 @import url(./css/locationbar/urlbar_caret_color.css); /* changes caret color in navbar*/
 @import url(./css/locationbar/identity_box_icon_order.css); /* change order of identity box icons*/
 @import url(./css/locationbar/identitybox_no_label_text.css); /* removes name some sites show*/
-@import url(./css/locationbar/locationbar_zoom.css); /* puts zoom to end in bold and ..............also hides history dropdowm marker*/
+@import url(./css/locationbar/locationbar_page_action_order.css); /* order of page action icons .......also hides history dropdowm marker*/
 @import url(./css/locationbar/navbar_hide.css); /* hides the navbar when not hovered*/
 @import url(./css/locationbar/locationbar_color_security.css); /* colors navbar blue red yellow and green to site security factors*/
 @import url(./css/locationbar/locationbar_broken_lock_red_bg.css); /* highlights broken locks on broken sites*/
