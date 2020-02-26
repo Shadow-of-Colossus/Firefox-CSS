@@ -25,3 +25,8 @@
 #editBMPanel_tagsSelectorRow richlistbox {
 	background-color: #aaa !important;
 }
+
+#editBookmarkPanelDoneButton {
+ -moz-appearance: none !important;
+ background-color: #9C04D1 !important;
+}
