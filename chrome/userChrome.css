@@ -4,7 +4,7 @@
 @import url(./!!extensionOptionsMenu.uc.css); /* changes volor of menu text*/
 
 /* NEW CODE */
-@import url(./css/various/menubar_weird_fix_with_no_titlebar.css); /* repairs weird double image when titlebar in disabled - hidden min, max and close buttons*/
+@import url(./css/buttons/buttons_round_radius.css); /* BUTTONS - NAVBAR - TABS have round background silhouette*/
 @import url(./css/buttons/button_effect_icon_glow.css); /* Adds glow effect to hovered addon icons*/
 /*@import url(./css/various/grid_overflow_menu.css); /* Changes overflow list to icon grid*/
 
@@ -30,12 +30,14 @@
 
 
 /**/
+@import url(./css/various/about_firefox_logo.css); /* change the about:update popup screen */
 @import url(./css/various/generic_addon_colors.css); /* The background color for addon popups not directly changed by userContents.css*/
 @import url(./css/various/hide_page_actions.css); /* hide/collapse this button navbar*/
 @import url(./css/various/darken_load_screen.css); /* darkens loading screen color*/
 @import url(./css/various/context_menu_stuff.css); /* moves Context Plus up, removes other entries.*/
 @import url(./css/various/remove_sign_in_to_sync.css); /* removesSign in to Sync hamburger menu*/
 @import url(./css/various/flexible_spring.css); /* removesSign in to Sync hamburger menu*/
+@import url(./css/various/menubar_weird_fix_with_no_titlebar.css); /* repairs weird double image when titlebar in disabled - hidden min, max and close buttons*/
 
 
 /**/
@@ -51,15 +53,14 @@
 
 
 /**/
-@import url(./css/buttons/appbutton_popup_icons_colorized.css); /* different app button colors*/
-/**/
-/*@import url(./css/buttons/buttons_on_NAVIGATOR-TOOLBOX_glass_appearance.css); /* glass appearance ALL TOP buttons*/
 /*@import url(./css/buttons/buttons_on_bookmarks_toolbar_glass_appearance.css); /* glass appearance bookmark bar buttons*/
 @import url(./css/buttons/buttons_on_menubar_toolbar_glass_appearance.css); /* glass appearance menu bar buttons*/
 @import url(./css/buttons/buttons_on_navbar_glass_appearance.css); /* glass appearance navbar buttons*/
 /*@import url(./css/buttons/buttons_on_tabtoolbar_glass_appearance.css); /* glass appearance navbar buttons*/
 @import url(./css/buttons/buttons_on_addonbar_glass_appearance.css); /* glass appearance bottom addon bar buttons*/
+/*@import url(./css/buttons/buttons_on_NAVIGATOR-TOOLBOX_glass_appearance.css); /* glass appearance ALL TOP buttons*/
 /**/
+@import url(./css/buttons/appbutton_popup_icons_colorized.css); /* different app button colors*/
 @import url(./css/buttons/custom_backforward_large_ff3.css); /* change default back/forward buttons*/
 @import url(./css/buttons/custom_home_dewman.css); /* change default home button*/
 @import url(./css/buttons/custom_sidebar_dewman.css); /* change default side button*/
@@ -92,7 +93,7 @@
 @import url(./css/generalui/bookmark_icons_colorized_2.css); /* colors bookmark icons???*/
 @import url(./css/generalui/sidebar_library_popup_menu.css);  /* side bar dark*/
 @import url(./css/generalui/sidebar_appearance_dark.css);  /* side bar dark*/
-@import url(./css/generalui/sidebar_appearance_lwtheme_dark.css);  /* side bar dark*/
+/*@import url(./css/generalui/sidebar_appearance_lwtheme_dark.css);  /* side bar dark*/
 @import url(./css/generalui/sidebar_header_icons_colorized.css); /* side bar dark colored icons*/
 @import url(./css/generalui/sidebar_header_lwtheme.css); /* side bar dark*/
 @import url(./css/generalui/sidebar_autohide.css); /* autohides sidebar???*/
@@ -105,6 +106,9 @@
 /**/
 /* at bottom below bookmark custom favicons is userChrome.js code and code for addon bar and status panel inside it*/
 /**/
+
+
+
 
 
 /* Set icon for "News" Bookmarks folder */
