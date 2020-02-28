@@ -2,7 +2,7 @@
 
 Updated Feb 28, 2020
 
-This gives Firefox an older style appearance with security enhanced features in the identity box and location bar, it should work fine in v73.
+This gives Firefox an older style appearance with enhanced security features in the identity box and location bar, it should work fine in v73.
 
 The first lines in the userChrome.css file changes between the different button styles.
 
