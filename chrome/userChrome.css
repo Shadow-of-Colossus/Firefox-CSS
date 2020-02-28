@@ -1,7 +1,3 @@
-/* FIREFOX */
-@import url(./ZZ-TEST-CHROME.css); /* for testing new code*/
-
-
 /* Switch between button background styles, tabs and navbar match  - disabled is square style - MUST have glass appearance enabled to work */
 /**/
 @import url(./css/buttons/buttons_background_two_round_two_square.css); /* two square and two round edges silhouette*/
