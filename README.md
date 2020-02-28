@@ -1,10 +1,10 @@
 # Firefox-CSS
 
-Updated Feb 27, 2020
+Updated Feb 28, 2020
 
 This gives Firefox an older style appearance with security enhanced features in the identity box and location bar, it should work fine in v73.
 
-The first line in the userChrome.css file changes between the rounded and square styles.
+The first lines in the userChrome.css file changes between the different button styles.
 
 I suugest you install a Firefox the like Black Abstract Fox... https://addons.mozilla.org/en-US/firefox/addon/black-abstract-fox/
 
