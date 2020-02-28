@@ -52,7 +52,7 @@
 /* hide tab separators */
 .tabbrowser-tab::after,
 .tabbrowser-tab::before {
-  opacity: 0.4 !important;
+  opacity: 0 !important;
   color: white !important;
 }
 
