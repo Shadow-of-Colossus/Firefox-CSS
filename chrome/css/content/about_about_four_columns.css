@@ -1,0 +1,14 @@
+/* about:about page four columns */
+:root {
+  --in-content-container-min-width: 13em;
+  --in-content-container-max-width: 52em;
+}
+
+@-moz-document url("about:about") {
+
+	ul.columns {
+		column-count: 4 !important;
+		column-gap: 5em;
+	}
+
+}
