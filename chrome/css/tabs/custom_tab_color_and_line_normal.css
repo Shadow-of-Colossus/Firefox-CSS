@@ -4,27 +4,29 @@
 	padding: 1px !important;
 }
 
-
 /* new tab plus sign color and opacity */
 .tabs-newtab-button {
 	opacity:.5!important;
    /*color: grey !important;*/
  }
 
- /* Change the tab line color to a blue-green color */
-#tabbrowser-tabs {
+ /* Make tab line transparent */
+    .tab-line {background: transparent !important;
+}
+  /* Change the tab line color */  
+ #tabbrowser-tabs .tab-line {
     --tab-line-color: transparent !important;
 }
  
 /* default tab opacity and color */
 .tab-background {
-  background-attachment: none!important;
+    background-attachment: none!important;
     background-color: #444!important;
     background-image: none!important;
     background-position: none!important;
     background-repeat: none!important;
     background-size: none!important;
-	opacity:.5!important;
+	opacity:.3!important;
 }
  /* selected tab opacity and color */
 .tab-background[selected="true"] {
@@ -34,7 +36,7 @@
     background-position: none!important;
     background-repeat: none!important;
     background-size: none!important;
-	opacity:.7!important;
+	opacity:.5!important;
 }
 /* hovered tab opacity and color */
 /*.tabbrowser-tab:not([selected]):hover .tab-content {
@@ -50,7 +52,7 @@
 /* hide tab separators */
 .tabbrowser-tab::after,
 .tabbrowser-tab::before {
-  opacity: 0.6 !important;
+  opacity: 0.4 !important;
   color: white !important;
 }
 
@@ -65,19 +67,34 @@
   height:4px!important;
   border-radius:0 0 3px 3px!important;
 }
-.tabbrowser-tab[usercontextid][pinned] .tab-line{
-  transform:scaleX(.55)!important;
-}
+
 .tabbrowser-tab[usercontextid]:not([visuallyselected]):hover .tab-line{
   border-radius:0!important;
   height:4px!important;
-  transform:scaleX(1)!important;
+  transform:scaleX(.9)!important;
   opacity:1!important;
 }
 .tabbrowser-tab[usercontextid][visuallyselected] .tab-line{
   border-radius:0!important;
   height:4px!important;
-  transform:scaleX(1)!important;
+  transform:scaleX(.9)!important;
+  opacity:1!important;
+}
+
+.tabbrowser-tab[usercontextid][pinned] .tab-line{
+  transform:scaleX(.55)!important;
+}
+
+.tabbrowser-tab[usercontextid][pinned]:not([visuallyselected]):hover .tab-line{
+  border-radius:0!important;
+  height:4px!important;
+  transform:scaleX(.6)!important;
+  opacity:1!important;
+}
+.tabbrowser-tab[usercontextid][pinned][visuallyselected] .tab-line{
+  border-radius:0!important;
+  height:4px!important;
+  transform:scaleX(.6)!important;
   opacity:1!important;
 }
 .tabbrowser-tab{
