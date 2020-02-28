@@ -30,19 +30,8 @@
 }
 
 /* my uc.js buttons */
-#uc-restart .toolbarbutton-icon {
-  border-radius: 8px !important;
-  transition: all 0.9s ease !important;
-}
-
-/* sextensions options menu button */
+#uc-restart .toolbarbutton-icon,
 #eom-button .toolbarbutton-icon {
-  border-radius: 8px !important;
-  transition: all 0.9s ease !important;
-}
-
-/* extensions buttons */
-.webextension-browser-action .toolbarbutton-badge-stack {
   border-radius: 8px !important;
   transition: all 0.9s ease !important;
 }
