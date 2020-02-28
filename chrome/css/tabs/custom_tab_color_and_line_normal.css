@@ -13,7 +13,7 @@
 
  /* Change the tab line color to a blue-green color */
 #tabbrowser-tabs {
-    --tab-line-color: #777 !important;
+    --tab-line-color: transparent !important;
 }
  
 /* default tab opacity and color */
