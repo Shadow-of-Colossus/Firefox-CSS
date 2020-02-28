@@ -1,6 +1,7 @@
 /* tab height */
 #TabsToolbar, .tabbrowser-tab {
 	max-height: 31px !important;
+	padding: 1px !important;
 }
 
 
