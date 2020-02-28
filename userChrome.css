@@ -1,0 +1,823 @@
+/* FIREFOX */
+@import url(./ZZ-TEST-CHROME.css); /* for testing new code*/
+
+
+/* Switch between button background styles, tabs and navbar match  - disabled is square style - MUST have glass appearance enabled to work */
+/**/
+@import url(./css/buttons/buttons_background_two_round_two_square.css); /* two square and two round edges silhouette*/
+/*@import url(./css/buttons/buttons_background_round_radius.css); /* round background silhouette */
+/*@import url(./css/buttons/buttons_background_rounded_corners.css); /* rounded corners silhouette */
+
+
+/* ONLY WORKS IN ROOT FOLDER */
+@import url(./!!css_ONLY_works_in_ROOT.css); /* only works in root chrome folder*/
+@import url(./!bottomtoolbar.css); /* colors and sizes bottombar*/
+@import url(./!!extensionOptionsMenu.uc.css); /* changes volor of menu text*/
+
+/* NEW CODE */
+@import url(./css/buttons/button_effect_icon_glow.css); /* Adds glow effect to hovered addon icons*/
+/*@import url(./css/various/grid_overflow_menu.css); /* Changes overflow list to icon grid*/
+
+
+/**/
+@import url(./css/locationbar/urlbar_caret_color.css); /* changes caret color in navbar*/
+@import url(./css/locationbar/identity_box_icon_order.css); /* change order of identity box icons*/
+@import url(./css/locationbar/identitybox_no_label_text.css); /* removes name some sites show*/
+@import url(./css/locationbar/locationbar_page_action_order.css); /* order of page action icons .......also hides history dropdowm marker*/
+@import url(./css/locationbar/navbar_hide.css); /* hides the navbar when not hovered*/
+@import url(./css/locationbar/locationbar_color_security.css); /* colors navbar blue red yellow and green to site security factors*/
+@import url(./css/locationbar/locationbar_broken_lock_red_bg.css); /* highlights broken locks on broken sites*/
+@import url(./css/locationbar/background_color_dark.css); /* navbar color dark*/
+@import url(./css/locationbar/compact_mode_reduce_fontsize.css); /* reduces font in compact mode*/
+@import url(./css/locationbar/icons_colorized.css); /* colorizes navbar icons*/
+@import url(./css/locationbar/identitybox_colors.css); /* identity background color*/
+@import url(./css/locationbar/identitybox_padlock_icon_modern.css); /* better looking locks*/
+@import url(./css/locationbar/locationbar_adjustments.css); /* minor fixes*/
+@import url(./css/locationbar/reader_alternative_icon.css); /* better looking icon*/
+@import url(./css/locationbar/starbutton_alternative_icon.css); /* better looking navbar bookmark button*/
+@import url(./css/locationbar/dropdown_selection_color.css); /* rich list dropdown and text selection color*/
+@import url(./css/locationbar/identitybox_dropdown_dark.css); /* makes identity box dropdown dark theme*/
+
+
+/**/
+@import url(./css/various/about_firefox_logo.css); /* change the about:update popup screen */
+@import url(./css/various/generic_addon_colors.css); /* The background color for addon popups not directly changed by userContents.css*/
+@import url(./css/various/hide_page_actions.css); /* hide/collapse this button navbar*/
+@import url(./css/various/darken_load_screen.css); /* darkens loading screen color*/
+@import url(./css/various/context_menu_stuff.css); /* moves Context Plus up, removes other entries.*/
+@import url(./css/various/remove_sign_in_to_sync.css); /* removesSign in to Sync hamburger menu*/
+@import url(./css/various/flexible_spring.css); /* removesSign in to Sync hamburger menu*/
+@import url(./css/various/menubar_weird_fix_with_no_titlebar.css); /* repairs weird double image when titlebar in disabled - hidden min, max and close buttons*/
+
+
+/**/
+@import url(./css/toolbars/bookmark_tab_generic_icon.css); /* change the generic globe icon in tabs and bookmarks*/
+@import url(./css/toolbars/bookmarksbar_fade.css); /* fades bar when not hovered*/
+/*@import url(./css/toolbars/bookmarksbar_autohide_show_on_hover.css); /* autohides bookmarks bar until hovered*/
+@import url(./css/toolbars/bookmarksbar_navbar_bg_transparent.css); /* transparent background bookmark and nav bar*/
+@import url(./css/toolbars/bookmarksbar_double_row.css); /* creates double row on bookmark bar if single line fills up*/
+@import url(./css/toolbars/bookmarks_toolbar_old_height.css); /* restores the old bar height*/
+@import url(./css/toolbars/bookmarksbar_visible_fullscreen.css); /* keeps bookmark bar visible in fullscreen*/
+/*@import url(./css/toolbars/bookmarks_double_columns.css); /* creates double columns in  bookmarks menus*/
+/*@import url(./css/toolbars/bookmarks_toolbar_bookmark_labels_hidden.css); /* hides text and only shows icons/favicons in bookmark bar */ 
+
+
+/**/
+/*@import url(./css/buttons/buttons_on_bookmarks_toolbar_glass_appearance.css); /* glass appearance bookmark bar buttons*/
+@import url(./css/buttons/buttons_on_menubar_toolbar_glass_appearance.css); /* glass appearance menu bar buttons*/
+@import url(./css/buttons/buttons_on_navbar_glass_appearance.css); /* glass appearance navbar buttons*/
+/*@import url(./css/buttons/buttons_on_tabtoolbar_glass_appearance.css); /* glass appearance navbar buttons*/
+@import url(./css/buttons/buttons_on_addonbar_glass_appearance.css); /* glass appearance bottom addon bar buttons*/
+/*@import url(./css/buttons/buttons_on_NAVIGATOR-TOOLBOX_glass_appearance.css); /* glass appearance ALL TOP buttons*/
+/**/
+@import url(./css/buttons/appbutton_popup_icons_colorized.css); /* different app button colors*/
+@import url(./css/buttons/custom_backforward_large_ff3.css); /* change default back/forward buttons*/
+@import url(./css/buttons/custom_home_dewman.css); /* change default home button*/
+@import url(./css/buttons/custom_sidebar_dewman.css); /* change default side button*/
+@import url(./css/buttons/icons_colorized.css); /* changes button colors*/
+
+
+/**/
+@import url(./css/tabs/tab_loading_animation.css); /* puts tabs below the navbar*/ 
+/*@import url(./css/tabs/tabs_below_navigation_toolbar.css); /* puts tabs below the navbar*/ 
+@import url(./css/tabs/tabs_below_navigation_toolbar_fx65.css); /**/
+@import url(./css/tabs/tab_close_always_visible.css); /* makes close visible on all tabs*/
+@import url(./css/tabs/tab_border_color_kill_bottom_line.css); /* changes selected tab border color and removes long bottom line*/
+@import url(./css/tabs/custom_tab_color_and_line_normal.css); /* changes default container line to top of tab..  removes container label/symbol from navbar*/
+@import url(./css/tabs/custom_tab_icon_color.css); /* changes default tabs icon to greyscale and selected/hovered colored*/
+@import url(./css/tabs/custom_tab_text_color.css); /* changes text color/bold/style to tab state*/
+@import url(./css/tabs/tab_icon_colors.css); /* effects tab color of about pages icone???*/
+@import url(./css/tabs/missing_tab_favicon_restored_default.css); /* replaces missing icon with circular generic icon*/
+@import url(./css/tabs/tab_icon_pause_play.css); /* changes color of mute/unmute icons*/
+@import url(./css/tabs/tab_throbber_green.css); /* makes tab throbber circular green of old firefox*/
+@import url(./css/tabs/tab_close_spin_hover.css); /* makes close red and spin when hovered*/  /* Has remove box code also */
+@import url(./css/tabs/multiple_tabs_selected_mark.css); /* blue square marks multiple selected tabs*/
+
+
+/**/
+@import url(./css/generalui/appMenu_update_available_notification.css); /* block app update doorhanger */
+@import url(./css/generalui/popup_menu_colors.css); /* popup menu color probably don't work */
+@import url(./css/generalui/popup_menu_dark_context_menus.css); /* makes bookmarks and context menus dark*/
+@import url(./css/generalui/popup_bookmark_edit_panel_dark.css); /* edit/save bookmark panel dark*/
+/*@import url(./css/generalui/bookmark_icons_colorized_1.css); /* colors bookmark icons???*/
+@import url(./css/generalui/bookmark_icons_colorized_2.css); /* colors bookmark icons???*/
+@import url(./css/generalui/sidebar_library_popup_menu.css);  /* side bar dark*/
+@import url(./css/generalui/sidebar_appearance_dark.css);  /* side bar dark*/
+/*@import url(./css/generalui/sidebar_appearance_lwtheme_dark.css);  /* side bar dark*/
+@import url(./css/generalui/sidebar_header_icons_colorized.css); /* side bar dark colored icons*/
+@import url(./css/generalui/sidebar_header_lwtheme.css); /* side bar dark*/
+@import url(./css/generalui/sidebar_autohide.css); /* autohides sidebar???*/
+@import url(./css/generalui/fullscreen_hide_min_max_close.css); /* hides the min_max_close buttons fullsreen*/
+@import url(./css/generalui/menubar_text.css); /* changes menubar text color*/ 
+@import url(./css/generalui/findbar_on_top_solid.css); /* findbar tweak top left solid*/
+/*@import url(./css/generalui/status_panel_color.css); /* colors status panel*/
+/*@import url(./css/generalui/status_inside_urlbar.css); /* changes status bar color and puts it in locationbar also*/
+@import url(./css/generalui/status_in_bottombar.css); /* rich list dropdown and text selection color*/
+/**/
+/* at bottom below bookmark custom favicons is userChrome.js code and code for addon bar and status panel inside it*/
+/**/
+
+
+
+
+
+
+/* ========= BOOKMARK FOLDER TEXT WHITE ================
+
+/* Make bookmark folders */
+.bookmark-item[type="menu"] > .toolbarbutton-text {color: white;}
+menubar, menubutton/*, menulist, menu, menuitem*/{color: white;}
+
+
+/* ================ BOOKMARK FOLDERS ===================
+
+/* Set icon for "Dew" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Dew"],
+#personal-bookmarks .bookmark-item[container][label="Dew"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Dew"],
+#bookmarksMenuPopup .bookmark-item[container][label="Dew"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Dew),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Dew),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Dew),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Dew"]
+  { list-style-image:url("BookmarksFolderImages/Martha 1.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Gas" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Gas"],
+#personal-bookmarks .bookmark-item[container][label="Gas"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Gas"],
+#bookmarksMenuPopup .bookmark-item[container][label="Gas"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Gas),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Gas),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Gas),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Gas"]
+  { list-style-image:url("BookmarksFolderImages/Gas Pump.ico")!important; -moz-image-region:auto!important; }  
+  
+/* Set icon for "Puck" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Puck"],
+#personal-bookmarks .bookmark-item[container][label="Puck"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Puck"],
+#bookmarksMenuPopup .bookmark-item[container][label="Puck"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Puck),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Puck),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Puck),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Puck"]
+  { list-style-image:url("BookmarksFolderImages/NHL Icons/Toronto-Maple-Leafs-1.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Puck2" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Puck2"],
+#personal-bookmarks .bookmark-item[container][label="Puck2"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Puck2"],
+#bookmarksMenuPopup .bookmark-item[container][label="Puck2"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Puck2),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Puck2),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Puck2),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Puck2"]
+  { list-style-image:url("BookmarksFolderImages/NHL Icons/Edmonton-Oilers.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "DLs" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="DLs"],
+#personal-bookmarks .bookmark-item[container][label="DLs"],
+#BMB_bookmarksPopup .bookmark-item[container][label="DLs"],
+#bookmarksMenuPopup .bookmark-item[container][label="DLs"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-DLs),
+#placesView     treechildren::-moz-tree-image(primary,container,label-DLs),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-DLs),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="DLs"]
+  { list-style-image:url("BookmarksFolderImages/DLs.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "DL2" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="DL2"],
+#personal-bookmarks .bookmark-item[container][label="DL2"],
+#BMB_bookmarksPopup .bookmark-item[container][label="DL2"],
+#bookmarksMenuPopup .bookmark-item[container][label="DL2"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-DL2),
+#placesView     treechildren::-moz-tree-image(primary,container,label-DL2),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-DL2),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="DL2"]
+  { list-style-image:url("BookmarksFolderImages/DLs2.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Look Search Engines" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Look"],
+#personal-bookmarks .bookmark-item[container][label="Look"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Look"],
+#bookmarksMenuPopup .bookmark-item[container][label="Look"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Look),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Look),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Look),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Look"]
+  { list-style-image:url("BookmarksFolderImages/search.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Comp" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Comp"],
+#personal-bookmarks .bookmark-item[container][label="Comp"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Comp"],
+#bookmarksMenuPopup .bookmark-item[container][label="Comp"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Comp),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Comp),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Comp),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Comp"]
+  { list-style-image:url("BookmarksFolderImages/Computer.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Comp2" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Comp2"],
+#personal-bookmarks .bookmark-item[container][label="Comp2"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Comp2"],
+#bookmarksMenuPopup .bookmark-item[container][label="Comp2"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Comp2),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Comp2),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Comp2),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Comp2"]
+  { list-style-image:url("BookmarksFolderImages/Computer.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Secure" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Secure"],
+#personal-bookmarks .bookmark-item[container][label="Secure"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Secure"],
+#bookmarksMenuPopup .bookmark-item[container][label="Secure"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Secure),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Secure),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Secure),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Secure"]
+  { list-style-image:url("BookmarksFolderImages/Security.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Rents" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Rents"],
+#personal-bookmarks .bookmark-item[container][label="Rents"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Rents"],
+#bookmarksMenuPopup .bookmark-item[container][label="Rents"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Rents),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Rents),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Rents),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Rents"]
+  { list-style-image:url("BookmarksFolderImages/utorrent icon.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "TV Shows" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="TV"],
+#personal-bookmarks .bookmark-item[container][label="TV"],
+#BMB_bookmarksPopup .bookmark-item[container][label="TV"],
+#bookmarksMenuPopup .bookmark-item[container][label="TV"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-TV),
+#placesView     treechildren::-moz-tree-image(primary,container,label-TV),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-TV),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="TV"]
+  { list-style-image:url("BookmarksFolderImages/tv.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "News" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="News"],
+#personal-bookmarks .bookmark-item[container][label="News"],
+#BMB_bookmarksPopup .bookmark-item[container][label="News"],
+#bookmarksMenuPopup .bookmark-item[container][label="News"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-News),
+#placesView     treechildren::-moz-tree-image(primary,container,label-News),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-News),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="News"]
+  { list-style-image:url("BookmarksFolderImages/news.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "News2" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="News2"],
+#personal-bookmarks .bookmark-item[container][label="News2"],
+#BMB_bookmarksPopup .bookmark-item[container][label="News2"],
+#bookmarksMenuPopup .bookmark-item[container][label="News2"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-News2),
+#placesView     treechildren::-moz-tree-image(primary,container,label-News2),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-News2),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="News2"]
+  { list-style-image:url("BookmarksFolderImages/news.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Ints" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Ints"],
+#personal-bookmarks .bookmark-item[container][label="Ints"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Ints"],
+#bookmarksMenuPopup .bookmark-item[container][label="Ints"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Ints),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Ints),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Ints),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Ints"]
+  { list-style-image:url("BookmarksFolderImages/ints.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Weird" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Weird"],
+#personal-bookmarks .bookmark-item[container][label="Weird"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Weird"],
+#bookmarksMenuPopup .bookmark-item[container][label="Weird"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Weird),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Weird),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Weird),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Weird"]
+  { list-style-image:url("BookmarksFolderImages/Weird.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Crap" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Crap"],
+#personal-bookmarks .bookmark-item[container][label="Crap"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Crap"],
+#bookmarksMenuPopup .bookmark-item[container][label="Crap"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Crap),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Crap),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Crap),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Crap"]
+  { list-style-image:url("BookmarksFolderImages/porn 2.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Utube" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Utube"],
+#personal-bookmarks .bookmark-item[container][label="Utube"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Utube"],
+#bookmarksMenuPopup .bookmark-item[container][label="Utube"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Utube),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Utube),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Utube),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Utube"]
+  { list-style-image:url("BookmarksFolderImages/Youtube.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Misc" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Misc"],
+#personal-bookmarks .bookmark-item[container][label="Misc"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Misc"],
+#bookmarksMenuPopup .bookmark-item[container][label="Misc"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Misc),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Misc),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Misc),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Misc"]
+  { list-style-image:url("BookmarksFolderImages/Misc Icon.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Food" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Food"],
+#personal-bookmarks .bookmark-item[container][label="Food"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Food"],
+#bookmarksMenuPopup .bookmark-item[container][label="Food"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Food),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Food),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Food),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Food"]
+  { list-style-image:url("BookmarksFolderImages/Food Hamburger.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Temp" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Temp"],
+#personal-bookmarks .bookmark-item[container][label="Temp"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Temp"],
+#bookmarksMenuPopup .bookmark-item[container][label="Temp"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Temp),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Temp),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Temp),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Temp"]
+  { list-style-image:url("BookmarksFolderImages/Temp 2.ico")!important; -moz-image-region:auto!important; }
+  
+/* Set icon for "Reddit" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Reddit"],
+#personal-bookmarks .bookmark-item[container][label="Reddit"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Reddit"],
+#bookmarksMenuPopup .bookmark-item[container][label="Reddit"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Reddit),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Reddit),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Reddit),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Reddit"]
+  { list-style-image:url("BookmarksFolderImages/Reddit.ico")!important; -moz-image-region:auto!important; }  
+  
+  
+  
+  
+  
+/* Set icon for "Firefox Help and Important Stuff" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Firefox Help and Important Stuff"],
+#personal-bookmarks .bookmark-item[container][label="Firefox Help and Important Stuff"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Firefox Help and Important Stuff"],
+#bookmarksMenuPopup .bookmark-item[container][label="Firefox Help and Important Stuff"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Firefox Help and Important Stuff),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Firefox Help and Important Stuff),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Firefox Help and Important Stuff),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Firefox Help and Important Stuff"]
+  { list-style-image:url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Firefox Add-ons Maybees" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Firefox Add-ons Maybees"],
+#personal-bookmarks .bookmark-item[container][label="Firefox Add-ons Maybees"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Firefox Add-ons Maybees"],
+#bookmarksMenuPopup .bookmark-item[container][label="Firefox Add-ons Maybees"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Firefox Add-ons Maybees),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Firefox Add-ons Maybees),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Firefox Add-ons Maybees),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Firefox Add-ons Maybees"]
+  { list-style-image:url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Windows Seven Tips Hacks and Help" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Windows Seven Tips Hacks and Help"],
+#personal-bookmarks .bookmark-item[container][label="Windows Seven Tips Hacks and Help"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Windows Seven Tips Hacks and Help"],
+#bookmarksMenuPopup .bookmark-item[container][label="Windows Seven Tips Hacks and Help"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Windows Seven Tips Hacks and Help),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Windows Seven Tips Hacks and Help),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Windows Seven Tips Hacks and Help),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Windows Seven Tips Hacks and Help"]
+  { list-style-image:url("BookmarksFolderImages/Windows.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Windows BullShit" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Windows BullShit"],
+#personal-bookmarks .bookmark-item[container][label="Windows BullShit"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Windows BullShit"],
+#bookmarksMenuPopup .bookmark-item[container][label="Windows BullShit"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Windows BullShit),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Windows BullShit),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Windows BullShit),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Windows BullShit"]
+  { list-style-image:url("BookmarksFolderImages/Windows.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "BSOD Online Analysis And Maybe Help" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="BSOD Online Analysis And Maybe Help"],
+#personal-bookmarks .bookmark-item[container][label="BSOD Online Analysis And Maybe Help"],
+#BMB_bookmarksPopup .bookmark-item[container][label="BSOD Online Analysis And Maybe Help"],
+#bookmarksMenuPopup .bookmark-item[container][label="BSOD Online Analysis And Maybe Help"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-BSOD Online Analysis And Maybe Help),
+#placesView     treechildren::-moz-tree-image(primary,container,label-BSOD Online Analysis And Maybe Help),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-BSOD Online Analysis And Maybe Help),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="BSOD Online Analysis And Maybe Help"]
+  { list-style-image:url("BookmarksFolderImages/BSOD.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Spyware Info Sites and File SCANNING" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Spyware Info Sites and File SCANNING"],
+#personal-bookmarks .bookmark-item[container][label="Spyware Info Sites and File SCANNING"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Spyware Info Sites and File SCANNING"],
+#bookmarksMenuPopup .bookmark-item[container][label="Spyware Info Sites and File SCANNING"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Spyware Info Sites and File SCANNING),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Spyware Info Sites and File SCANNING),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Spyware Info Sites and File SCANNING),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Spyware Info Sites and File SCANNING"]
+  { list-style-image:url("BookmarksFolderImages/Virus.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Free Malware Removal Services Utilities" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Free Malware Removal Services Utilities"],
+#personal-bookmarks .bookmark-item[container][label="Free Malware Removal Services Utilities"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Free Malware Removal Services Utilities"],
+#bookmarksMenuPopup .bookmark-item[container][label="Free Malware Removal Services Utilities"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Free Malware Removal Services Utilities),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Free Malware Removal Services Utilities),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Free Malware Removal Services Utilities),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Free Malware Removal Services Utilities"]
+  { list-style-image:url("BookmarksFolderImages/Virus.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Anti-Virus and Firewall Info Sites" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Anti-Virus and Firewall Info Sites"],
+#personal-bookmarks .bookmark-item[container][label="Anti-Virus and Firewall Info Sites"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Anti-Virus and Firewall Info Sites"],
+#bookmarksMenuPopup .bookmark-item[container][label="Anti-Virus and Firewall Info Sites"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Anti-Virus and Firewall Info Sites),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Anti-Virus and Firewall Info Sites),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Anti-Virus and Firewall Info Sites),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Anti-Virus and Firewall Info Sites"]
+  { list-style-image:url("BookmarksFolderImages/Virus.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for " File and Processes Info Sites" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="File and Processes Info Sites"],
+#personal-bookmarks .bookmark-item[container][label="File and Processes Info Sites"],
+#BMB_bookmarksPopup .bookmark-item[container][label="File and Processes Info Sites"],
+#bookmarksMenuPopup .bookmark-item[container][label="File and Processes Info Sites"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-File and Processes Info Sites),
+#placesView     treechildren::-moz-tree-image(primary,container,label-File and Processes Info Sites),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-File and Processes Info Sites),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="File and Processes Info Sites"]
+  { list-style-image:url("BookmarksFolderImages/FileInfo.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Icons, Fonts, Cursors and Codecs" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Icons, Fonts, Cursors and Codecs"],
+#personal-bookmarks .bookmark-item[container][label="Icons, Fonts, Cursors and Codecs"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Icons, Fonts, Cursors and Codecs"],
+#bookmarksMenuPopup .bookmark-item[container][label="Icons, Fonts, Cursors and Codecs"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Icons, Fonts, Cursors and Codecs),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Icons, Fonts, Cursors and Codecs),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Icons, Fonts, Cursors and Codecs),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Icons, Fonts, Cursors and Codecs"]
+  { list-style-image:url("BookmarksFolderImages/Icon_Icon.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Various Computer Stuff" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Various Computer Stuff"],
+#personal-bookmarks .bookmark-item[container][label="Various Computer Stuff"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Various Computer Stuff"],
+#bookmarksMenuPopup .bookmark-item[container][label="Various Computer Stuff"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Various Computer Stuff),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Various Computer Stuff),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Various Computer Stuff),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Various Computer Stuff"]
+  { list-style-image:url("BookmarksFolderImages/Various.ico")!important; -moz-image-region:auto!important; }
+  
+/* Set icon for "Various Computer Magazines" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Various Computer Magazines"],
+#personal-bookmarks .bookmark-item[container][label="Various Computer Magazines"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Various Computer Magazines"],
+#bookmarksMenuPopup .bookmark-item[container][label="Various Computer Magazines"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Various Computer Magazines),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Various Computer Magazines),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Various Computer Magazines),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Various Computer Magazines"]
+  { list-style-image:url("BookmarksFolderImages/Magazine.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "My Computer Driver Sites" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="My Computer Driver Sites"],
+#personal-bookmarks .bookmark-item[container][label="My Computer Driver Sites"],
+#BMB_bookmarksPopup .bookmark-item[container][label="My Computer Driver Sites"],
+#bookmarksMenuPopup .bookmark-item[container][label="My Computer Driver Sites"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-My Computer Driver Sites),
+#placesView     treechildren::-moz-tree-image(primary,container,label-My Computer Driver Sites),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-My Computer Driver Sites),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="My Computer Driver Sites"]
+  { list-style-image:url("BookmarksFolderImages/Drivers.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Various Computer Magazines" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Various Computer Magazines"],
+#personal-bookmarks .bookmark-item[container][label="Various Computer Magazines"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Various Computer Magazines"],
+#bookmarksMenuPopup .bookmark-item[container][label="Various Computer Magazines"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Various Computer Magazines),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Various Computer Magazines),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Various Computer Magazines),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Various Computer Magazines"]
+  { list-style-image:url("BookmarksFolderImages/Magazine.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Grease Monkey" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Grease Monkey"],
+#personal-bookmarks .bookmark-item[container][label="Grease Monkey"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Grease Monkey"],
+#bookmarksMenuPopup .bookmark-item[container][label="Grease Monkey"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Grease Monkey),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Grease Monkey),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Grease Monkey),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Grease Monkey"]
+  { list-style-image:url("BookmarksFolderImages/Greasemonkey.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Visual Styles and WindowBlinds Skins" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Visual Styles and WindowBlinds Skins"],
+#personal-bookmarks .bookmark-item[container][label="Visual Styles and WindowBlinds Skins"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Visual Styles and WindowBlinds Skins"],
+#bookmarksMenuPopup .bookmark-item[container][label="Visual Styles and WindowBlinds Skins"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Visual Styles and WindowBlinds Skins),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Visual Styles and WindowBlinds Skins),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Visual Styles and WindowBlinds Skins),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Visual Styles and WindowBlinds Skins"]
+  { list-style-image:url("BookmarksFolderImages/WinBlinds.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "VirtualBox Help" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="VirtualBox Help"],
+#personal-bookmarks .bookmark-item[container][label="VirtualBox Help"],
+#BMB_bookmarksPopup .bookmark-item[container][label="VirtualBox Help"],
+#bookmarksMenuPopup .bookmark-item[container][label="VirtualBox Help"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-VirtualBox Help),
+#placesView     treechildren::-moz-tree-image(primary,container,label-VirtualBox Help),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-VirtualBox Help),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="VirtualBox Help"]
+  { list-style-image:url("BookmarksFolderImages/Vbox.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "VBScript Info" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="VBScript Info"],
+#personal-bookmarks .bookmark-item[container][label="VBScript Info"],
+#BMB_bookmarksPopup .bookmark-item[container][label="VBScript Info"],
+#bookmarksMenuPopup .bookmark-item[container][label="VBScript Info"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-VBScript Info),
+#placesView     treechildren::-moz-tree-image(primary,container,label-VBScript Info),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-VBScript Info),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="VBScript Info"]
+  { list-style-image:url("BookmarksFolderImages/VBScript.ico")!important; -moz-image-region:auto!important; }
+
+/* Set icon for "Kodi Help For Installing Addons" Bookmarks folder */
+#appmenu_bookmarksPopup .bookmark-item[container][label="Kodi Help For Installing Addons"],
+#personal-bookmarks .bookmark-item[container][label="Kodi Help For Installing Addons"],
+#BMB_bookmarksPopup .bookmark-item[container][label="Kodi Help For Installing Addons"],
+#bookmarksMenuPopup .bookmark-item[container][label="Kodi Help For Installing Addons"],
+#bookmarks-view treechildren::-moz-tree-image(primary,container,label-Kodi Help For Installing Addons),
+#placesView     treechildren::-moz-tree-image(primary,container,label-Kodi Help For Installing Addons),
+#laaBookmarksFolderImages-places-tree
+                treechildren::-moz-tree-image(primary,container,label-Kodi Help For Installing Addons),
+#laaBookmarksFolderImages-images-folder-image[folderlabel="Kodi Help For Installing Addons"]
+  { list-style-image:url("BookmarksFolderImages/Kodi.ico")!important; -moz-image-region:auto!important; }
+
+
+
+
+  
+/* Custom favicons for this bookmarks */  
+
+.bookmark-item[label="Sticky"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/KillSticky.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Gmail Logon"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Web Sites/Google.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Google Voice - Call History"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Web Sites/Google.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Old Quick Access"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Autoplay Setting"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="WebGL Disabled"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="User Agent Override"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Load Bookmarks In New Tab"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="about:about - reference to all pages"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Change It Up!!!!!"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/5 Canada Day.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="The New York Times"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/The New York Times.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="The Washington Post"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/The Washington Post.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="The Boston Globe"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/BostonGlobe.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="RawStory.com - Disqus"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/RawStory.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Meat Temperature Cooking Chart"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Steak.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="What's Cooking America - Louisiana"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Food Pizza.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="FreshCo"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Fresh.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Debugging Addons with Firefox Developer Tools"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefoxaddons.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Microsoft Update Catalog"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Windows.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Microsoft Update Catalog"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Windows.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="DNSSEC? Or Not?"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/DNS Icon.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="DNSSEC Resolver Test"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/DNS Icon.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="DNSSEC Website Analyzer"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/DNS Icon 2.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Global Map of Outbreaks of Diseases"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/outbreak.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="LimeTorrents"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/LimeTorrents.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="The TVDB.com - Online TV Show Database"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/tv.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="EI Reporting Service"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Canada.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Canadian Outages - Outlook currently down?"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/CanadaOutage.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="POLITICO"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/news.ico")!important; -moz-image-region:auto!important; }
+
+
+
+
+
+
+/* ENABLE JAVASCRIPT FILES - requires userChrome.xml file in chrome folder
+
+Copyright (c) 2017 Haggai Nuchi   Available for use under the MIT License: https://opensource.org/licenses/MIT */
+
+@charset "utf-8";
+
+toolbarbutton#alltabs-button {
+    -moz-binding: url("userChrome.xml#js");
+}
