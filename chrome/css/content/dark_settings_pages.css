@@ -5,6 +5,7 @@
 @-moz-document url-prefix("about:addons"),
   url-prefix("about:preferences"),
   url-prefix("about:config"),
+  url-prefix("about:about"),
   url-prefix("chrome://browser/content/"),
   url-prefix("chrome://mozapps/content/"),
   url-prefix("chrome://global/content/config.xhtml"),
