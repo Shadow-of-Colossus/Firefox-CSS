@@ -2,7 +2,7 @@
   -moz-appearance: none !important;
 }
 
-#navigator-toolbox{ margin-top: 2px }
+#navigator-toolbox{ margin-top: 0px }
 #toolbar-menubar{
   position: fixed;
 }
