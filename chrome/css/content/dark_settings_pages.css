@@ -6,10 +6,11 @@
   url-prefix("about:preferences"),
   url-prefix("about:config"),
   url-prefix("about:about"),
+  url-prefix("chrome://browser/#dialogBox/"),
   url-prefix("chrome://browser/content/"),
   url-prefix("chrome://mozapps/content/"),
-  url-prefix("chrome://global/content/config.xhtml"),
-  url-prefix("chrome://pippki/content/"),
+    url-prefix("chrome://pippki/content/"),
+  url-prefix("chrome://global/content/config.xul"),
   url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"){
     :root,
     html|html{
@@ -34,6 +35,17 @@
     background-color: var(--in-content-box-background) !important;
     color: var(--in-content-text-color) !important;
   }
+
+/* preferences dialog box title */
+.dialogTitleBar {
+    background-color: var(--in-content-box-background) !important;
+    color: var(--in-content-text-color) !important;
+  }
+/* preferences button colors */
+button:hover:not([selected]) {
+  background-color: #6B0989 !important;
+}
+
   .menulist-dropmarker,
   .checkbox-icon{
     -moz-context-properties: fill;
