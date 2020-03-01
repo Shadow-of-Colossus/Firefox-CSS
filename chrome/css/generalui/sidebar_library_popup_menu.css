@@ -1,7 +1,7 @@
 /* Menu Popups */
 .PanelUI-subView,
 .panel-subview-body {
-  background-color: #000 !important;
+  background-color: #111 !important;
   color: #ddd !important;
 }
 .PanelUI-subView :hover {
