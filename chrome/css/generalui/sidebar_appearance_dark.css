@@ -13,7 +13,7 @@
 #history-panel,
 #historyTree,
 #viewButton {
-  background: #000 !important;
+  background: #111 !important;
   color: #DDD !important;
 }
 
@@ -55,7 +55,7 @@ color: #ffffff !important;
 
 /*sidebar popup*/
 #sidebarMenu-popup .panel-arrowcontent {
-  background: #000 !important;
+  background: #111 !important;
    color: #DDD !important;
    border: 1px solid #DDD !important; 
 }
