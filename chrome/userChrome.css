@@ -79,8 +79,9 @@
 
 /**/
 @import url(./css/tabs/tab_loading_animation.css); /* puts tabs below the navbar*/ 
-/*@import url(./css/tabs/tabs_below_navigation_toolbar.css); /* puts tabs below the navbar*/ 
-@import url(./css/tabs/tabs_below_navigation_toolbar_fx65.css); /**/
+/*@import url(./css/tabs/tabs_below_navigation_toolbar_fx64.css);  /* puts tabs below the navbar*/ 
+/*@import url(./css/tabs/tabs_below_navigation_toolbar_fx65.css); /* puts tabs below the navbar requires above file*/
+@import url(./css/tabs/tabs_below_navigation_toolbar_fx65_2.css); /* standalone*/
 @import url(./css/tabs/tab_close_always_visible.css); /* makes close visible on all tabs*/
 @import url(./css/tabs/tab_border_color_kill_bottom_line.css); /* changes selected tab border color and removes long bottom line*/
 @import url(./css/tabs/custom_tab_color_and_line_normal.css); /* changes default container line to top of tab..  removes container label/symbol from navbar*/
