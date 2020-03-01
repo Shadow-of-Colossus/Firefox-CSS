@@ -3,7 +3,7 @@ menupopup, popup,
 popup > menu > menupopup,
 menupopup > menu > menupopup {
   -moz-appearance: none !important;
-/*  background: #000 !important; */
+background: #111 !important;
   color: #aaa !important;	
   border: 2px solid #ddd !important;
   padding: 2px 0px 2px 0px  !important;
@@ -20,7 +20,7 @@ border-color: transparent !important;
 #appmenu_helpMenupopup,
 #appmenu_bookmarksPopup {
   -moz-appearance: none !important;
-  background: #000 !important; 
+  background: #111 !important; 
   color: #aaa !important;	
   border: 2px solid #ddd !important;
   padding: 2px 0px 2px 0px  !important;
@@ -28,7 +28,7 @@ border-color: transparent !important;
 
 #appmenu_bookmarksPopup menupopup {
   -moz-appearance: none !important;
-  background: #000 !important; 
+  background: #111 !important; 
   color: #aaa !important;	
   border: 2px solid #ddd !important;
   padding: 2px 0px 2px 0px  !important;
@@ -36,7 +36,7 @@ border-color: transparent !important;
 
 #appmenu_historyMenupopup menupopup {
   -moz-appearance: none !important;
-  background: #000 !important;
+  background: #111 !important;
   color: #ddd !important;	
   border: 2px solid #ddd !important;
   padding: 2px 0px 2px 0px  !important;
