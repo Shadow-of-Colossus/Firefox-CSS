@@ -27,7 +27,7 @@ panel #searchbar,
 #main-menubar > menu > menupopup,
 #context-navigation{
   color: #ddd !important;
-  background-color: #222 !important;
+  background-color: #000 !important;
   border: 2px solid #aaa !important;
   padding: 2px 0px 2px 0px  !important;
 }
