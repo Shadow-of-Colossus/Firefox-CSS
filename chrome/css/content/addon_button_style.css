@@ -51,3 +51,25 @@
 /*    border-radius: 100% !important; /* round buttons */
 /*	   border-radius: 8px !important; /* rounded corners */
 }
+
+/* various other buttons */
+#searchInput,
+#restoreDefaultHomePageBtn,
+#homeMode,
+#homePageUrl,
+#useCurrentBtn,
+#useBookmarkBtn,
+#newTabMode,
+#homeContentsGroup,
+#downloadAndInstallButton,
+#restoreDefaultSearchEngines,
+#removeEngineButton,
+#defaultEngine,
+#homeContentsGroup>vbox>vbox>hbox>hbox {
+  border: 1px solid #999 !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
