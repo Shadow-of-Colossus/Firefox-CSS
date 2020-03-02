@@ -63,3 +63,9 @@
   }
   html|div.addon,html|div.Notice{ background-color: rgba(255,255,255,0.1) !important; }
 }
+
+/* preferences dialog box title */
+.dialogTitleBar {
+    background-color: var(--in-content-box-background) !important;
+    color: var(--in-content-text-color) !important;
+}
