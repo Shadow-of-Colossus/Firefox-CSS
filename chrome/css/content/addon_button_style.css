@@ -1,20 +1,3 @@
-@namespace html url("http://www.w3.org/1999/xhtml");
-
-@-moz-document url-prefix("about:addons"),
-  url-prefix("about:preferences"),
-  url-prefix("about:config"),
-  url-prefix("about:about"),
-  url-prefix("chrome://browser/#dialogBox/"),
-  url-prefix("chrome://browser/content/"),
-  url-prefix("chrome://mozapps/content/"),
-    url-prefix("chrome://pippki/content/"),
-  url-prefix("chrome://global/content/config.xul"),
-  url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"){
-    :root,
-    html|html{
-      color:var(--in-content-text-color) !important;
-    }
-
 /*addon buttons */
   .card.addon addon-options panel-list panel-item:hover:not([selected]) {
   background-color: #6B0989 !important;
