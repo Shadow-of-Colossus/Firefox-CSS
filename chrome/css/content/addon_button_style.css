@@ -1,0 +1,70 @@
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+@-moz-document url-prefix("about:addons"),
+  url-prefix("about:preferences"),
+  url-prefix("about:config"),
+  url-prefix("about:about"),
+  url-prefix("chrome://browser/#dialogBox/"),
+  url-prefix("chrome://browser/content/"),
+  url-prefix("chrome://mozapps/content/"),
+    url-prefix("chrome://pippki/content/"),
+  url-prefix("chrome://global/content/config.xul"),
+  url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"){
+    :root,
+    html|html{
+      color:var(--in-content-text-color) !important;
+    }
+
+/*addon buttons */
+  .card.addon addon-options panel-list panel-item:hover:not([selected]) {
+  background-color: #6B0989 !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+.accessory-button,
+  .card.addon addon-options panel-list panel-item {
+  border: 1px solid #999 !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+
+/*preferences button */
+.actionButtons button:hover:not([selected]) {
+  background-color: #6B0989 !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+.actionButtons button{
+  border: 1px solid #999 !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+
+/* preferences dialog buttons */
+.accessory-button:hover:not([selected]) {
+  background-color: #6B0989 !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+.accessory-button{
+  border: 1px solid #999 !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
