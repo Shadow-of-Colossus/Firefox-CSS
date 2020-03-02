@@ -41,10 +41,6 @@
     background-color: var(--in-content-box-background) !important;
     color: var(--in-content-text-color) !important;
   }
-/* preferences button colors */
-button:hover:not([selected]) {
-  background-color: #6B0989 !important;
-}
 
   .menulist-dropmarker,
   .checkbox-icon{
