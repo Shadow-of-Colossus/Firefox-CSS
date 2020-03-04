@@ -1,6 +1,6 @@
 # Firefox-CSS
 
-Updated Feb 28, 2020
+Updated March 3, 2020
 
 This gives Firefox an older style appearance with enhanced security features in the identity box and location bar, it should work fine in v73.
 
