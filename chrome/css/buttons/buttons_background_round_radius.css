@@ -62,9 +62,10 @@ border-radius:15px !important;
 }
 
 /* rounded top corners on tabs */
+.tabbrowser-tab,
 .tab-background,
 .tabbrowser-tab:not([selected]):hover .tab-content {
-        border-radius: 15px 15px 0 0 !important;
+	border-radius: 15px 15px 0 0 !important;
 	position: relative !important;
 	border: 0 !important;
 }
