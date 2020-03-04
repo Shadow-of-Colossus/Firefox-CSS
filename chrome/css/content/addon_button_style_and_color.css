@@ -1,0 +1,137 @@
+/*addon buttons */
+.page-options-menu button:hover:not([selected]),
+#category-discover.category:hover:not([selected]),
+#category-availableUpdates.category:hover:not([selected]),
+#category-extension.category:hover:not([selected]),
+#category-theme.category:hover:not([selected]),
+#category-plugin.category:hover:not([selected]),
+#category-recentUpdates.category:hover:not([selected]),
+#preferencesButton.text-link hbox:hover:not([selected]),
+#helpButton.text-link hbox:hover:not([selected]),
+  .theme-enable-button:hover:not([selected]),
+  .card.addon addon-options panel-list panel-item:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  border-radius: 1px !important; /* two rounds two square */
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+#category-discover.category[selected],
+#category-availableUpdates.category[selected],
+#category-extension.category[selected],
+#category-theme.category[selected],
+#category-plugin.category[selected],
+#category-recentUpdates[selected] {
+  background-color: #ddd !important;
+}
+
+#category-discover.category:hover[selected],
+#category-availableUpdates.category:hover[selected],
+#category-extension.category:hover[selected],
+#category-theme.category:hover[selected],
+#category-plugin.category:hover[selected],
+#category-recentUpdates.category:hover[selected] {
+  background-color: #9C04D1 !important; 
+}
+
+.main-search search-addons search-textbox,
+.page-options-menu button,
+#category-discover.category,
+#category-availableUpdates.category,
+#category-extension.category,
+#category-theme.category,
+#category-plugin.category,
+#category-recentUpdates.category,
+#preferencesButton.text-link hbox,
+#helpButton.text-link hbox,
+.theme-enable-button,
+  .card.addon addon-options panel-list panel-item {
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+
+/*preferences button */
+.actionButtons button:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+.actionButtons button{
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+
+/* preferences dialog buttons */
+.dialogTitleBar button.dialogClose.close-icon:hover:not([selected]),
+.dialog-button:hover:not([selected]),
+.accessory-button:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+.dialogTitleBar button.dialogClose.close-icon,
+.dialog-button,
+.accessory-button{
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*    border-radius: 100% !important; /* round buttons */
+/*	   border-radius: 8px !important; /* rounded corners */
+}
+
+.disco-cta-button.primary:hover:not([selected]),
+/* various other preferences buttons */
+#containersView > richlistitem > hbox > button:hover:not([selected]),
+#searchInput:hover:not([selected]),
+#restoreDefaultHomePageBtn:hover:not([selected]),
+#homeMode:hover:not([selected]),
+#homePageUrl:hover:not([selected]),
+#useCurrentBtn:hover:not([selected]),
+#useBookmarkBtn:hover:not([selected]),
+#newTabMode:hover:not([selected]),
+#downloadAndInstallButton:hover:not([selected]),
+#restoreDefaultSearchEngines:hover:not([selected]),
+#removeEngineButton:hover:not([selected]),
+#defaultEngine:hover:not([selected]),
+#homeContentsGroup > vbox > vbox > hbox > hbox:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*   border-radius: 100% !important; /* round buttons */
+/*   border-radius: 8px !important; /* rounded corners */
+}
+
+.disco-cta-button.primary,
+/* various other buttons */
+#containersView > richlistitem > hbox > button,
+#searchInput,
+#restoreDefaultHomePageBtn,
+#homeMode,
+#homePageUrl,
+#useCurrentBtn,
+#useBookmarkBtn,
+#newTabMode,
+#downloadAndInstallButton,
+#restoreDefaultSearchEngines,
+#removeEngineButton,
+#defaultEngine,
+#homeContentsGroup > vbox > vbox > hbox > hbox {
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+/*   border-radius: 100% !important; /* round buttons */
+/*   border-radius: 8px !important; /* rounded corners */
+}
