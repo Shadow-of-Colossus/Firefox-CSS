@@ -172,6 +172,7 @@
 /*   border-radius: 8px !important; /* rounded corners */
 }
 
+/* about:about page buttons */
 #abouts>li>a:hover:not([selected]) {
   background-color: #9C04D1 !important; /* HOVER COLOR */
   color: #fff !important;
