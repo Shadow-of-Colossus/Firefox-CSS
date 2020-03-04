@@ -96,7 +96,6 @@
 .disco-cta-button.primary:hover:not([selected]),
 /* various other preferences buttons */
 #containersView > richlistitem > hbox > button:hover:not([selected]),
-#searchInput:hover:not([selected]),
 #restoreDefaultHomePageBtn:hover:not([selected]),
 #homeMode:hover:not([selected]),
 #homePageUrl:hover:not([selected]),
