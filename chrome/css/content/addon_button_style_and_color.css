@@ -11,10 +11,6 @@
   .theme-enable-button:hover:not([selected]),
   .card.addon addon-options panel-list panel-item:hover:not([selected]) {
   background-color: #9C04D1 !important; /* HOVER COLOR */
-  border-radius: 1px !important; /* two rounds two square */
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*    border-radius: 100% !important; /* round buttons */
-/*	   border-radius: 8px !important; /* rounded corners */
 }
 
 #category-discover.category[selected],
@@ -51,25 +47,22 @@
   margin-right: 3px !important;
   margin-top: 2px !important;
   border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*    border-radius: 100% !important; /* round buttons */
-/*	   border-radius: 8px !important; /* rounded corners */
+/*  border-radius: 100% !important; /* round buttons */
+/*	 border-radius: 8px !important; /* rounded corners */
 }
 
 
 /*preferences button */
 .actionButtons button:hover:not([selected]) {
   background-color: #9C04D1 !important; /* HOVER COLOR */
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*    border-radius: 100% !important; /* round buttons */
-/*	   border-radius: 8px !important; /* rounded corners */
 }
 
 .actionButtons button{
   border: 1px solid #999 !important;
   margin-right: 3px !important;
   border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*    border-radius: 100% !important; /* round buttons */
-/*	   border-radius: 8px !important; /* rounded corners */
+/*  border-radius: 100% !important; /* round buttons */
+/*	 border-radius: 8px !important; /* rounded corners */
 }
 
 
@@ -78,10 +71,8 @@
 .dialog-button:hover:not([selected]),
 .accessory-button:hover:not([selected]) {
   background-color: #9C04D1 !important; /* HOVER COLOR */
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*    border-radius: 100% !important; /* round buttons */
-/*	   border-radius: 8px !important; /* rounded corners */
 }
+
 
 .dialogTitleBar button.dialogClose.close-icon,
 .dialog-button,
@@ -89,8 +80,8 @@
   border: 1px solid #999 !important;
   margin-right: 3px !important;
   border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*    border-radius: 100% !important; /* round buttons */
-/*	   border-radius: 8px !important; /* rounded corners */
+/*  border-radius: 100% !important; /* round buttons */
+/*  border-radius: 8px !important; /* rounded corners */
 }
 
 .disco-cta-button.primary:hover:not([selected]),
@@ -112,11 +103,10 @@
 #restoreDefaultSearchEngines:hover:not([selected]),
 #removeEngineButton:hover:not([selected]),
 #defaultEngine:hover:not([selected]),
+#SiteDataSettingsDialog hbox button:hover:not([selected]),
+#SiteDataSettingsDialog vbox hbox button:hover:not([selected]),
 #homeContentsGroup > vbox > vbox > hbox > hbox:hover:not([selected]) {
   background-color: #9C04D1 !important; /* HOVER COLOR */
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*   border-radius: 100% !important; /* round buttons */
-/*   border-radius: 8px !important; /* rounded corners */
 }
 
 #category-general[selected],
@@ -146,8 +136,8 @@
   border: 1px solid #999 !important;
   margin-bottom: 5px !important;
   border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*   border-radius: 100% !important; /* round buttons */
-/*   border-radius: 8px !important; /* rounded corners */
+/*  border-radius: 100% !important; /* round buttons */
+/*  border-radius: 8px !important; /* rounded corners */
 }
 
 .disco-cta-button.primary,
@@ -164,12 +154,14 @@
 #restoreDefaultSearchEngines,
 #removeEngineButton,
 #defaultEngine,
+#SiteDataSettingsDialog hbox button,
+#SiteDataSettingsDialog vbox hbox button,
 #homeContentsGroup > vbox > vbox > hbox > hbox {
   border: 1px solid #999 !important;
   margin-right: 3px !important;
   border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*   border-radius: 100% !important; /* round buttons */
-/*   border-radius: 8px !important; /* rounded corners */
+/*  border-radius: 100% !important; /* round buttons */
+/*  border-radius: 8px !important; /* rounded corners */
 }
 
 /* about:about page buttons */
@@ -187,6 +179,6 @@
   margin-right: 3px !important;
   margin-top: 2px !important;
   border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*    border-radius: 100% !important; /* round buttons */
-/*	   border-radius: 8px !important; /* rounded corners */
+/*  border-radius: 100% !important; /* round buttons */
+/*  border-radius: 8px !important; /* rounded corners */
 }
