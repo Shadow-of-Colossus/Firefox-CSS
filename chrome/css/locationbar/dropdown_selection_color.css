@@ -32,17 +32,17 @@
 
 /* Selected Text */ 
  ::-moz-selection {
-    background: #b54fc9 !important;
+    background: #9C04D1 !important;
     color: #FFFFFF !important;
 }
 ::selection {
-    background: #b54fc9 !important;
+    background: #9C04D1 !important;
     color: #FFFFFF !important;
 }
 
   .autocomplete-richlistitem[selected=true],
   .urlbarView-row[selected] {
-  background-color: #b54fc9 !important;
+  background-color: #9C04D1 !important;
   color: #FFFFFF !important;  
 }
 

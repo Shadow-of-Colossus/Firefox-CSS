@@ -1,19 +1,29 @@
-/*hide page action button */
-#pageActionButton {
-  visibility: collapse !important;
-}
-
-/* Hide separator, only show *** button after 2-sec hover */
+/* Hide page action separator only */
 #pageActionSeparator {
  display: none !important;
 }
-#page-action-buttons #pageActionButton {
- width: 0 !important;
- padding: 4px !important;
- transition: all 1s ease-in-out;
+
+/* Translate Web Page */
+#pageAction-urlbar-_036a55b4-5e72-4d05-a06c-cba2dfcc134a_ {display: none !important}
+
+/* Hide email link and send tab to device */
+#pageAction-panel-emailLink,
+#pageAction-panel-sendToDevice {display: none !important}
+
+/*hide page action button */
+#pageActionButton[class^=urlbar-icon]{
+  margin-inline-end: -26px;
+  opacity: 0;
+  transition: margin-inline-end 100ms linear, opacity 200ms linear;
 }
-#page-action-buttons:hover #pageActionButton {
- width: 24px !important;
- padding: 4px !important;
- transition: all 1s ease-in-out 2s;
+:root[uidensity="compact"] #pageActionButton[class^=urlbar-icon]{ margin-inline-end: -22px; }
+#page-action-buttons:hover > *[class^=urlbar-icon],
+#pageActionButton[class^=urlbar-icon][open],
+#pageActionButton[class^=urlbar-icon][open] ~ *[class^=urlbar-icon]{
+  opacity: 1;
+  margin-inline-end: 0px !important;
+   transition: all 1s ease-in-out 1s
 }
+
+/*THIS TOTALLY HIDES the page action button *
+#pageActionButton {  visibility: collapse !important}
