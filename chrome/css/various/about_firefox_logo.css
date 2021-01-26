@@ -1,0 +1,7 @@
+/* Change About firefox logo */
+
+@-moz-document url(chrome://browser/content/aboutDialog.xhtml) {    
+ #leftBox { background-image: url("file:///C:/Users/Dewman/AppData/Roaming/Mozilla/Firefox/Profiles/dewman.default/chrome/css/various/about_firefox_logo.png") !important;
+background-position: left;
+background-repeat: no-repeat !important;
+}

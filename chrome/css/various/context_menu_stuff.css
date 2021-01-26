@@ -39,6 +39,7 @@
 #context-sendlinktodevice, #context-sep-sendlinktodevice {  display: none !important;}
 #context-navigation, #context-sep-sendlinktodevice {  display: none !important;}
 #context-navigation, #context-sendimage { display: none !important; }
+#_a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7_-menuitem-_WotContextMenu { display: none !important; } /* WOT link */
 
 /* #context_reloadTab,
 #context_toggleMuteTab,
@@ -47,7 +48,6 @@
 #context_bookmarkTab,
 #context_reopenInContainer,
 #context_moveTabOptions,
-#context_sendTabToDevice,
 #context_closeTabsToTheEnd,
 #context_closeOtherTabs,
 #context_undoCloseTab,
@@ -58,6 +58,7 @@
 #context_bookmarkSelectedTabs,
 #context_closeSelectedTabs
 */
+#context_sendTabToDevice,
 #inspect-separator,
 #context-inspect,
  {
