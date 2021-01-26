@@ -3,18 +3,18 @@
 
 #PersonalToolbar {
    margin-top: -23px !important;
-   transition: all 0.4s ease 0s !important;}
+   transition: all 0.6s ease 0s !important;}
 
 #navigator-toolbox:hover>#PersonalToolbar {
    margin-top: 0px !important;
-   transition: all 0.4s ease 0s !important; }
+   transition: all 0.6s ease 0s !important; }
    
 /* bookmarkbar to fade-out if you don't focus on it.*/
 
  #PlacesToolbarItems{
     opacity: 0.0;
     transition-delay: 0s; 
-    transition-duration: .5s;
+    transition-duration: .7s;
 }
 #PlacesToolbarItems:hover{
     transition-delay: 0s;

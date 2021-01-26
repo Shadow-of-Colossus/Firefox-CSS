@@ -1,0 +1,32 @@
+/* replace generic icon color in tabs and bookmarks */
+
+/* bookmark toolbar */
+#PlacesToolbarItems>.bookmark-item:not([container])>.toolbarbutton-icon[label]:not([label=""]) {
+     fill: violet !important;
+}    
+/* bookmark folder */
+.bookmark-item.menuitem-with-favicon:not([container]) {
+    fill: violet !important;
+}
+/* tab icon */
+.tab-content image.tab-icon-image:not([container]) {
+    fill: violet !important;
+}
+
+/* adds glow to icons */
+.bookmark-item.menuitem-with-favicon:not([container]) image {
+	filter: drop-shadow(0px 0px .5px white) !important;
+}
+
+#PlacesToolbarItems>.bookmark-item:not([container])>.toolbarbutton-icon[label]:not([label=""]) {
+     	filter: drop-shadow(0px 0px .5px white) !important;
+} 
+
+#bookmarks-view treechildren::-moz-tree-image(container),
+#PlacesToolbarItems toolbarbutton[container="true"],
+#PlacesToolbarItems menu[container="true"] .menu-iconic-left,
+#BMB_bookmarksPopup menu[container="true"] .menu-iconic-icon,
+#bookmarksMenu menu[container="true"] .menu-iconic-icon,
+.bookmark-item.menuitem-with-favicon[container]{
+	filter: drop-shadow(0px 0px .5px white) !important;
+}
