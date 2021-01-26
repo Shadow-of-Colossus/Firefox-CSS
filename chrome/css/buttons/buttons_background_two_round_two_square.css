@@ -78,3 +78,7 @@ border-radius:1px 10px / 12px !important;
 .tabbrowser-tab .tab-loading-burst {
 	border-radius: 1px 10px / 12px !important;
 }
+
+#policies-container {
+	border-radius: 1px 10px / 12px !important;
+}
