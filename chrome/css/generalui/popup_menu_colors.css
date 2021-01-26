@@ -1,53 +1,37 @@
 /* popup menu colors */
+toolbarbutton.bookmark-item > menupopup,
+#contentAreaContextMenu ,
+#tabContextMenu,
+#toolbar-context-menu,
+.popup-internal-box,
+#appmenu_historyMenupopup,
+#appmenu_customizeMenu,
+#appmenu_helpMenupopup,
+#appmenu_bookmarksPopup,
+#appmenu_bookmarksPopup menupopup,
+#appmenu_historyMenupopup menupopup,
 menupopup, popup,
 popup > menu > menupopup,
 menupopup > menu > menupopup {
   -moz-appearance: none !important;
-background: #111 !important;
+/background: #111 !important;
   color: #aaa !important;	
-  border: 2px solid #ddd !important;
-  padding: 2px 0px 2px 0px  !important;
-}
-
-menupopup menuseparator {
--moz-appearance: none !important;
-background: transparent !important;
-border-color: transparent !important;
-}
-
-#appmenu_historyMenupopup,
-#appmenu_customizeMenu,
-#appmenu_helpMenupopup,
-#appmenu_bookmarksPopup {
-  -moz-appearance: none !important;
-  background: #111 !important; 
-  color: #aaa !important;	
-  border: 2px solid #ddd !important;
-  padding: 2px 0px 2px 0px  !important;
-}
-
-#appmenu_bookmarksPopup menupopup {
-  -moz-appearance: none !important;
-  background: #111 !important; 
-  color: #aaa !important;	
-  border: 2px solid #ddd !important;
-  padding: 2px 0px 2px 0px  !important;
-}
-
-#appmenu_historyMenupopup menupopup {
-  -moz-appearance: none !important;
-  background: #111 !important;
-  color: #ddd !important;	
-  border: 2px solid #ddd !important;
-  padding: 2px 0px 2px 0px  !important;
+  border: 1px solid #ddd !important;
+  padding: 1px 0px 1px 0px  !important;
 }
 
 #ContentSelectDropdown menupopup {
   -moz-appearance: none !important;
   background: #777 !important;
   color: #aaa !important;	
-  border: 2px solid #ddd !important;
-  padding: 2px 0px 2px 0px  !important;
+  border: 1px solid #ddd !important;
+  padding: 1px 0px 1px 0px  !important;
+}
+
+menupopup menuseparator {
+  -moz-appearance: none !important;
+  background: transparent !important;
+  border-color: transparent !important;
 }
 
 /* Menu Hover Color */
@@ -60,4 +44,3 @@ menuitem:hover, menu:hover, menu[open="true"], menuitem[_moz-menuactive="true"]	
 }
 
 /*.menu-iconic-text{ color: #ddd !important; } 
-

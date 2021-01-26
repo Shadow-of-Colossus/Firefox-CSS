@@ -1,10 +1,26 @@
-/* #D1D1D1 = light grey */
-/* #474749 = dark grey */
-/* #323234 = very dark grey */
+/*sidebar header dark */
+#sidebar-header:-moz-lwtheme {
+  background-color: var(--toolbar-bgcolor) !important;
+  background-image: var(--lwt-header-image) !important;
+  background-position: bottom left !important;
+  background-repeat: no-repeat !important;
+  border-bottom: 0 !important;
+}
+
+#main-window:-moz-lwtheme-darktext #sidebar-box,
+#main-window:-moz-lwtheme-darktext #sidebar-box * {
+  color: black !important;
+}
+
+#main-window:-moz-lwtheme-brighttext #sidebar-box,
+#main-window:-moz-lwtheme-brighttext #sidebar-box * {
+  color: white !important;
+}
+
+/* sidebar appearnce dark */
 #bookmarksPanel.sidebar-panel {
   color: #DDD !important;
 }
-
 
 #sidebar,
 #sidebar-header,
@@ -40,7 +56,6 @@ background-color: #4d4d4d !important;
 color: #ffffff !important;
 }
 
-
 /* Hide white splitter (also appears on top right of scrollbar) *//*
 #sidebar-splitter {
   opacity: 0 !important;
@@ -51,7 +66,6 @@ color: #ffffff !important;
 #sidebar-header {
   -moz-border-end: 3px solid #474749 !important;
 }
-
 
 /*sidebar popup*/
 #sidebarMenu-popup .panel-arrowcontent {

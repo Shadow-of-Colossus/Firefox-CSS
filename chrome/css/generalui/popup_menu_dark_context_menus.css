@@ -26,10 +26,10 @@ panel input,
 panel #searchbar,
 #main-menubar > menu > menupopup,
 #context-navigation{
-  color: #ddd !important;
+  color: #aaa !important;
   background-color: #111 !important;
-  border: 2px solid #aaa !important;
-  padding: 2px 0px 2px 0px  !important;
+  border: 1px solid #aaa !important;
+  padding: 1px 0px 1px 0px  !important;
 }
 
 panel textbox input{ padding: 2px !important; }
@@ -52,7 +52,7 @@ menuitem:hover,
 menuitem[_moz-menuactive]{ background-color: #666 !important; color: white !important; }
 
 menu[disabled="true"],
-menuitem[disabled="true"]{ color: #C8830A !important; }
+menuitem[disabled="true"]{ color: #BDB76B  !important; }
 
 /*
 menu:not(.subviewbutton) > .menu-right{ filter: invert(1) }

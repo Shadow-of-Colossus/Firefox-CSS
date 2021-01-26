@@ -2,11 +2,9 @@
     position: relative;
 }
 
-
 .findbar-textbox::placeholder {
 opacity: 0 !important;
 }
-
 
 findbar {
   animation: 0.2s scale-in;
@@ -22,50 +20,67 @@ findbar {
     color: white !important; 
   display: block; /* added display: block; here */
 }
+
 findbar[hidden="true"] {
     animation: 0.2s scale-out;
 }
+
 findbar .findbar-container {
     padding: 0 !important;
     padding-inline-start: 0 !important;
     padding-inline-end: 0 !important;
 }
+
 findbar .findbar-container .findbar-textbox {
     padding: 6px 8px !important;
     background-color: white !important;
     border-color: black !important;
 }
+
 findbar .findbar-container .findbar-textbox[status="notfound"] {
     background-color: #F5A8A8 !important;
     color: black !important;
 }
+
 findbar .findbar-container .findbar-find-previous,
 findbar .findbar-container .findbar-find-next {
     background: transparent !important;
     border-color: #6F6E6E !important;
 }
+
 findbar .findbar-container .findbar-find-previous:hover, findbar .findbar-container .findbar-find-previous:focus,
 findbar .findbar-container .findbar-find-next:hover,
 findbar .findbar-container .findbar-find-next:focus {
     background-color: var(--toolbarbutton-hover-background) !important;
 }
+
 findbar .findbar-button {
     border: 1px solid var(--backbutton-border-color);
     border-radius: var(--toolbarbutton-border-radius) !important;
 	 border-color: #6F6E6E !important;
 }
+
+/*
 findbar .findbar-closebutton {
     margin-right: 4px !important;
     padding-inline-end: 0 !important;
     position: relative;
     top: 6px;
-}
+}*/
+
+
+findbar .findbar-closebutton {
+    display: none !important;
+   }
+
+   
 window[lwtheme="true"] findbar {
     background: var(--lwt-header-image) !important;
     background-attachment: fixed !important;
     background-position: top right !important;
     top: -1px;
 }
+
 window[lwtheme="true"] findbar:before {
     display: block;
     content: '';
@@ -77,23 +92,27 @@ window[lwtheme="true"] findbar:before {
     height: 100%;
     background-color: var(--toolbar-bgcolor);
 }
+
 window[lwtheme="true"] findbar .findbar-container,
 window[lwtheme="true"] findbar .findbar-closebutton {
     position: relative;
     z-index: 1;
 }
+
 window[lwtheme="true"] findbar .findbar-textbox {
     color: var(--lwt-text-color) !important;
     background-color: var(--toolbar-bgcolor) !important;
 }
-}
+
 window[lwtheme="true"] findbar .findbar-button[checked="true"] {
     font-weight: bold;
     background-color: var(--toolbar-bgcolor) !important;
 }
+
 window[lwtheme="true"] findbar .findbar-find-status, window[lwtheme="true"] findbar .found-matches {
     color: var(--lwt-text-color) !important;
 }
+
 .browserContainer > findbar {
     border-top: none !important;
  }
