@@ -1,0 +1,33 @@
+/* REPLACED ICON new private tab*/
+#newPrivateTab-button,
+#privateTab-button .toolbarbutton-icon {
+  list-style-image: url("./image/Private_tab.png") !important;
+     opacity: 0.7 !important;
+}
+
+#newPrivateTab-button,
+#privateTab-button .toolbarbutton-icon:hover:not([selected]) {
+  list-style-image: url("./image/Private_tab.png") !important;
+     opacity: 0.9 !important;
+}
+
+/* ORIGINAL ICON new private new tab - change color *
+#newPrivateTab-button,
+#privateTab-button {
+     opacity: 0.7 !important;
+     color: #BE80F7 !important;
+}
+
+#newPrivateTab-button,
+#privateTab-button:hover:not([selected]) {
+     opacity: 0.9 !important;
+     color: #BE80F7 !important;
+}
+*/
+
+/* private new tab page indicator location */
+#private-mask.private-browsing-indicator {
+	position: relative !important;
+	top: 4px !important; 
+	left: -10px !important
+}

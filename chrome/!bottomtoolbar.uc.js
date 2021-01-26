@@ -1,15 +1,8 @@
+// ==UserScript==
 // Add-on Bar script for Firefox 60+ by Aris
-//
-// no 'close' button
-// 'toggle' toolbar with 'Ctr + /' on Windows/Linux or 'Cmd + /' on macOS
-// no 'Add-on Bar' entry in toolbar context menu
-//
-// option: smaller buttons / reduced toolbar button height
-//
-// flexible spaces on add-on bar behave like on old Firefox versions
-
-// [!] Fix for WebExtensions with own windows by 黒仪大螃蟹 (for 1-N scripts)
-
+// @name            Bottom Bar
+// @author          xiaoxiaoflood
+// ==/UserScript==
 
 Components.utils.import("resource:///modules/CustomizableUI.jsm");
 var {Services} = Components.utils.import("resource://gre/modules/Services.jsm", {});
