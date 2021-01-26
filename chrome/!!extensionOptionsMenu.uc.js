@@ -95,16 +95,6 @@ UC.extensionOptionsMenu = {
 		"zoompage-we@DW-dev", // Zoom Page WE
 		"yetanothersmoothscrollingwe@kataho", // Yet Another Smooth Scrolling WE
 
-		// NORMALLY DISABLED //
-		
-		"GProxy_plus@dongtaiwang.com", // GProxy Plus
-		"jid1-CKHySAadH4nL6Q@jetpack", // Privacy Settings
-
-		// NORMALLY ENABLED //
-		
-//		"trafficlight@bitdefender.com", // TrafficLight
-//		"{a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7}", // WOT Web of Trust, Website Reputation Ratings
-//		"aos@avg.com", //AVG Online Security
 		
 		// FIREFOX ADDONS //
 
