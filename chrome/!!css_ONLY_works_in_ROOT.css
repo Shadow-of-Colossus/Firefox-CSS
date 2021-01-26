@@ -1,4 +1,6 @@
-/*Manage Your Addons Button changes it to green */
+/*TOOLBAR BUTTONS */
+
+/*Manage Your Addos Button changes it to green */
 #add-ons-button > .toolbarbutton-icon { fill: green !important; }
 
 /*Changes the More Tools/Overflow Button I icon */
@@ -7,20 +9,194 @@
 /*Changes the Open Menu Button I icon */
 #PanelUI-menu-button {list-style-image: url("./image/open_menu.png") !important;}
 
+/*END TOOLBAR BUTTONS */
 
-/* CHANGE ADDON BUTTONS */
+
+
+/* ADDON BUTTONS */
+
+/*Overlay Revmoval Auto */
+#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/behind_overlay_revival.png") !important;
+}
 
 /*Behind The Overlay Revival */
 #_c0e1baea-b4cb-4b62-97f0-278392ff8c37_-browser-action .toolbarbutton-icon {
   list-style-image: url("./image/behind_overlay_revival.png") !important;
 }
 
-/* CHANGE ADDON BADGES */
+/*Block Site */
+#_54e2eb33-18eb-46ad-a4e4-1329c29f6e17_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/block_site.png") !important;
+}
+
+/*Clear Browsing Data */
+#_ce9f4b1f-24b8-4e9a-9051-b9e472b1b2f2_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/eraser1.png") !important;
+}
+
+/*Export Tabs URLs */
+#_17165bd9-9b71-4323-99a5-3d4ce49f3d75_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/export_tabs_urls.png") !important;
+}
+
+/*Tab Manager */
+#_d8d927ce-6f13-4bab-9f4d-16606428ac6c_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/tab_manager.png") !important;
+}
+
+/*Tabs to Bookmark Groups */
+#tabs-to-bookmark-groups_qw_thucfb_com-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/tabs_to_bookmarks_group.png") !important;
+}
+
+/*Theme Toggler */
+#_9072080f-7321-4db1-badd-053f0c40765e_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/theme_toggler.png") !important;
+}
+
+/* END ADDON BUTTONS */
+
+
+
+/* ADDON BADGES */
 
 /* uBlock Origin */
-#ublock0_raymondhill_net-browser-action  label {
+#ublock0_raymondhill_net-browser-action label {
 color: white !important;
 background-color: indigo !important;
 opacity: 1 !important;
 }
 
+/* CCS Exfil Protection */
+#_7fc8ef53-24ec-4205-87a4-1e745953bb0d_-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Noscript */
+#_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Ghostery */
+#firefox_ghostery_com-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Privacy Badger */
+#jid1-mnnxcxisbpnsxq_jetpack-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Cookie Autodelete */
+#cookieautodelete_kennydo_com-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* HTTPS Everywhere */
+#https-everywhere_eff_org-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Bitdefender Trafficlight */
+#trafficlight_bitdefender_com-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/*app.telemetry Page Speed Monitor */
+#jid0-oqxcsy9vmemm8jjqjyy5km0nms8_jetpack-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Greasemonkey */
+#_aecec67f-0d10-4fa7-b7c7-609a2db280cf_-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/*AutopalyStopper */
+#autoplay_html5-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/*Zoompage WE */
+#zoompage-we_dw-dev-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Canvasblocker */
+#canvasblocker_kkapsner_de-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* ClearUrls */
+#_74145f27-f039-47ce-a470-a662b129930a_-browser-action  label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/*Overlay Revmoval Auto */
+#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* END ADDON BADGES */
+
+
+
+/* PREVENT ENLARGEMENT */
+
+#urlbar[breakout-extend] {
+    top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+#urlbar[breakout-extend] #urlbar-input-container {
+    height: var(--urlbar-height) !important;
+    /*padding: 0px !important;*/
+    padding-block: 0px !important;
+    padding-inline: 0px !important;
+}
+.urlbarView-row {
+    padding: 0px 2px 0px 2px;
+}
+/* END PREVENT ENLARGEMENT */
+
+/* REMOVE BLACK BACKGROUND AND ORANGE BORDER */
+
+#urlbar-background,
+#urlbar-container,
+.urlbar-input-box {
+border: none !important;
+color: none !important;
+background-color: none !important;
+background: none !important;
+}
+/* END REMOVE BLACK BACKGROUND AND ORANGE BORDER */

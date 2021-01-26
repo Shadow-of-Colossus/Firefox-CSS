@@ -2,6 +2,15 @@
 @import url(./ZZ-TEST-CHROME.css); /* for testing new code*/
 
 
+/* ONLY WORKS IN ROOT FOLDER */
+@import url(./!!css_ONLY_works_in_ROOT.css); /* only works in root chrome folder... toolbar, addon buttons and urlbar tweaks*/
+@import url(./!bottomtoolbar.css); /* colors and sizes bottombar*/
+@import url(./!!extensionOptionsMenu.uc.css); /* changes volor of menu text*/
+@import url(./Private_tab.uc.css); /* changes volor of menu text*/
+/**/
+@import url(./css/generalui/__LIST_SELECTION_BAR_COLOR_COULD_BE_PROBLEM.css); /* list selection bar color?????????????????????? */
+
+
 /* Switch between button background styles, tabs and navbar match  - disabled is square style - MUST have glass appearance enabled to work */
 /**/
 @import url(./css/buttons/buttons_background_two_round_two_square.css); /* two square and two round edges silhouette*/
@@ -12,17 +21,8 @@
 /* to change the style edit "css\content\addon_button_style_and_color.css" for * there are three styles (two round-twosquare), (round), (rounded corners)*/ 
 
 
-/* ONLY WORKS IN ROOT FOLDER */
-@import url(./!!css_ONLY_works_in_ROOT.css); /* only works in root chrome folder*/
-@import url(./!bottomtoolbar.css); /* colors and sizes bottombar*/
-@import url(./!!extensionOptionsMenu.uc.css); /* changes volor of menu text*/
-
-/* NEW CODE */
-@import url(./css/buttons/button_effect_icon_glow.css); /* Adds glow effect to hovered addon icons*/
-/*@import url(./css/various/grid_overflow_menu.css); /* Changes overflow list to icon grid*/
-
-
 /**/
+@import url(./css/locationbar_remove_orange_border_size_change.css); /* hides black background, orange border and size increase when navbar selected hovered*/
 @import url(./css/locationbar/urlbar_caret_color.css); /* changes caret color in navbar*/
 @import url(./css/locationbar/identity_box_icon_order.css); /* change order of identity box icons*/
 @import url(./css/locationbar/identitybox_no_label_text.css); /* removes name some sites show*/
@@ -41,6 +41,7 @@
 @import url(./css/locationbar/starbutton_alternative_icon.css); /* better looking navbar bookmark button*/
 @import url(./css/locationbar/dropdown_selection_color.css); /* rich list dropdown and text selection color*/
 @import url(./css/locationbar/identitybox_dropdown_dark.css); /* makes identity box dropdown dark theme*/
+@import url(./css/locationbar/urlbar_dropdown_protection_panel.css); /* makes tracking protection box dropdown dark theme*/
 
 
 /**/
@@ -49,28 +50,29 @@
 @import url(./css/various/darken_load_screen.css); /* darkens loading screen color*/
 @import url(./css/various/context_menu_stuff.css); /* moves Context Plus up, removes other entries.*/
 @import url(./css/various/remove_sign_in_to_sync.css); /* removesSign in to Sync hamburger menu*/
-@import url(./css/various/flexible_spring.css); /* removesSign in to Sync hamburger menu*/
+@import url(./css/various/flexible_spring.css); /* changes flexible spring size*/
 @import url(./css/various/menubar_weird_fix_with_no_titlebar.css); /* repairs weird double image when titlebar in disabled - hidden min, max and close buttons*/
+/*@import url(./css/various/context_menu_hide_commands.css); /* allows you to remove unwanted context menu entries.*/
+/*@import url(./css/various/grid_overflow_menu.css); /* Changes overflow list to icon grid*/
 
 
 /**/
-@import url(./css/toolbars/bookmark_tab_generic_icon.css); /* change the generic globe icon in tabs and bookmarks*/
+@import url(./css/toolbars/bookmark_tab_generic_icon_with_glow.css); /* change the generic globe icon in tabs and bookmarks and white glow on bookmark icons*/
 @import url(./css/toolbars/bookmarksbar_fade.css); /* fades bar when not hovered*/
-/*@import url(./css/toolbars/bookmarksbar_autohide_show_on_hover.css); /* autohides bookmarks bar until hovered*/
 @import url(./css/toolbars/bookmarksbar_navbar_bg_transparent.css); /* transparent background bookmark and nav bar*/
 @import url(./css/toolbars/bookmarksbar_double_row.css); /* creates double row on bookmark bar if single line fills up*/
 @import url(./css/toolbars/bookmarks_toolbar_old_height.css); /* restores the old bar height*/
 @import url(./css/toolbars/bookmarksbar_visible_fullscreen.css); /* keeps bookmark bar visible in fullscreen*/
-/*@import url(./css/toolbars/bookmarks_double_columns.css); /* creates double columns in  bookmarks menus*/
+/*@import url(./css/toolbars/bookmarksbar_autohide_show_on_hover.css); /* autohides bookmarks bar until hovered*/
 /*@import url(./css/toolbars/bookmarks_toolbar_bookmark_labels_hidden.css); /* hides text and only shows icons/favicons in bookmark bar */ 
 
 
 /**/
-/*@import url(./css/buttons/buttons_on_bookmarks_toolbar_glass_appearance.css); /* glass appearance bookmark bar buttons*/
 @import url(./css/buttons/buttons_on_menubar_toolbar_glass_appearance.css); /* glass appearance menu bar buttons*/
 @import url(./css/buttons/buttons_on_navbar_glass_appearance.css); /* glass appearance navbar buttons*/
-/*@import url(./css/buttons/buttons_on_tabtoolbar_glass_appearance.css); /* glass appearance navbar buttons*/
 @import url(./css/buttons/buttons_on_addonbar_glass_appearance.css); /* glass appearance bottom addon bar buttons*/
+/*@import url(./css/buttons/buttons_on_bookmarks_toolbar_glass_appearance.css); /* glass appearance bookmark bar buttons*/
+/*@import url(./css/buttons/buttons_on_tabtoolbar_glass_appearance.css); /* glass appearance navbar buttons*/
 /*@import url(./css/buttons/buttons_on_NAVIGATOR-TOOLBOX_glass_appearance.css); /* glass appearance ALL TOP buttons*/
 /**/
 @import url(./css/buttons/appbutton_popup_icons_colorized.css); /* different app button colors*/
@@ -78,12 +80,11 @@
 @import url(./css/buttons/custom_home_dewman.css); /* change default home button*/
 @import url(./css/buttons/custom_sidebar_dewman.css); /* change default side button*/
 @import url(./css/buttons/icons_colorized.css); /* changes button colors*/
+@import url(./css/buttons/button_effect_icon_glow.css); /* Adds glow effect to hovered addon icons*/
 
 
 /**/
 @import url(./css/tabs/tab_loading_animation.css); /* puts tabs below the navbar*/ 
-/*@import url(./css/tabs/tabs_below_navigation_toolbar_fx64.css);  /* puts tabs below the navbar*/ 
-/*@import url(./css/tabs/tabs_below_navigation_toolbar_fx65.css); /* puts tabs below the navbar requires above file*/
 @import url(./css/tabs/tabs_below_navigation_toolbar_fx65_2.css); /* standalone*/
 @import url(./css/tabs/tab_close_always_visible.css); /* makes close visible on all tabs*/
 @import url(./css/tabs/tab_border_color_kill_bottom_line.css); /* changes selected tab border color and removes long bottom line*/
@@ -96,31 +97,32 @@
 @import url(./css/tabs/tab_throbber_green.css); /* makes tab throbber circular green of old firefox*/
 @import url(./css/tabs/tab_close_spin_hover.css); /* makes close red and spin when hovered*/  /* Has remove box code also */
 @import url(./css/tabs/multiple_tabs_selected_mark.css); /* blue square marks multiple selected tabs*/
+@import url(./css/tabs/alltabs_on_tabbar.css); /* down arrow for firefox list menu of tabs*/
 
 
 /**/
+@import url(./css/generalui/_library_window.css); /* library - history window dark color */
+@import url(./css/generalui/_page_info_window.css); /* page info window dark color */
 @import url(./css/generalui/appMenu_update_available_notification.css); /* block app update doorhanger */
 @import url(./css/generalui/popup_menu_colors.css); /* popup menu color probably don't work */
 @import url(./css/generalui/popup_menu_dark_context_menus.css); /* makes bookmarks and context menus dark*/
 @import url(./css/generalui/popup_bookmark_edit_panel_dark.css); /* edit/save bookmark panel dark*/
-/*@import url(./css/generalui/bookmark_icons_colorized_1.css); /* colors bookmark icons???*/
-@import url(./css/generalui/bookmark_icons_colorized_2.css); /* colors bookmark icons???*/
+@import url(./css/generalui/bookmark_generic_icon_color.css); /* colors bookmark icons???*/
 @import url(./css/generalui/sidebar_library_popup_menu.css);  /* side bar dark*/
 @import url(./css/generalui/sidebar_appearance_dark.css);  /* side bar dark*/
-/*@import url(./css/generalui/sidebar_appearance_lwtheme_dark.css);  /* side bar dark*/
 @import url(./css/generalui/sidebar_header_icons_colorized.css); /* side bar dark colored icons*/
-@import url(./css/generalui/sidebar_header_lwtheme.css); /* side bar dark*/
 @import url(./css/generalui/sidebar_autohide.css); /* autohides sidebar???*/
+/*@import url(./css/generalui/sidebar_resizable.css); /* allow sidebar to be closed completely using the slider */
 @import url(./css/generalui/fullscreen_hide_min_max_close.css); /* hides the min_max_close buttons fullsreen*/
 @import url(./css/generalui/menubar_text.css); /* changes menubar text color*/ 
 @import url(./css/generalui/findbar_on_top_solid.css); /* findbar tweak top left solid*/
-/*@import url(./css/generalui/status_panel_color.css); /* colors status panel*/
-/*@import url(./css/generalui/status_inside_urlbar.css); /* changes status bar color and puts it in locationbar also*/
+@import url(./css/generalui/status_panel_color.css); /* colors status panel*/
 @import url(./css/generalui/status_in_bottombar.css); /* rich list dropdown and text selection color*/
+/*@import url(./css/generalui/notifications_dark.css); /* notification popups are dark*/
+
+
 /**/
 /* at bottom below bookmark custom favicons is userChrome.js code and code for addon bar and status panel inside it*/
-/**/
-
 
 
 
@@ -655,6 +657,18 @@ height:0!important;
 padding: 0 0 16px 16px !important;
 background-image: url("BookmarksFolderImages/Web Sites/Google.ico")!important; -moz-image-region:auto!important; }
 
+.bookmark-item[label="NHL Free Streams Live"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/NHL Icons/Philadelphia-Flyers-1.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Firefox Profilemaker"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/lock1.ico")!important; -moz-image-region:auto!important; }
+
 .bookmark-item[label="Old Quick Access"] image {
 width:0!important;
 height:0!important;
@@ -697,6 +711,14 @@ height:0!important;
 padding: 0 0 16px 16px !important;
 background-image: url("BookmarksFolderImages/5 Canada Day.ico")!important; -moz-image-region:auto!important; }
 
+.bookmark-item[label="Reuters"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/reuters.ico")!important; -moz-image-region:auto!important; }
+
+
+/*
 .bookmark-item[label="The New York Times"] image {
 width:0!important;
 height:0!important;
@@ -714,6 +736,7 @@ width:0!important;
 height:0!important;
 padding: 0 0 16px 16px !important;
 background-image: url("BookmarksFolderImages/BostonGlobe.ico")!important; -moz-image-region:auto!important; }
+*/
 
 .bookmark-item[label="RawStory.com - Disqus"] image {
 width:0!important;
