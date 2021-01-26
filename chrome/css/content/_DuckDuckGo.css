@@ -1,0 +1,28 @@
+/*
+@-moz-document url("https://duckduckgo.com/") {
+.logo_homepage {background-image: url("./../../css/content/_DuckDuckMartha_2.png") !important;
+    width: 500px !important;
+    height: 278px !important;
+}*/
+
+
+.logo_homepage {background-image: url("./../../css/content/_DuckDuckMartha_3.png") !important;
+    width: 580px !important;
+    height: 225px !important;
+}
+
+.logo_homepage__tt {display: none !important}
+ .header--aside {display: none !important}
+.tag-home--slide {display: none !important}
+.onboarding-ed {display: none !important}
+.site-wrapper-border {display: none !important}
+.header-wrap--home, .header-wrap {border-top: none !important}
+.logo-wrap--home {max-width: 634px !important; width: 70% !important;}
+
+
+
+ /*#logo_homepage_link {background-image: url("./../../css/content/1.png") !important;
+   height: 200px !important;
+   width: 400px !important;
+   }
+} */

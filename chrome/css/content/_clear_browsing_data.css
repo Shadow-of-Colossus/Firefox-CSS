@@ -1,0 +1,12 @@
+/*! Alters the webextension Theme Toggler */
+@-moz-document url-prefix("moz-extension://7166726b-e764-4e37-b76c-3bd6b0c0a636/")  {
+  body {
+    color: #ddd !important;
+    background: #bbb !important;
+  }
+  html {
+    color: #ddd !important;
+    background-color: #bbb !important;
+  }
+ 
+}

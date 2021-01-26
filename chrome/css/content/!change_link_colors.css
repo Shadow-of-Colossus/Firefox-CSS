@@ -1,18 +1,18 @@
 /* Link colors on all sites, except those specified */
 
 /* @-moz-document regexp("https?://(?!(addons.mozilla.org|www.reddit.com)).*") {
-  a:link { color: SaddleBrown !important; }
-  a:visited { color: Red !important; }
-  a:hover { color: Crimson !important; }
-  a:active { color: DarkGoldenrod !important; }
+a:link { color: SaddleBrown !important; }
+a:visited { color: Red !important; }
+a:hover { color: Crimson !important; }
+a:active { color: DarkGoldenrod !important; }
 } */
 
 
 /* Link colors on all sites */
 
-/*a:link { color: blue !important; } */
+
 @-moz-document url-prefix("http://"), url-prefix("https://") {
-  /* a:link { color: Blue !important; } */
+ /* a:link { color: Blue !important; } */
 a:visited { color: Red !important; }
 a:hover { color: Magenta !important; }
 /* a:active { color: LimeGreen !important; } */
@@ -21,29 +21,86 @@ a:hover { color: Magenta !important; }
 
 /* Link colors on specific sites */
 
-@-moz-document domain("google.ca"), (duckduckgo.com) {
+@-moz-document domain("google.ca") {
+a:visited { color: Red !important; }
+a:hover { color: Magenta !important; }
+}
+
+@-moz-document domain(duckduckgo.com) {
+a:link {font-weight: bold !important; }
 a:visited { color: Red !important; }
 a:hover { color: Magenta !important; }
 a:active { color: LimeGreen !important; }
 }
 
 @-moz-document domain("greasyfork.org") {
-  a:visited { color: Red !important; }
-  a:hover { color: Green !important; }
-  }
+ a:visited { color: Red !important; }
+ a:hover { color: Green !important; }
+ }
   
-  @-moz-document domain("youtube.com") {
-  a:link { color: Gold  !important; }
-  a:visited { color: Red !important; }
-  a:hover { color: LimeGreen !important; }
-  }  
+  @-moz-document domain("ipleak.net") {
+ a:visited { color: Lime !important; }
+ }
+
+@-moz-document domain("newsnow.co.uk") {
+ a:visited { color: DarkOrange !important; }
+ }
+
+@-moz-document domain("pof.com") {
+ a:visited { color: DarkOrange !important; }
+ }
   
-@-moz-document domain("reddit.com"),("old.reddit.com")  {
-  a:link { color: DarkCyan   !important; }
-  a:visited { color: Red !important; }
-  a:hover { color: Magenta !important; }
-  }       
+@-moz-document domain("rawstory.com") {
+ a:visited { color: DarkTurquoise !important; }
+ a:hover { color: LimeGreen !important; }
+ }
   
+@-moz-document domain("scotiabank.com") {
+ a:visited { color: LimeGreen !important; }
+ }
   
+@-moz-document domain("squirt.org") {
+ a:visited { color: LimeGreen !important; }
+ }
   
+@-moz-document domain("theguardian.com") {
+ a:link { color: LimeGreen  !important; }
+ a:visited { color: Magenta !important; }
+ a:hover { color: Gold !important; }
+ } 
+
+@-moz-document domain("theweathernetwork.com") {
+ a:visited { color: LimeGreen !important; }
+ }   
+  
+@-moz-document domain("tsn.ca") {
+ a:visited { color: DarkOrange !important; }
+ }  
+    
+@-moz-document domain("youtube.com") {
+ a:link { color: Gold  !important; }
+ a:visited { color: Red !important; }
+ a:hover { color: LimeGreen !important; }
+ }
+
+@-moz-document domain("reddit.com") {
+ /* a:link { color: DarkCyan   !important; } */
+ a:visited { color: Red !important; }
+ a:hover { color: Magenta !important; }
+ }
+  
+@-moz-document domain("old.reddit.com")  {
+/*  a:link { color: DarkCyan   !important; } */
+ a:visited { color: Red !important; }
+ a:hover { color: Magenta !important; }
+ }
+  
+ @-moz-document domain("list25.com") {
+ a:link {font-weight: bold !important; }
+ a:link { color: LimeGreen !important; }
+ a:visited { color: DarkCyan !important; }
+ a:hover { color: Magenta !important; }
+ }
+ 
+ 
 /**/

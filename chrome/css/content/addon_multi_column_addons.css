@@ -23,12 +23,14 @@
     .card-heading-image{ max-width: calc(100% + 32px) }
     section > h2{ grid-area: hd }
     addon-card{
+	 font-size: 12pt !important;
       padding-bottom: 0px !important;
       padding-top: 0px !important;
       grid-area: auto;
     }
     addon-card .addon-description{ max-height: 3em; scrollbar-width: thin; }
   }
+  
   
   @media (min-width:1220px){
     addon-list > section,

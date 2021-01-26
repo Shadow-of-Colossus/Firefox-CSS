@@ -1,5 +1,5 @@
 @-moz-document url-prefix(chrome://mozapps/content/extensions/extensions.xhtml), url-prefix(about:addons),url-prefix(chrome://mozapps/content/extensions/aboutaddons.html) {
-	#category-recentUpdates[disabled] {
+	.category[name="recent-updates"] [disabled] {
 	  overflow: visible !important;
 	  height: 48px !important;
 	  min-height: 48px !important;
@@ -9,7 +9,7 @@
 	  -moz-user-input: unset !important;
 	}
 	
-	#category-recentUpdates[hidden] {
+	.category[name="recent-updates"] [hidden] {
 	  opacity: 1 !important;
 	  min-height: 48px !important;
 	  height: 48px !important;
@@ -17,8 +17,10 @@
 	  transition: unset !important;
 	}
 
-	#category-recentUpdates {
+	.category[name="recent-updates"] {
+	  display: inherit !important;
 	  -moz-box-ordinal-group: 99 !important;
+	  
 	}
 
 }

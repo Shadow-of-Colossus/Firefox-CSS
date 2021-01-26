@@ -1,7 +1,5 @@
 /* Show addon management buttons without opening popup .......................................... By MrOtherGuy*/
 
-/* Show addon management buttons without opening popup */
-
 @-moz-document url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"){
  
   .addon-card-message{ margin-bottom: 0px !important; margin-top: 0px !important; }
@@ -14,6 +12,7 @@
   .card-contents{ grid-area: con }
   .card-heading-icon{ grid-area: ic }
   
+  plugin-options > panel-list,
   addon-options > panel-list{
     position: static !important;
     display: flex !important;
@@ -46,5 +45,6 @@
   }
   button[role="menuitem"] > label:not([accesskey]),
   link+button::after{ display: none !important; }
-
+*/
 }
+

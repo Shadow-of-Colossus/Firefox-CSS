@@ -3,14 +3,17 @@
 @namespace html url("http://www.w3.org/1999/xhtml");
 
 @-moz-document url-prefix("about:addons"),
+  url-prefix("about:processes"),
+  url-prefix("about:performance"),
   url-prefix("about:preferences"),
   url-prefix("about:config"),
   url-prefix("about:about"),
+  url-prefix("about:logins"),
   url-prefix("chrome://browser/#dialogBox/"),
   url-prefix("chrome://browser/content/"),
   url-prefix("chrome://mozapps/content/"),
-    url-prefix("chrome://pippki/content/"),
-  url-prefix("chrome://global/content/config.xul"),
+  url-prefix("chrome://pippki/content/"),
+  url-prefix("chrome://global/content/config.xhtml"),
   url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"){
     :root,
     html|html{
@@ -63,13 +66,22 @@
 /* EXTRAS on preferences page */
 .disco-cta-button.primary,
 .dialogTitleBar {
-    background-color: var(--in-content-box-background) !important;
-    color: var(--in-content-text-color) !important;
+  background-color: var(--in-content-box-background) !important;
+  color: var(--in-content-text-color) !important;
 }
 
 #sitesList > richlistitem[selected],
 #permissionsBox > richlistitem[selected],
 #selectedLocales richlistitem[selected],
  #activeLanguages richlistitem[selected] {
-  background: #aaa !important;
+ background: #aaa !important;
+}
+
+
+#policies-container {
+background: #555 !important;
+}
+
+.policies-label {
+color: #fff !important;
 }

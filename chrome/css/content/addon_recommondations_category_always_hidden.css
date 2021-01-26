@@ -1,0 +1,3 @@
+@-moz-document url-prefix(chrome://mozapps/content/extensions/extensions.xhtml), url-prefix(about:addons),url-prefix(chrome://mozapps/content/extensions/aboutaddons.html) {
+	.category[name="discover"] {display: none !important}
+}

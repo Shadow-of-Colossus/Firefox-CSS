@@ -1,4 +1,6 @@
 /*addon buttons */
+
+.addon plugin-options panel-list panel-item:hover:not([selected]),
 .page-options-menu button:hover:not([selected]),
 #category-discover.category:hover:not([selected]),
 #category-availableUpdates.category:hover:not([selected]),
@@ -31,6 +33,7 @@
   background-color: #9C04D1 !important; 
 }
 
+.addon plugin-options panel-list panel-item,
 .main-search search-addons search-textbox,
 .page-options-menu button,
 #category-discover.category,
