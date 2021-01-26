@@ -21,7 +21,7 @@ a:hover { color: Magenta !important; }
 
 /* Link colors on specific sites */
 
-@-moz-document domain("google.ca") {
+@-moz-document domain("google.com") {
 a:visited { color: Red !important; }
 a:hover { color: Magenta !important; }
 }
@@ -37,46 +37,7 @@ a:active { color: LimeGreen !important; }
  a:visited { color: Red !important; }
  a:hover { color: Green !important; }
  }
-  
-  @-moz-document domain("ipleak.net") {
- a:visited { color: Lime !important; }
- }
 
-@-moz-document domain("newsnow.co.uk") {
- a:visited { color: DarkOrange !important; }
- }
-
-@-moz-document domain("pof.com") {
- a:visited { color: DarkOrange !important; }
- }
-  
-@-moz-document domain("rawstory.com") {
- a:visited { color: DarkTurquoise !important; }
- a:hover { color: LimeGreen !important; }
- }
-  
-@-moz-document domain("scotiabank.com") {
- a:visited { color: LimeGreen !important; }
- }
-  
-@-moz-document domain("squirt.org") {
- a:visited { color: LimeGreen !important; }
- }
-  
-@-moz-document domain("theguardian.com") {
- a:link { color: LimeGreen  !important; }
- a:visited { color: Magenta !important; }
- a:hover { color: Gold !important; }
- } 
-
-@-moz-document domain("theweathernetwork.com") {
- a:visited { color: LimeGreen !important; }
- }   
-  
-@-moz-document domain("tsn.ca") {
- a:visited { color: DarkOrange !important; }
- }  
-    
 @-moz-document domain("youtube.com") {
  a:link { color: Gold  !important; }
  a:visited { color: Red !important; }
@@ -92,13 +53,6 @@ a:active { color: LimeGreen !important; }
 @-moz-document domain("old.reddit.com")  {
 /*  a:link { color: DarkCyan   !important; } */
  a:visited { color: Red !important; }
- a:hover { color: Magenta !important; }
- }
-  
- @-moz-document domain("list25.com") {
- a:link {font-weight: bold !important; }
- a:link { color: LimeGreen !important; }
- a:visited { color: DarkCyan !important; }
  a:hover { color: Magenta !important; }
  }
  
