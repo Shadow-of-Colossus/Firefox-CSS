@@ -1,19 +1,20 @@
-/*@-moz-document regexp("https?://www.google.(co.uk)).*") */
+@-moz-document regexp("https?://www.google.(co.uk)).*")
 
-
+/*
 @-moz-document regexp("https?://www.google.(com|ca|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("(https|http)://(www|translate|play|drive|books|plus|docs|accounts|myaccount|scholar|images|news|encrypted).google\\.(com|([a-z]{2}))(\\.[a-z]{2})?/(?!mobile|ad#hdtb .hdtb-mitem asense|shopping|community|voice|android|calendar|maps|fonts|.*._/notifications).*")
 
-
+*/
 {
 
-  #hplogo {
+  .lnXdpd {
     background: url("./../../css/content/_GoogleMartha_3.png") no-repeat !important;
+
     width: 450px !important;
     height: 179px !important;
 	padding-top:179px !important;
   }
 
-  div#hplogo {
+  div.lnXdpd {
     background: url("./../../css/content/_GoogleMartha_3.png") no-repeat!important;
     background-size: 450px 179px!important;
     height: 179px!important;
@@ -21,11 +22,11 @@
 	padding-top:179px !important;
   }
 
-  div#hplogo:not([title~=Google]) {margin-top: 0px!important;}
+  div.lnXdpd:not([title~=Google]) {margin-top: 0px!important;}
 
-  div#hplogo>:not([nowrap='']) {display: none!important;}
+  div.lnXdpd>:not([nowrap='']) {display: none!important;}
 
-  img#hplogo {
+  img.lnXdpd {
     background: url("./../../css/content/_GoogleMartha_3.png") no-repeat!important;
     background-size: 450px 179px!important;
     height: 0!important;
@@ -33,5 +34,8 @@
 	padding-top:179px !important;
   }
 
+div.om7nvf {
+	padding:110px !important
+  }
+
 }
-  
