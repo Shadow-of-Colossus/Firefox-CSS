@@ -163,11 +163,17 @@ menubar, menubutton/*, menulist, menu, menuitem*/{color: white;}
   /* ================ BOOKMARK  ICON ====================*/
 
 
-.bookmark-item[label="WebGL Leaks your IP and Location"] image {
+.bookmark-item[label="Enable/Disable WebGL"] image {
 width:0!important;
 height:0!important;
 padding: 0 0 16px 16px !important;
 background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
+
+.bookmark-item[label="Sticky"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/KillSticky.ico")!important; -moz-image-region:auto!important; }
 
 
 
@@ -182,3 +188,4 @@ Copyright (c) 2017 Haggai Nuchi   Available for use under the MIT License: https
 toolbarbutton#alltabs-button {
     -moz-binding: url("userChrome.xml#js");
 }
+
