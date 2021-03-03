@@ -1,8 +1,8 @@
 # Firefox-CSS
 
-Updated March 3, 2021
+# Updated March 3, 2021 , it works fine in version 86.
 
-This gives Firefox a decorative appearance with enhanced security features in the identity box and location bar, it work fine in v86.
+This gives Firefox a decorative appearance with enhanced security features in the identity box and location bar.
 
 The first lines in the userChrome.css file changes between the different button styles.
 
