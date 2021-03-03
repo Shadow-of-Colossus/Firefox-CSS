@@ -9,7 +9,7 @@
 #TabsToolbar {
  display: block !important;
  position: absolute !important;
- bottom: 0px !important;  //this line adjusts the position of the toolbar
+ bottom: 0px !important;  /*this line adjusts the position of the toolbar */
  width: 100vw !important;
 }
  

@@ -47,11 +47,10 @@
   /*text-decoration: underline;*/  
 }
 
-
 /* UNLOADED/PENDING TAB */
 
 .tabbrowser-tab[pending] .tab-label {
-  color: #ab07a8 !important;
+  color: #9c04d1 !important;
   font-size: 9pt !important;
   text-shadow:	0px 1px 0px white,
 				0px 1px 4px white !important;
@@ -76,9 +75,9 @@
 
 /* BUSY/LOADING TAB */
 
-/* 
+/*
 .tabbrowser-tab[busy] .tab-label {
-  color: #9933CC !important;
+  color: green !important;
   font-size: 9pt !important;
   text-shadow:	0px 1px 0px #FFCCFF, 
 				0px 1px 4px #FFCCFF !important;
