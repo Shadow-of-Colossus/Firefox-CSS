@@ -2,7 +2,7 @@
 
 treechildren::-moz-tree-row(selected){
 	background: #6F6F6F !important; 
-	color: ?FFF !important
+	color: #FFF !important
 }
 
 /* treechildren::-moz-tree-row {

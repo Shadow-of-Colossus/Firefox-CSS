@@ -1,3 +1,9 @@
+ /* hide reached the end of page */
+ description.findbar-find-fast {
+	display: none !important
+ }
+ /**/
+
 .browserContainer {
     position: relative;
 }
@@ -116,3 +122,4 @@ window[lwtheme="true"] findbar .findbar-find-status, window[lwtheme="true"] find
 .browserContainer > findbar {
     border-top: none !important;
  }
+ 
