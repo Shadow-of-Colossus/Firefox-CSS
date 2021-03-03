@@ -1,5 +1,10 @@
 /* !!extensionOptionsMenu.uc CSS to change colors of addon state */
 
+#eom-button-popup  {
+	color: #64ae64 !important
+}
+
+/*
 #eom-button-popup menuitem.menuitem-iconic.restartless {
 	color: #64ae64 !important
 }

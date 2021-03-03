@@ -42,7 +42,7 @@ try {
 	  function open_old_pw_manager() {
 		try { 
 		  var old_pw_manager = 'chrome://passwordmgr/content/passwordManager.xhtml';
-		  if(parseInt(Services.appinfo.version) < 73) old_pw_manager = 'chrome://passwordmgr/content/passwordManager.xul';
+		  if(parseInt(Services.appinfo.version) < 73) old_pw_manager = 'chrome://passwordmgr/content/passwordManager.xhtml';
 		
 		  window.open(old_pw_manager ,'', 'chrome, resizable', "width=400,height=400");
 		} catch (e) {}

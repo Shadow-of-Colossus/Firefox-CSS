@@ -17,7 +17,7 @@
 
 /*Overlay Revmoval Auto */
 #_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/behind_overlay_revival.png") !important;
+  list-style-image: url("./image/behind_overlay_removal_auto.png") !important;
 }
 
 /*Behind The Overlay Revival */
@@ -35,25 +35,11 @@
   list-style-image: url("./image/eraser1.png") !important;
 }
 
-/*Export Tabs URLs */
-#_17165bd9-9b71-4323-99a5-3d4ce49f3d75_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/export_tabs_urls.png") !important;
+/* CCS Exfil Protection */
+#_7fc8ef53-24ec-4205-87a4-1e745953bb0d_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/css_exfil_protection.png") !important;
 }
 
-/*Tab Manager */
-#_d8d927ce-6f13-4bab-9f4d-16606428ac6c_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/tab_manager.png") !important;
-}
-
-/*Tabs to Bookmark Groups */
-#tabs-to-bookmark-groups_qw_thucfb_com-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/tabs_to_bookmarks_group.png") !important;
-}
-
-/*Theme Toggler */
-#_9072080f-7321-4db1-badd-053f0c40765e_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/theme_toggler.png") !important;
-}
 
 /* END ADDON BUTTONS */
 
@@ -71,19 +57,14 @@ opacity: 1 !important;
 /* CCS Exfil Protection */
 #_7fc8ef53-24ec-4205-87a4-1e745953bb0d_-browser-action label {
 color: white !important;
-background-color: indigo !important;
+/* background-color: indigo !important; */
+background-color: yellow !important;
+color: black !important;
 opacity: 1 !important;
-}
+} 
 
 /* Noscript */
 #_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Ghostery */
-#firefox_ghostery_com-browser-action label {
 color: white !important;
 background-color: indigo !important;
 opacity: 1 !important;
@@ -103,36 +84,8 @@ background-color: indigo !important;
 opacity: 1 !important;
 }
 
-/* HTTPS Everywhere */
-#https-everywhere_eff_org-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Bitdefender Trafficlight */
-#trafficlight_bitdefender_com-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/*app.telemetry Page Speed Monitor */
-#jid0-oqxcsy9vmemm8jjqjyy5km0nms8_jetpack-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Greasemonkey */
+/* Violentmonkey */
 #_aecec67f-0d10-4fa7-b7c7-609a2db280cf_-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/*AutopalyStopper */
-#autoplay_html5-browser-action label {
 color: white !important;
 background-color: indigo !important;
 opacity: 1 !important;
@@ -159,8 +112,8 @@ background-color: indigo !important;
 opacity: 1 !important;
 }
 
-/*Overlay Revmoval Auto */
-#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action label {
+/* Neat URLs */
+#neaturl_hugsmile_eu-browser-action label {
 color: white !important;
 background-color: indigo !important;
 opacity: 1 !important;
@@ -168,35 +121,3 @@ opacity: 1 !important;
 
 /* END ADDON BADGES */
 
-
-
-/* PREVENT ENLARGEMENT */
-
-#urlbar[breakout-extend] {
-    top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
-    left: 0 !important;
-    width: 100% !important;
-}
-
-#urlbar[breakout-extend] #urlbar-input-container {
-    height: var(--urlbar-height) !important;
-    /*padding: 0px !important;*/
-    padding-block: 0px !important;
-    padding-inline: 0px !important;
-}
-.urlbarView-row {
-    padding: 0px 2px 0px 2px;
-}
-/* END PREVENT ENLARGEMENT */
-
-/* REMOVE BLACK BACKGROUND AND ORANGE BORDER */
-
-#urlbar-background,
-#urlbar-container,
-.urlbar-input-box {
-border: none !important;
-color: none !important;
-background-color: none !important;
-background: none !important;
-}
-/* END REMOVE BLACK BACKGROUND AND ORANGE BORDER */

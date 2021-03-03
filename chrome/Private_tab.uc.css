@@ -26,6 +26,7 @@
 */
 
 /* private new tab page indicator location */
+.private-browsing-indicator,
 #private-mask.private-browsing-indicator {
 	position: relative !important;
 	top: 4px !important; 

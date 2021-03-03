@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            Bookmarks Mebu Undo
+// @name            Bookmarks Menu Undo
 // @author          xiaoxiaoflood
 // ==/UserScript==
 // @namespace     http://space.geocities.yahoo.co.jp/gl/alice0775
