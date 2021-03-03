@@ -1,0 +1,20 @@
+/* tooltips */
+#tabbrowser-tab-tooltip,
+#btTooltip,
+#un-toolbar-tooltip,
+#tooltip,
+.tooltip,
+#aHTMLTooltip,
+#urlTooltip,
+tooltip {
+			-moz-appearance: none !important;
+			background-color: #444 !important;
+			color: #ddd !important;
+			border: 1px solid silver !important;
+			padding: 2px !important;
+			/* This will remove the shadow */
+			/*
+			border-radius: 1px !important;
+			box-shadow: none !important;
+			*/
+}
