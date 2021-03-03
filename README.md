@@ -1,12 +1,12 @@
 # Firefox-CSS
 
-Updated March 4, 2020
+Updated March 3, 2021
 
-This gives Firefox a decorative appearance with enhanced security features in the identity box and location bar, it should work fine in v73.
+This gives Firefox a decorative appearance with enhanced security features in the identity box and location bar, it work fine in v86.
 
 The first lines in the userChrome.css file changes between the different button styles.
 
-I suugest you install a Firefox the like Black Abstract Fox... https://addons.mozilla.org/en-US/firefox/addon/black-abstract-fox/
+I suugest you install a Firefox theme the like Black Abstract Fox... https://addons.mozilla.org/en-US/firefox/addon/black-abstract-fox/
 
 You should install javascript functionality, here is how you do it....https://github.com/xiaoxiaoflood/firefox-scripts
 
