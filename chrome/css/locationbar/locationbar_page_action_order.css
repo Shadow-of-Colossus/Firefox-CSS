@@ -1,32 +1,38 @@
 /*page action button */
 #pageActionButton {
-  -moz-box-ordinal-group: 92 !important;  
+  -moz-box-ordinal-group: 91 !important;  
 }
 
 /* reader view */
 #reader-mode-button {
-  -moz-box-ordinal-group: 93!important;  
+  -moz-box-ordinal-group: 92!important;  
 }
 
 /* indicateTLS */
 #pageAction-urlbar-_252ee273-8c8d-4609-b54d-62ae345be0a1_ {
-  -moz-box-ordinal-group: 94!important;  
+  -moz-box-ordinal-group: 93!important;  
 }
 
 /*flagfox */
 #pageAction-urlbar-_1018e4d6-728f-4b20-ad56-37578a4de76b_  {
-  -moz-box-ordinal-group: 95 !important;  
+  -moz-box-ordinal-group: 94 !important;  
 }
 
 /* canvasblocker */
 #pageAction-urlbar-canvasblocker_kkapsner_de {
-  -moz-box-ordinal-group: 96!important;  
+  -moz-box-ordinal-group: 95!important;  
 }
 
 /* crx viewer */
 #pageAction-urlbar-crxviewer-firefox_robwu_nl {
-  -moz-box-ordinal-group: 97 !important;  
+  -moz-box-ordinal-group: 96 !important;  
 }
+
+/* DNSSEC */
+#pageAction-urlbar-_70b4fb8a-ae41-4e66-99f5-0fa89e411d69_ {
+  -moz-box-ordinal-group: 97!important;  
+filter: contrast(200%) brightness(200%) !important;
+ }
 
 /* boolmark */
 #star-button-box {

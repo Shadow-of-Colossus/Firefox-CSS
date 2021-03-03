@@ -1,0 +1,70 @@
+/*location bar drop down list colors */
+#urlbar-results {
+        background: #111 !important;
+		color: #ddd !important;
+}
+
+/* url in dropdown font size */
+.urlbarView-url {font-size: 8pt !important;}
+
+/* prevent enlargement */
+#urlbar[breakout-extend] {
+    top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+#urlbar[breakout-extend] #urlbar-input-container {
+    height: var(--urlbar-height) !important;
+    /*padding: 0px !important;*/
+    padding-block: 0px !important;
+    padding-inline: 0px !important;
+}
+.urlbarView-row {
+    padding: 0px 2px 0px 2px;
+}
+
+/* remove black background and orange border */
+#urlbar-background,
+#urlbar-container,
+.urlbar-input-box {
+border: none !important;
+color: none !important;
+background-color: none !important;
+background: none !important;
+}
+
+/* reduce row paddings to make them more compact */
+.urlbarView-row {
+    padding: 2px !important;
+    line-height: 1.20em !important;
+}
+.urlbarView-row-inner {
+    padding-bottom: 8px !important;
+}
+.urlbarView {
+    margin: 0px !important;
+    width: 100% !important;
+}
+
+/* move the type icons to the left of the favicon. */
+.urlbarView .urlbarView-favicon {
+    margin-left: 20px !important;
+}
+
+.urlbarView .urlbarView-type-icon {
+    position: relative !important;
+    left: -54px !important;
+    top: -4px !important;
+    margin-right: -24px !important;
+    height: 16px !important;
+    width: 16px !important;
+    filter: contrast(90%) brightness(110%);
+}
+
+/* selected background color */
+:root{ --autocomplete-popup-highlight-background: #999 !important }
+
+/* redundant *
+.urlbarView-row[selected]
+{background-color: #111 !important}*/

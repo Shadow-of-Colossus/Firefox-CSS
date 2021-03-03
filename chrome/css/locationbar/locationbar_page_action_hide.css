@@ -25,5 +25,17 @@
    transition: all 1s ease-in-out 1s
 }
 
+/* page action panel */
+#pageAction-panel-jid1-ymbcq41qvddqca_jetpack, /* youtube no comments */
+#pageAction-panel-_autopagerizetweaked, /*autopagerize */
+#pageAction-panel-_breadcrumbus, /* breadcrumbus */
+#pageAction-panel-crxviewer-firefox_robwu_nl, /* crx viewer */
+#pageAction-panel-canvasblocker_kkapsner_de, /* canvasblocker */
+#pageAction-panel-_036a55b4-5e72-4d05-a06c-cba2dfcc134a_, /* simple translate */
+#pageAction-panel-_c0e1baea-b4cb-4b62-97f0-278392ff8c37_  /* remove page overylay */
+{  visibility: collapse !important}
+
+#pageAction-urlbar-_70b4fb8a-ae41-4e66-99f5-0fa89e411d69_ {color: white !important}
+
 /*THIS TOTALLY HIDES the page action button *
 #pageActionButton {  visibility: collapse !important}

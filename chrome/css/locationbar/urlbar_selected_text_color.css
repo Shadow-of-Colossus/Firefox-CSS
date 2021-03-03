@@ -1,4 +1,4 @@
-/* urlbar selected text color */ 
+/* selected text and highlight color */ 
  ::-moz-selection {
     background: #9C04D1 !important;
     color: #FFFFFF !important;

@@ -1,5 +1,5 @@
 /* that stupid 1px line below navbar */
-#navigator-toolbox::after {border-bottom: 0px !important;}
+#navigator-toolbox {border-bottom: transparent !important;}
 #nav-bar {border-bottom: transparent !important;}
 
 /* identity box */

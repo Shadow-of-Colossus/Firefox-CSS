@@ -1,0 +1,11 @@
+.search-panel-one-offs-header {display: none !important;}
+
+.search-one-offs {background-color: #333 !important}
+
+.searchbar-engine-one-off-item[selected] {background-color: #999 !important}
+
+#urlbar-search-mode-indicator {background: transparent !important; border: 0px !important;}
+
+#urlbar-search-mode-indicator-title {color: #ddd !important; font-size: 13px !important}
+
+#urlbar-search-mode-indicator-close {background-color: darkred !important}

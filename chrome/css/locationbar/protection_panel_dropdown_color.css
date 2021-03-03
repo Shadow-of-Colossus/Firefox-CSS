@@ -1,0 +1,48 @@
+/* site info dropdown */
+#identity-popup-mainView-panel-header {
+	background: #9C04D1 !important
+}
+
+#identity-popup-security > vbox,
+#identity-popup-clear-sitedata-button,
+#identity-popup-permissions-content {
+	background-color: #111 !important
+}
+
+#identity-popup-security-expander {
+	background-color: #111 !important;
+	color: white !important;
+}
+
+/*protections dropdown */
+#protections-popup-mainView-panel-header {
+	background: #9C04D1 !important
+}
+
+#protections-popup,
+#protections-popup-tp-switch-section,
+#tracking-protection-container,
+#protections-popup-no-trackers-found-description,
+#protections-popup-footer,
+#protections-popup-fingerprintersView,
+#protections-popup-fingerprinters-heading,
+#protections-popup-fingerprintersView-list,
+#protections-popup-mainView,
+#protections-popup-trackersView,
+#protections-popup-socialblockView,
+#protections-popup-socialblockView-heading,
+#protections-popup-socialblockView-list,
+#protections-popup-cookiesView,
+#protections-popup-cookiesView-heading,
+#protections-popup-cookiesView-list,
+#protections-popup-cryptominersView,
+#protections-popup-category-list,
+ #protections-popup-category-cryptominers,
+#protections-popup-sendReportView,
+#protections-popup-siteNotWorkingView {
+	background: #111 !important;
+ }
+ 
+ #protections-popup-socialblockView-settings-button {
+	background: #777 !important;
+ }
