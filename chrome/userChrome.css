@@ -2,7 +2,7 @@
 @import url(./ZZ-TEST-CHROME.css); /* for testing new code*/
 
 /* OVERRIDE THE DEFAULT BACKGROUND THEME FOR THE NAVIGATOR TOOLBOX */
-/*@import url(./css/various/!!_BLACK_TOP_THEME.css); /* This makes the navigator toolbox background black overriding the default themes */
+@import url(./css/various/!!_BLACK_TOP_THEME.css); /* This makes the navigator toolbox background black overriding the default themes */
 
 /* ONLY WORKS IN ROOT FOLDER */
 @import url(./!!css_ONLY_works_in_ROOT.css); /*  MEGABAR CRAP -  ONLY WORKS in root chrome folder... toolbar, addon buttons and urlbar tweaks */ 
