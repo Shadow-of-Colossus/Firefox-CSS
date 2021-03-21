@@ -11,17 +11,17 @@
 }
 
 /* colorize location bar icons (except star button) */
-#urlbar :-moz-any(#reader-mode-button,#pageActionButton, #pageAction-urlbar-emailLink,#pageAction-urlbar-sendToDevice,#pageAction-urlbar-screenshots,#pageAction-urlbar-copyURL),
+#urlbar :is(#reader-mode-button,#pageActionButton, #pageAction-urlbar-emailLink,#pageAction-urlbar-sendToDevice,#pageAction-urlbar-screenshots,#pageAction-urlbar-copyURL),
 #urlbar .urlbar-history-dropmarker {
   fill: white !important;
 }
-#urlbar :-moz-any(#reader-mode-button,#pageActionButton, #pageAction-urlbar-emailLink,#pageAction-urlbar-sendToDevice,#pageAction-urlbar-screenshots,#pageAction-urlbar-copyURL):-moz-any(:hover,:hover:active,[open]),
-#urlbar .urlbar-history-dropmarker:-moz-any(:hover,:hover:active,[open]) {
+#urlbar :is(#reader-mode-button,#pageActionButton, #pageAction-urlbar-emailLink,#pageAction-urlbar-sendToDevice,#pageAction-urlbar-screenshots,#pageAction-urlbar-copyURL):is(:hover,:hover:active,[open]),
+#urlbar .urlbar-history-dropmarker:is(:hover,:hover:active,[open]) {
   fill: white !important;
 }
 
 /* increase brightness for search bars go button */
-#searchbar .search-go-button:-moz-any(:hover,:hover:active,[open])  {
+#searchbar .search-go-button:is(:hover,:hover:active,[open])  {
   filter: brightness(1.5) !important;
 }
 
@@ -29,7 +29,7 @@
 #urlbar #page-action-buttons > .urlbar-icon {
   opacity: 1.0 !important;
 }
-#urlbar #page-action-buttons > .urlbar-icon:-moz-any(:hover,:hover:active,[open]){
+#urlbar #page-action-buttons > .urlbar-icon:is(:hover,:hover:active,[open]){
   opacity: 0.6 !important;
 }
 
@@ -40,13 +40,13 @@
   opacity: 1.0 !important;
 }
 #urlbar #star-button-box[open] #star-button,
-#urlbar #star-button:-moz-any(:hover,:hover:active),
-#urlbar #star-button-animatable-box:-moz-any(:hover,:hover:active) {
+#urlbar #star-button:is(:hover,:hover:active),
+#urlbar #star-button-animatable-box:is(:hover,:hover:active) {
   filter: brightness(1.5) !important;
 }
-#urlbar #pageAction-panel-bookmark:not([starred]):-moz-any(:hover,:hover:active,[open]),
+#urlbar #pageAction-panel-bookmark:not([starred]):is(:hover,:hover:active,[open]),
 #urlbar #star-button-box[open] #star-button:not([starred]),
-#urlbar #star-button:not([starred]):-moz-any(:hover,:hover:active) {
+#urlbar #star-button:not([starred]):is(:hover,:hover:active) {
   filter: brightness(1.25) !important;
 }*/
 

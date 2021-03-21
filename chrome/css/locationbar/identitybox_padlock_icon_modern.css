@@ -1,15 +1,15 @@
 /* alternative padlock icons */
-#urlbar[pageproxystate="valid"] :-moz-any(.verifiedDomain,.verifiedIdentity) #identity-icon {
+#urlbar[pageproxystate="valid"] :is(.verifiedDomain,.verifiedIdentity) #identity-icon {
   list-style-image: url(./../../image/padlock_modern.png) !important;
   -moz-image-region: rect(0, 16px, 16px, 0) !important;
 }
 	
-#urlbar[pageproxystate="valid"] :-moz-any(.insecureLoginForms,.mixedActiveContent,.notSecure) #identity-icon {
+#urlbar[pageproxystate="valid"] :is(.insecureLoginForms,.mixedActiveContent,.notSecure) #identity-icon {
   list-style-image: url(./../../image/padlock_modern_mal.png) !important;
   -moz-image-region: rect(0, 16px, 16px, 0) !important;
 }
 
-#urlbar[pageproxystate="valid"] :-moz-any(.weakCipher,.mixedDisplayContent,.mixedDisplayContentLoadedActiveBlocked) #identity-icon {
+#urlbar[pageproxystate="valid"] :is(.weakCipher,.mixedDisplayContent,.mixedDisplayContentLoadedActiveBlocked) #identity-icon {
   list-style-image: url(./../../image/padlock_modern_mpl.png) !important;
   -moz-image-region: rect(0, 16px, 16px, 0) !important;
 }

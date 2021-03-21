@@ -19,6 +19,14 @@
 	background: #9C04D1 !important
 }
 
+/* parts of page are not secure */
+description.identity-popup-warning-box {
+	background-color: gold !important;
+	color: black important;
+	border: double !important;
+	border-color: red !important;
+}
+
 #protections-popup,
 #protections-popup-tp-switch-section,
 #tracking-protection-container,
