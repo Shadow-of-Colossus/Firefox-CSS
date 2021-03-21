@@ -1,0 +1,49 @@
+/* This block changes the colors of the check marks and radio (the circle checks) */
+checkbox[checked] > .checkbox-check {
+  /*list-style-image: url("chrome://global/skin/icons/check.svg"); with a custom path will 
+   *allow you to change the check or radio */
+  fill: #ddd !important;
+}
+
+input[type="checkbox"]:checked {
+  fill: #ddd !important;
+}
+
+.radio-check[selected] {;
+  -moz-context-properties: fill;
+  fill: #ddd !important;
+}
+
+/* Changes the background color of the check boxes and radio circles when not touched */  
+.checkbox-check,
+input[type="checkbox"] {
+  border: 1px solid #ddd !important;
+  background-color: #2a2a2e !important;
+}
+
+.radio-check {
+  border: 1px solid #ddd !important;
+  background-color: #2a2a2e !important;
+}
+
+/* Changes the color of the checkboxes and radio on hover */
+checkbox:not([disabled="true"]):hover > .checkbox-check,
+input[type="checkbox"]:not(:disabled):hover {
+  fill: #000 !important;
+  border-color: #ddd !important;
+  background-color: #9C04D1 !important;
+}
+
+radio:not([disabled="true"]):hover > .radio-check {
+  fill: #000 !important;
+  border-color: #ddd !important;
+  background-color: #9C04D1 !important;
+}
+
+/* Changes the radio focus color */
+checkbox:-moz-focusring > .checkbox-check,
+input[type="checkbox"]:-moz-focusring + label:before,
+radio[focused="true"] > .radio-check,
+tab:-moz-focusring > .tab-middle > .tab-text {
+  outline: 2px solid #ddd !important;
+}
