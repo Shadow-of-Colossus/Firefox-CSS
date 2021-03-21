@@ -1,6 +1,6 @@
 # Firefox-CSS
 
-# Updated March 3, 2021 , it works in version 86.
+# Updated March 21, 2021 , it works in version 86.
 
 This gives Firefox a decorative appearance with enhanced security features in the identity box and location bar.
 
