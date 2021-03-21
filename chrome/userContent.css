@@ -1,7 +1,11 @@
 @import url(./ZZ-TEST-CONTENT.css); /**/
 
 @import url(./css/content/!change_link_colors.css); /* change hovered and visited links */
+@import url(./css/content/_Google_Background.css); /* google background */
+@import url(./css/content/_DuckDuckGo_Background.css); /* duckduckgo background */
+@import url(./css/content/_Google_logo.css); /* google home screen logo*/
 @import url(./css/content/_DuckDuckGo.css); /* duckduckgo home screen logo */
+@import url(./css/content/_theweathernetwork.css); /* fixes !?!?*/
 @import url(./css/content/server_not_found.css); /* server not found colors */
 @import url(./css/content/remove_tab_flash.css); /* remove the flash when pages load */
 @import url(./css/content/arrow-cursor-over-text.css.css); /* set to default */
@@ -10,6 +14,7 @@
 
 /* About Addons page*/
 @import url(./css/content/dark_settings_pages.css); /* dark pages for about pages */
+@import url(./css/content/checkboxes_radio_buttons.css); /* changed the checkboxes and radio buttons*/ 
 @import url(./css/content/addon_button_style_and_color.css); /* there are three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
 @import url(./css/content/addon_multi_column_addons.css); /* multi-columns for addons pages */
 @import url(./css/content/addon_manage_buttons_without_popup.css); /* buttons on addon pages */
@@ -29,6 +34,7 @@
 @import url(./css/content/_cookie_autodelete.css); /**/
 @import url(./css/content/_https_everywhere.css); /**/
 @import url(./css/content/_ublock_origin.css); /**/
+@import url(./css/content/_theme_toggler.css); /**/
 @import url(./css/content/_undo_closed_tabs_button.css); /**/
 @import url(./css/content/_clear_browsing_data.css); /**/
 
