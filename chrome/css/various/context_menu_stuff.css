@@ -3,7 +3,42 @@
 #bookmark-menu-container_robwu_nl-menuitem-_bookmark-menu-item { -moz-box-ordinal-group: 0  !important;}
 
 
-#jid1-kdtticj6wxvafa_jetpack-menuitem-_sss{ -moz-box-ordinal-group: 0  !important;}
+menu[id^='multitabx_j70_user_github_com-menuitem-'] { -moz-box-ordinal-group: 70 !important;} /* Close Tabs */
+#_e85f814a-b0a1-4ce4-9a40-5325da7ba84b_-menuitem-_move_to_new_window { -moz-box-ordinal-group: 71 !important;} /*Move to New Window */ 
+
+/* START Normally Disabled */
+#_b9db16a4-6edc-47ec-a1f4-b86292ed211d_-menuitem-_vdh-main { -moz-box-ordinal-group: 76 !important;} /* Video Download Helper*/
+menu[id^='_531906d3-e22f-4a6c-a102-8057b88a1a63_-menuitem-']{ -moz-box-ordinal-group: 77 !important;} /* SingleFile */
+menu[id^='jid1-gercnsidhzitva_jetpack-menuitem-'] { -moz-box-ordinal-group: 78 !important;} /* PDF Mage */
+menu[id^='nimbusscreencaptureff_everhelper_me-menuitem-'] { -moz-box-ordinal-group: 79 !important;} /* Nimbus Screenshot */
+menu[id^='bloodyvikings_ffs_bplaced_net-menuitem-']{ -moz-box-ordinal-group: 80 !important;} /* Bloogy Vikings */
+/* END Normally Disabled */
+ 
+ /* #context-sep-selectall { -moz-box-ordinal-group: 81 !important;} */
+
+#context-searchselect { -moz-box-ordinal-group: 82 !important;} /* Search */
+#jid1-kdtticj6wxvafa_jetpack-menuitem-_sss{ -moz-box-ordinal-group: 83 !important;}  /*Swift Selection Search */
+
+#_479f0278-2c34-4365-b9f0-1d328d0f0a40_-menuitem-_separator { -moz-box-ordinal-group: 84 !important;} /* separater */
+
+#screenshots_mozilla_org-menuitem-_create-screenshot { -moz-box-ordinal-group: 85 !important;} /* Take Screenshot */
+#_ddc62400-f22d-4dd3-8b4a-05837de53c2e_-menuitem-_read-selection { -moz-box-ordinal-group: 86 !important;} /* Read Aloud */
+menu[id^='jid0-bnmfwww2w2w4e4edvcddbnmhdvg_jetpack-menuitem-'] { -moz-box-ordinal-group: 87 !important;}
+#s3download_statusbar-menuitem-_s3dm_context_menu { -moz-box-ordinal-group: 88 !important;}  /* Download Statusbar */
+menu[id^='_windscribeff-menuitem-'] { -moz-box-ordinal-group: 89 !important;} /* Winscribe */
+#_windscribeff-menuitem-_view-debug-log { -moz-box-ordinal-group: 89 !important;} /* Winscribe  Debug */
+#_74145f27-f039-47ce-a470-a662b129930a_-menuitem-_copy-link-to-clipboard { -moz-box-ordinal-group: 90 !important;} /* Clean URLs */
+#jid0-djsrwcas3wgq2xyyqqvl8dqk1lo_jetpack-menuitem-_scan { -moz-box-ordinal-group: 91 !important;} /* Virus Scan */
+#_54e2eb33-18eb-46ad-a4e4-1329c29f6e17_-menuitem-_top { -moz-box-ordinal-group: 92 !important;}  /* Block Site */
+#cookieautodelete_kennydo_com-menuitem-_cad-parent-expression { -moz-box-ordinal-group: 93 !important;}  /* Cookie AutoDelete */
+menu[id^='cookieautodelete_kennydo_com-menuitem-'] { -moz-box-ordinal-group: 93 !important;}  /* Cookie AutoDelete */
+#_73a6fe31-595d-460b-a920-fcc0f8843232_-menuitem-_noscript-ctx-menu { -moz-box-ordinal-group: 94 !important;}  /* Noscript */
+#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement { -moz-box-ordinal-group: 95 !important;}  /* uBlock Origin */
+#_1018e4d6-728f-4b20-ad56-37578a4de76b_-menuitem-_Flagfox\:1\:submenu { -moz-box-ordinal-group: 96 !important;}  /* Flagfox */
+#_036a55b4-5e72-4d05-a06c-cba2dfcc134a_-menuitem-_translate-selected-text { -moz-box-ordinal-group: 97 !important;}  /* Translate */
+#_036a55b4-5e72-4d05-a06c-cba2dfcc134a_-menuitem-_translate-web-page { -moz-box-ordinal-group: 97 !important;}  /* Translate */
+menu[id^='openwith_darktrojan_net-menuitem-'] { -moz-box-ordinal-group: 98 !important;}  /* Open With */
+menu[id^='zoompage-we_dw-dev-menuitem-'] { -moz-box-ordinal-group: 99 !important;}  /* Zoom Page WE */
 
 
 #context-openlinkintab:not([hidden]),
@@ -18,6 +53,8 @@
 
 /* Remove these Context Menu Entries */
 
+#switchyomega_feliscatus_addons_mozilla_org-menuitem-_inspectLink { display: none !important;} /* Proxy Switch Omega */
+
 #_a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7_-menuitem-_WotContextMenu, /* WOT link */
 #context_sendTabToDevice,
 #context-sep-sendTabToDevice,
@@ -26,13 +63,12 @@
 #context-sendlinktodevice,
 #context-sep-sendlinktodevice,
 #context-navigation,
-#context-sep-sendlinktodevice,
-#context-navigation,
 #context-sendimage,
 #inspect-separator,
 #context-inspect,
 #context-setDesktopBackground,
-#context-inspect-a11y
+#context-inspect-a11y,
+#context-print-selection
  {
  display: none !important;
 }
