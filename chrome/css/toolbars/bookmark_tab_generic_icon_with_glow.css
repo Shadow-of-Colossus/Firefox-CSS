@@ -9,9 +9,11 @@
     fill: violet !important;
 }
 /* tab icon */
+/*
 .tab-content image.tab-icon-image:not([container]) {
     fill: violet !important;
 }
+*/
 
 /* adds glow to icons */
 .bookmark-item.menuitem-with-favicon:not([container]) image {

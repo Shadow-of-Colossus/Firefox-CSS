@@ -1,4 +1,4 @@
-/* replace generic icon color in tabs and bookmarks */
+ /* replace generic icon color in tabs and bookmarks */
 
 /* bookmark toolbar */
 #PlacesToolbarItems>.bookmark-item:not([container])>.toolbarbutton-icon[label]:not([label=""]) {
