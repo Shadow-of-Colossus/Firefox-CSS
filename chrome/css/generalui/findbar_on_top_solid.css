@@ -4,6 +4,10 @@
  }
  /**/
 
+.findbar-textbox {
+    color: #000 !important;
+}
+ 
 .browserContainer {
     position: relative;
 }
@@ -24,7 +28,7 @@ findbar {
   left: 2px;
     background-color: #2E2F2F !important; 
     color: white !important; 
-  display: block; /* added display: block; here */
+  display: flex; /* added display: flex; here */
 }
 
 findbar[hidden="true"] {
@@ -74,52 +78,7 @@ findbar .findbar-closebutton {
     top: 6px;
 }*/
 
-
+/*
 findbar .findbar-closebutton {
     display: none !important;
    }
-
-   
-window[lwtheme="true"] findbar {
-    background: var(--lwt-header-image) !important;
-    background-attachment: fixed !important;
-    background-position: top right !important;
-    top: -1px;
-}
-
-window[lwtheme="true"] findbar:before {
-    display: block;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--toolbar-bgcolor);
-}
-
-window[lwtheme="true"] findbar .findbar-container,
-window[lwtheme="true"] findbar .findbar-closebutton {
-    position: relative;
-    z-index: 1;
-}
-
-window[lwtheme="true"] findbar .findbar-textbox {
-    color: var(--lwt-text-color) !important;
-    background-color: var(--toolbar-bgcolor) !important;
-}
-
-window[lwtheme="true"] findbar .findbar-button[checked="true"] {
-    font-weight: bold;
-    background-color: var(--toolbar-bgcolor) !important;
-}
-
-window[lwtheme="true"] findbar .findbar-find-status, window[lwtheme="true"] findbar .found-matches {
-    color: var(--lwt-text-color) !important;
-}
-
-.browserContainer > findbar {
-    border-top: none !important;
- }
- 
