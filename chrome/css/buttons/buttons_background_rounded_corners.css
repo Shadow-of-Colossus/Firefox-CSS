@@ -5,8 +5,8 @@
 #nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
 #nav-bar .toolbarbutton-1:not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text,
 #nav-bar .toolbarbutton-1:not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack,
-#nav-bar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-text,
-#nav-bar .toolbarbutton-1:not([disabled=true]):-moz-any([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack {
+#nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack {
   border-radius: 8px !important;
   transition: all 0.9s ease !important;
 }
@@ -49,7 +49,7 @@
 }
 
 /* menu bar buttons */
-#main-window toolbox toolbar :-moz-any(#home-button) .toolbarbutton-icon {
+#main-window toolbox toolbar :is(#home-button) .toolbarbutton-icon {
   border-radius: 8px !important;
   transition: all 0.9s ease !important;
 }

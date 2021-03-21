@@ -1,4 +1,6 @@
 /* custom large back-forward buttons */
-#main-window toolbox toolbar :-moz-any(#back-button, #forward-button) .toolbarbutton-icon {
+@import url(./custom_backforward_large.css);
+
+#main-window toolbox toolbar :is(#back-button, #forward-button) .toolbarbutton-icon {
   list-style-image: url("./../../image/bf_ff3.png") !important;
 }
