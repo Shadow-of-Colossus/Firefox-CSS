@@ -34,7 +34,11 @@ code {
 body.off #switch .fa-icon {
 	fill: limegreen !important;
 }	
-	
+
+#switch .fa-icon:hover {
+	background: #333 !important;
+}	
+
 html#ublock0-epicker,
 #ublock0-epicker body {
 	background: transparent !important;
