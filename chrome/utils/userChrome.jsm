@@ -126,10 +126,21 @@ let _uc = {
       let win = windows.getNext();
       if (!win._uc)
         continue;
-      let doc = win.document;
-      let loc = win.location;
-      if (fun(doc, win, loc))
-        break;
+      if (!onlyBrowsers) {
+        let frames = win.docShell.getAllDocShellsInSubtree(Ci.nsIDocShellTreeItem.typeAll, Ci.nsIDocShell.ENUMERATE_FORWARDS);
+        let res = frames.some(frame => {
+          let fWin = frame.domWindow;
+          let {document, location} = fWin;
+          if (fun(document, fWin, location))
+            return true;
+        });
+        if (res)
+          break;
+      } else {
+        let {document, location} = win;
+        if (fun(document, win, location))
+          break;
+      }
     }
   },
 
@@ -162,23 +173,22 @@ if (xPref.get(_uc.PREF_SCRIPTSDISABLED) === undefined) {
 
 function UserChrome_js() {
   _uc.getScripts();
-  Services.obs.addObserver(this, 'domwindowopened', false);
+  Services.obs.addObserver(this, 'chrome-document-global-created', false);
 }
 
 UserChrome_js.prototype = {
-  observe: function (aSubject, aTopic, aData) {
-      aSubject.addEventListener('DOMContentLoaded', this, true);
+  observe: function (aSubject) {
+    aSubject.addEventListener('DOMContentLoaded', this, {once: true});
   },
 
   handleEvent: function (aEvent) {
     let document = aEvent.originalTarget;
     let window = document.defaultView;
     let location = window.location;
-    if (/^(chrome:(?!\/\/(global\/content\/commonDialog|browser\/content\/webext-panels)\.xul)|about:(?!blank))/i.test(location.href)) {
+    if (/^(chrome:(?!\/\/(global\/content\/commonDialog|browser\/content\/webext-panels)\.x?html)|about:(?!blank))/i.test(location.href)) {
       window.UC = UC;
       window._uc = _uc;
       window.xPref = xPref;
-      //document.allowUnsafeHTML = true; // https://bugzilla.mozilla.org/show_bug.cgi?id=1432966
       if (window._gBrowser) // bug 1443849
         window.gBrowser = window._gBrowser;
 
