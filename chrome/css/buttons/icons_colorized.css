@@ -10,11 +10,6 @@
   fill: red !important;
 }
 
-
-#add-ons-button{
-  fill: #007fe0  !important;
-}
-
 /* red */
 #containers-panelmenu,
 #pocket-button:not([open]),
@@ -102,4 +97,8 @@
 
 #preferences-button {
   fill: #e0850f !important;
+}
+
+#add-ons-button {
+  fill: #05b405 !important;
 }
