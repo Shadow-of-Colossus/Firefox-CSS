@@ -5,9 +5,8 @@
 /*@import url(./css/various/!!_BLACK_TOP_THEME.css); /* This makes the navigator toolbox background black overriding the default themes */
 
 /* ONLY WORKS IN ROOT FOLDER */
-@import url(./!!css_ONLY_works_in_ROOT.css); /*  MEGABAR CRAP -  ONLY WORKS in root chrome folder... toolbar, addon buttons and urlbar tweaks */ 
+@import url(./!!css_ONLY_works_in_ROOT.css); /*  ONLY HERE - toolbar, addon buttons and about:config tab icon tweaks */ 
 @import url(./!bottomtoolbar.css); /* colors and sizes bottombar*/
-@import url(./!!extensionOptionsMenu.uc.css); /* changes volor of menu text*/
 @import url(./Private_tab.uc.css); /* changes volor of menu text*/
 /**/
 @import url(./css/generalui/__LIST_SELECTION_BAR_COLOR_COULD_BE_PROBLEM.css); /* list selection bar color?????????????????????? */
@@ -20,7 +19,6 @@
 /*@import url(./css/buttons/buttons_background_rounded_corners.css); /* rounded corners silhouette */
 /**/
 /*The three button styles for the addons and preferences pages can be enabled/disabled  in the userContent.css file */
-/* to change the style edit "css\content\addon_button_style_and_color.css" for * there are three styles (two round-twosquare), (round), (rounded corners)*/ 
 
 
 /**/
@@ -42,9 +40,10 @@
 @import url(./css/locationbar/starbutton_alternative_icon.css); /* better looking navbar bookmark button*/
 @import url(./css/locationbar/protection_panel_dropdown_color.css); /* makes tracking protection box dropdown dark theme*/
 @import url(./css/locationbar/urlbar_selected_text_color.css); /* text selection color*/
-@import url(./css/locationbar/rich_items_list.css); /* rich list dropdown and text selection color*/
+@import url(./css/locationbar/rich_items_list.css); /* MEGABAR CRAP and rich list dropdown and text selection color*/
 @import url(./css/locationbar/search-one_offs.css); /* one off search background color*/
 @import url(./css/locationbar/searchbar_settings.css); /* one off search background color*/
+@import url(./css/locationbar/locationbar_addon_prefix_hide.css); /* hides the Extension prefix or...whatever) thing in address bar */
 
 
 /**/
@@ -62,6 +61,7 @@
 
 
 /**/
+/*@import url(./css/toolbars/bookmark_tab_generic_icon.css); /* change the generic globe icon in tabs and bookmarks icons*/
 @import url(./css/toolbars/bookmark_tab_generic_icon_with_glow.css); /* change the generic globe icon in tabs and bookmarks and white glow on bookmark icons*/
 @import url(./css/toolbars/bookmarksbar_fade.css); /* fades bar when not hovered*/
 @import url(./css/toolbars/bookmarksbar_navbar_bg_transparent.css); /* transparent background bookmark and nav bar*/
@@ -133,8 +133,10 @@
 
 
 
-/* ========= BOOKMARK FOLDER TEXT WHITE ================
 
+
+
+/* ========= BOOKMARK FOLDER TEXT WHITE ================
 /* Make bookmark folders */
 .bookmark-item[type="menu"] > .toolbarbutton-text {color: white;}
 menubar, menubutton/*, menulist, menu, menuitem*/{color: white;}
@@ -144,7 +146,6 @@ menubar, menubutton/*, menulist, menu, menuitem*/{color: white;}
 
 
 /* ============= BOOKMARK FOLDER ICON =================
-
 /* Set icon for "FOLDER NAME" Bookmarks folder */
 #appmenu_bookmarksPopup .bookmark-item[container][label="FOLDER NAME"],
 #personal-bookmarks .bookmark-item[container][label="FOLDER NAME"],
@@ -181,7 +182,6 @@ background-image: url("BookmarksFolderImages/KillSticky.ico")!important; -moz-im
 
 
 /* ENABLE JAVASCRIPT FILES - requires userChrome.xml file in chrome folder
-
 Copyright (c) 2017 Haggai Nuchi   Available for use under the MIT License: https://opensource.org/licenses/MIT */
 
 @charset "utf-8";
@@ -189,4 +189,3 @@ Copyright (c) 2017 Haggai Nuchi   Available for use under the MIT License: https
 toolbarbutton#alltabs-button {
     -moz-binding: url("userChrome.xml#js");
 }
-
