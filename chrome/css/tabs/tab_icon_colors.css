@@ -1,6 +1,5 @@
-
 .tabbrowser-tab .tab-icon-image[src="chrome://mozapps/skin/extensions/extension.svg"]{
-  fill: green !important;
+  fill: #05b405 !important;
 }
 
 .tabbrowser-tab .tab-icon-image[src="chrome://global/skin/icons/settings.svg"]{
