@@ -1,5 +1,10 @@
-/* FIREFOX */
-@import url(./ZZ-TEST-CHROME.css); /* for testing new code*/
+/* BUTTON STYLE - MUST have glass appearance enabled to work */
+/**/
+@import url(./css/buttons/buttons_background_two_round_two_square.css); /* two square and two round edges silhouette*/
+/*@import url(./css/buttons/buttons_background_round_radius.css); /* round background silhouette */
+/*@import url(./css/buttons/buttons_background_rounded_corners.css); /* rounded corners silhouette */
+/**/
+/*The three button styles for the addons and preferences pages can be enabled/disabled  in the userContent.css file */
 
 /* OVERRIDE THE DEFAULT BACKGROUND THEME FOR THE NAVIGATOR TOOLBOX */
 /*@import url(./css/various/!!_BLACK_TOP_THEME.css); /* This makes the navigator toolbox background black overriding the default themes */
