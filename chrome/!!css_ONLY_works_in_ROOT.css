@@ -1,3 +1,8 @@
+/* EXTENSION OPTIONS MENU SCRIPT - enabled text green */
+#eom-button-popup  {
+	color: #64ae64 !important
+}
+
 /*TOOLBAR BUTTONS */
 
 /*Manage Your Addos Button changes it to green */
@@ -35,11 +40,25 @@
   list-style-image: url("./image/eraser1.png") !important;
 }
 
+/*Export Tabs URLs */
+#_17165bd9-9b71-4323-99a5-3d4ce49f3d75_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/export_tabs_urls.png") !important;
+}
+
+/*Theme Toggler */
+#_9072080f-7321-4db1-badd-053f0c40765e_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/theme_toggler.png") !important;
+}
+
 /* CCS Exfil Protection */
 #_7fc8ef53-24ec-4205-87a4-1e745953bb0d_-browser-action .toolbarbutton-icon {
   list-style-image: url("./image/css_exfil_protection.png") !important;
 }
 
+/* Check_All_Scripts_with_URLVoid */
+#_c64b7090-a19c-41f5-a624-490cd627ce06_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/check_all_scripts_with_urlvoid.png") !important;
+}
 
 /* END ADDON BUTTONS */
 
@@ -70,6 +89,13 @@ background-color: indigo !important;
 opacity: 1 !important;
 }
 
+/* Ghostery */
+#firefox_ghostery_com-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
 /* Privacy Badger */
 #jid1-mnnxcxisbpnsxq_jetpack-browser-action label {
 color: white !important;
@@ -84,8 +110,37 @@ background-color: indigo !important;
 opacity: 1 !important;
 }
 
+/* HTTPS Everywhere */
+#https-everywhere_eff_org-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* Bitdefender Trafficlight */
+#trafficlight_bitdefender_com-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/*app.telemetry Page Speed Monitor */
+#jid0-oqxcsy9vmemm8jjqjyy5km0nms8_jetpack-browser-action label {
+color: white !important;
+background-color: indigo !important;
+min-width: 28px !important;
+opacity: 1 !important;
+}
+
 /* Violentmonkey */
 #_aecec67f-0d10-4fa7-b7c7-609a2db280cf_-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/*AutopalyStopper */
+#autoplay_html5-browser-action label {
 color: white !important;
 background-color: indigo !important;
 opacity: 1 !important;
@@ -112,6 +167,13 @@ background-color: indigo !important;
 opacity: 1 !important;
 }
 
+/*Overlay Revmoval Auto */
+#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
 /* Neat URLs */
 #neaturl_hugsmile_eu-browser-action label {
 color: white !important;
@@ -119,5 +181,54 @@ background-color: indigo !important;
 opacity: 1 !important;
 }
 
+/* Tab List Button Enhanced */
+#tablistbuttonenhanced_doub-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
+/* AVG Online Security */
+#aos_avg_com-browser-action label {
+color: white !important;
+background-color: indigo !important;
+opacity: 1 !important;
+}
+
 /* END ADDON BADGES */
+
+
+
+
+
+/* SET CUSTOM TAB FAVICON */
+
+/* set custom 'about:config' favicon */
+.tabbrowser-tab:not([busy])[label^="Advanced Preferences"] .tab-icon-image,
+.tabbrowser-tab:not([busy])[label^="about:config"] .tab-icon-image {
+  list-style-image: none !important;
+  width: 0 !important;
+  padding-left: 16px !important;
+  display: -moz-inline-box !important;
+  background: url("BookmarksFolderImages/Firefox_Alt.ico") !important;
+  background-size: 16px 16px !important;
+  background-repeat: no-repeat !important;
+}
+
+
+/* set custom 'about:config' favicon */
+.tabbrowser-tab:not([busy])[label^="About About"] .tab-icon-image {
+  list-style-image: none !important;
+  width: 0 !important;
+  padding-left: 16px !important;
+  display: -moz-inline-box !important;
+  background: url("BookmarksFolderImages/Firefox.ico") !important;
+  background-size: 16px 16px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* set custom 'about:debugging' favicon */
+.tabbrowser-tab:not([busy])[label^="Debugging - Runtime / this-firefox"] .tab-icon-image {
+  fill: limegreen !important;
+}
 

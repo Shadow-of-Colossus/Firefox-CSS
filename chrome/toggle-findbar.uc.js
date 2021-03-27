@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          Toggle FindBar
+// @name          Toggle FindBar (Ctrl+F)
 // @description   Switch search bar display with Ctrl+F
 // @version       1.1
 // @name            Bookmarks Mebu Undo

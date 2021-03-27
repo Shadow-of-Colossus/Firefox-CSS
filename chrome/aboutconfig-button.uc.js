@@ -28,7 +28,7 @@ try {
 	onClick: function(event) {
 	  if(event.button=='0') {
 		try {
-		  gBrowser.selectedTab = gBrowser.addTrustedTab('chrome://global/content/config.xhtml');
+		  gBrowser.selectedTab = gBrowser.addTrustedTab('chrome://userchromejs/content/aboutconfig/config.xhtml');
 		} catch (e) {}
 	  } 
 

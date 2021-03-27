@@ -1,6 +1,6 @@
 // ==UserScript==
 // Add-on Bar script for Firefox 60+ by Aris
-// @name            Bottom Bar
+// @name           Bottom Bar
 // @author          xiaoxiaoflood
 // ==/UserScript==
 
