@@ -1,4 +1,9 @@
-@import url(./ZZ-TEST-CONTENT.css); /**/
+/*BUTTON STYLE *?
+
+@import url(./css/content/addon_button_style_and_color_2_rounded_2_square.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
+/*@import url(./css/content/addon_button_style_and_color_round.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
+/*@import url(./css/content/addon_button_style_and_color_rounded_corners.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
+
 
 @import url(./css/content/!change_link_colors.css); /* change hovered and visited links */
 @import url(./css/content/_Google_Background.css); /* google background */
@@ -15,9 +20,6 @@
 /* About Addons page*/
 @import url(./css/content/dark_settings_pages.css); /* dark pages for about pages */
 @import url(./css/content/dark_page_preferences_checkboxes_radio_buttons.css); /* changed the checkboxes and radio buttons on prefs page*/ 
-@import url(./css/content/addon_button_style_and_color_2_rounded_2_square.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
-/*@import url(./css/content/addon_button_style_and_color_round.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
-/*@import url(./css/content/addon_button_style_and_color_rounded_corners.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
 @import url(./css/content/addon_multi_column_addons.css); /* multi-columns for addons pages */
 @import url(./css/content/addon_manage_buttons_without_popup.css); /* buttons on addon pages */
 /*@import url(./css/content/addon_compact_addons_manager.css); /* compact addon pages */
