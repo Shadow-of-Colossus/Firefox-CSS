@@ -13,8 +13,8 @@
   url-prefix("chrome://browser/content/"),
   url-prefix("chrome://mozapps/content/"),
   url-prefix("chrome://pippki/content/"),
-  url-prefix("chrome://global/content/config.xhtml"),
-  url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"){
+  url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"),
+  url-prefix("chrome://userchromejs/content/aboutconfig/config.xhtml"){
     :root,
     html|html{
       --in-content-page-color: rgb(210,210,210) !important;

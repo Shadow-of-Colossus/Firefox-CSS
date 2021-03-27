@@ -1,6 +1,6 @@
 /* Remove New Tab Flash */
 
-@-moz-document url-prefix(about:blank), url-prefix(about:newtab), url(moz-extension://308a757d-2c16-4036-b590-7bb9bac1f561redirect.html), url(moz-extension://308a757d-2c16-4036-b590-7bb9bac1f561/html/newtab.html)
+@-moz-document url-prefix(about:blank), url-prefix(about:newtab), url(moz-extension://18833d05-ae1d-4d36-a8e1-a0b85a34bab3redirect.html), url(moz-extension://18833d05-ae1d-4d36-a8e1-a0b85a34bab3/html/newtab.html)
 {
     html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay
     {

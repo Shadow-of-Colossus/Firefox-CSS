@@ -1,10 +1,48 @@
 /*! Alters the webextension Violentmonkey */
-@-moz-document url-prefix("moz-extension://9a5c8c23-68c1-4322-bf5f-4e64ec17f12b/")  {
+@-moz-document url-prefix("moz-extension://26ebab97-bb1b-471b-a55d-b6e1e2c2cc7b/")  {
 html, body {background: #303030 !important; color: #ccc !important}
 
-  .frame-block {
-    background: var(--in-content-box-background)!important
-  }
+/* active/inactive script colors */
+.script.disabled { background: #dcdcdc !important; color: #666 !important;}
+.script { background: #d1f4a9 !important; color: #111 !important;}
+
+/* side panel text color */
+.aside-menu {color: #999 !important;}
+.aside-menu a.active {color: #ddd !important;}
+
+/*
+.btn-ghost:hover:not([selected]) {background: #9C04D1 !important;}
+*/
+
+/* @require/@resource */
+.edit-externals,
+.flex.flex-col.abs-full,
+select.monospace-font,
+option.ellipsis {background: #111 !important; color: #ccc !important}
+
+/* trash hit */
+.trash-hint {background: #eee !important; color: #111 !important}
+
+/* page backgrounds */
+.edit-settings,
+.edit-values,
+.edit-help,
+section h3,
+section.mb-1c h3,
+header.flex,
+.aside-content,
+.tab-about,
+.scripts,
+.tab-settings,
+div.frame-block,  
+.edit-header {background: /*var(--in-content-box-background)*/ #333 !important  }
+
+/* butttons at top of code page */
+.edit-buttons,
+.edit-nav-item.active {background: #777 !important;
+	color: #ddd !important;}
+
+/*code page */	
   .CodeMirror {
     border: 1px solid #4a4a4f;
     border-radius: 4px!important;

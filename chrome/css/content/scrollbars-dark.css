@@ -1,1 +1,4 @@
-:root{ scrollbar-color: rgb(20,20,20) rgb(120,120,120) } 
+:root{ 
+	scrollbar-color: rgb(20,20,20) rgb(120,120,120);
+	/*scrollbar-width: thin !important;*/
+} 
