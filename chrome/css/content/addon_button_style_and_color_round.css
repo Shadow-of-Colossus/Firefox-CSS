@@ -1,5 +1,5 @@
 /* Hide the 'Add-ons Support' button */
-#help-button { display: none !important; }
+#helpButton, #help-button { display: none !important; }
 
 /* ADDON BUTTONS */
  .card.addon addon-options panel-list panel-item:hover:not([selected]),
@@ -33,10 +33,17 @@
 }
 
 .addon plugin-options panel-list panel-item,
-.main-search search-addons search-textbox,
+
 .page-options-menu button,
 .theme-enable-button,
-.card.addon addon-options panel-list panel-item,
+.card.addon addon-options panel-list panel-item {
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 100% !important; /* round buttons */
+}
+
+.main-search search-addons search-textbox,
 #categories button.category,
 #preferencesButton,
 #help-button,
@@ -47,9 +54,7 @@
   border: 1px solid #999 !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-  border-radius: 100% !important; /* round buttons */
-/*	 border-radius: 8px !important; /* rounded corners */
+  border-radius: 50px !important;  /* round buttons */
 }
 
 
@@ -62,9 +67,7 @@
 .actionButtons button{
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-  border-radius: 100% !important; /* round buttons */
-/*	 border-radius: 8px !important; /* rounded corners */
+  border-radius: 50px !important;  /* round buttons */
 }
 
 
@@ -81,9 +84,7 @@
 .accessory-button{
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-  border-radius: 100% !important; /* round buttons */
-/*  border-radius: 8px !important; /* rounded corners */
+  border-radius: 50px !important;  /* round buttons */
 }
 
 .disco-cta-button.primary:hover:not([selected]),
@@ -137,12 +138,13 @@
 #category-sync{
   border: 1px solid #999 !important;
   margin-bottom: 5px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-  border-radius: 100% !important; /* round buttons */
-/*  border-radius: 8px !important; /* rounded corners */
+  border-radius: 50px !important;  /* round buttons */
 }
 
 .disco-cta-button.primary,
+#contentBlockingOptionStandard,
+#contentBlockingOptionStrict,
+#contentBlockingOptionCustom,
 #addonsButton,
 #containersView > richlistitem > hbox > button,
 #searchInput,
@@ -161,9 +163,7 @@
 #homeContentsGroup > vbox > vbox > hbox > hbox {
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-  border-radius: 100% !important; /* round buttons */
-/*  border-radius: 8px !important; /* rounded corners */
+  border-radius: 50px !important;  /* round buttons */
 }
 
 /* about:about page buttons */
@@ -180,7 +180,5 @@
   padding-right: 3px !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-  border-radius: 100% !important; /* round buttons */
-/*  border-radius: 8px !important; /* rounded corners */
+  border-radius: 50px !important;  /* round buttons */
 }

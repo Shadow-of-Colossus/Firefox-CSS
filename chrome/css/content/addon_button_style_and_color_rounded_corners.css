@@ -1,5 +1,5 @@
 /* Hide the 'Add-ons Support' button */
-#help-button { display: none !important; }e !important; }
+#helpButton, #help-button { display: none !important; }
 
 /* ADDON BUTTONS */
  .card.addon addon-options panel-list panel-item:hover:not([selected]),
@@ -33,10 +33,10 @@
 }
 
 .addon plugin-options panel-list panel-item,
-.main-search search-addons search-textbox,
 .page-options-menu button,
 .theme-enable-button,
 .card.addon addon-options panel-list panel-item,
+.main-search search-addons search-textbox,
 #categories button.category,
 #preferencesButton,
 #help-button,
@@ -47,11 +47,15 @@
   border: 1px solid #999 !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*  border-radius: 100% !important; /* round buttons */
 	 border-radius: 8px !important; /* rounded corners */
 }
 
+/*
+.card.addon {
+  border: 3px solid #999 !important;
+  margin-right: 3px !important;
+  margin-top: 2px !important;
+	 border-radius: 8px !important; } /* rounded corners */
 
 
 /* PREFERENCES BUTTONS */
@@ -62,8 +66,6 @@
 .actionButtons button{
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*  border-radius: 100% !important; /* round buttons */
 	 border-radius: 8px !important; /* rounded corners */
 }
 
@@ -81,8 +83,6 @@
 .accessory-button{
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*  border-radius: 100% !important; /* round buttons */
   border-radius: 8px !important; /* rounded corners */
 }
 
@@ -137,12 +137,13 @@
 #category-sync{
   border: 1px solid #999 !important;
   margin-bottom: 5px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*  border-radius: 100% !important; /* round buttons */
   border-radius: 8px !important; /* rounded corners */
 }
 
 .disco-cta-button.primary,
+#contentBlockingOptionStandard,
+#contentBlockingOptionStrict,
+#contentBlockingOptionCustom,
 #addonsButton,
 #containersView > richlistitem > hbox > button,
 #searchInput,
@@ -161,8 +162,6 @@
 #homeContentsGroup > vbox > vbox > hbox > hbox {
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*  border-radius: 100% !important; /* round buttons */
   border-radius: 8px !important; /* rounded corners */
 }
 
@@ -180,7 +179,5 @@
   padding-right: 3px !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
-/*  border-radius: 1px 10px / 12px !important; /* two rounds two square */
-/*  border-radius: 100% !important; /* round buttons */
   border-radius: 8px !important; /* rounded corners */
 }
