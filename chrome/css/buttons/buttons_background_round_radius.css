@@ -8,50 +8,42 @@
 #nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-text,
 #nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* overflow button */
 #nav-bar-overflow-button .toolbarbutton-icon {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* sidebar button */
 #sidebar-button .toolbarbutton-icon {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* home button */
 #home-button .toolbarbutton-icon {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* my uc.js buttons */
 #uc-restart .toolbarbutton-icon,
  #eom-button .toolbarbutton-icon {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* extensions buttons */
 .webextension-browser-action .toolbarbutton-badge-stack {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* addon bar buttons */
 #addonbar .toolbarbutton-1 {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* menu bar buttons */
 #main-window toolbox toolbar :is(#home-button) .toolbarbutton-icon {
   border-radius: 100% !important;
-  transition: all 0.9s ease !important;
 }
 
 /* Rounded corners on address bar */
@@ -65,11 +57,11 @@ border-radius:15px !important;
 .tabbrowser-tab,
 .tab-background,
 .tabbrowser-tab:not([selected]):hover .tab-content {
-	border-radius: 15px 15px 0 0 !important;
+	border-radius: 15px !important;
 	position: relative !important;
 	border: 0 !important;
 }
 
 .tabbrowser-tab .tab-loading-burst {
-	border-radius: 15px 15px 0 0 !important;
+	border-radius: 15px !important;
 }
