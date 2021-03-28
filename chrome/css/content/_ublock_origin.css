@@ -7,11 +7,11 @@ body,
 	/* font-family: Fira Sans !important; */
 	background-color: #333 !important;
 	color: #ddd !important;
-	}
+}
 
-	a {
+a {
 	color: #888 !important;
-	}
+}
 
 .fa-icon {
 	fill: #999 !important;
@@ -217,6 +217,6 @@ button#cloudPullAndMerge {
 
 span.counts {
 		color: #FACD2F !important;
-	}
+}
 	
 }
