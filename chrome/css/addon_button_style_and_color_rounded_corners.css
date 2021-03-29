@@ -1,0 +1,183 @@
+/* Hide the 'Add-ons Support' button */
+#helpButton, #help-button { display: none !important; }
+
+/* ADDON BUTTONS */
+ .card.addon addon-options panel-list panel-item:hover:not([selected]),
+.addon plugin-options panel-list panel-item:hover:not([selected]),
+.page-options-menu button:hover:not([selected]),
+ .theme-enable-button:hover:not([selected]),
+#categories button.category:hover:not([selected]),
+#preferencesButton:hover:not([selected]),
+#help-button:hover:not([selected]),
+#help-button.sidebar-footer-link.help-icon :hover:not([selected]),
+#updates-message:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+}
+
+#categories button.category[selected],
+#preferencesButton[selected],
+#help-button[selected],
+#help-button.sidebar-footer-link.help-icon[selected],
+#updates-message[selected] {
+  background-color: #bbb !important;
+  color: #9C04D1 !important;
+}
+
+#categories button.category:hover[selected],
+#preferencesButton:hover[selected],
+#help-button:hover[selected],
+#help-button.sidebar-footer-link.help-icon:hover[selected],
+#updates-message:hover[selected] {
+  background-color: #9C04D1 !important; 
+  color: white !important;
+}
+
+.addon plugin-options panel-list panel-item,
+.page-options-menu button,
+.theme-enable-button,
+.card.addon addon-options panel-list panel-item,
+.main-search search-addons search-textbox,
+#categories button.category,
+#preferencesButton,
+#help-button,
+#help-button.sidebar-footer-link.help-icon,
+#preferencesButton.text-link hbox,
+#help-button.text-link hbox,
+#updates-message {
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  margin-top: 2px !important;
+	 border-radius: 8px !important; /* rounded corners */
+}
+
+/*
+.card.addon {
+  border: 3px solid #999 !important;
+  margin-right: 3px !important;
+  margin-top: 2px !important;
+	 border-radius: 8px !important; } /* rounded corners */
+
+
+/* PREFERENCES BUTTONS */
+.actionButtons button:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+}
+
+.actionButtons button{
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+	 border-radius: 8px !important; /* rounded corners */
+}
+
+
+/* preferences dialog buttons */
+.dialogTitleBar button.dialogClose.close-icon:hover:not([selected]),
+.dialog-button:hover:not([selected]),
+.accessory-button:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+}
+
+
+.dialogTitleBar button.dialogClose.close-icon,
+.dialog-button,
+.accessory-button{
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  border-radius: 8px !important; /* rounded corners */
+}
+
+.disco-cta-button.primary:hover:not([selected]),
+/* various other preferences buttons */
+#category-general:hover:not([selected]),
+#category-home:hover:not([selected]),
+#category-search:hover:not([selected]),
+#category-privacy:hover:not([selected]),
+#category-sync:hover:not([selected]),
+#addonsButton:hover:not([selected]),
+#containersView > richlistitem > hbox > button:hover:not([selected]),
+#restoreDefaultHomePageBtn:hover:not([selected]),
+#homeMode:hover:not([selected]),
+#homePageUrl:hover:not([selected]),
+#useCurrentBtn:hover:not([selected]),
+#useBookmarkBtn:hover:not([selected]),
+#newTabMode:hover:not([selected]),
+#downloadAndInstallButton:hover:not([selected]),
+#restoreDefaultSearchEngines:hover:not([selected]),
+#removeEngineButton:hover:not([selected]),
+#defaultEngine:hover:not([selected]),
+#SiteDataSettingsDialog hbox button:hover:not([selected]),
+#SiteDataSettingsDialog vbox hbox button:hover:not([selected]),
+#homeContentsGroup > vbox > vbox > hbox > hbox:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+}
+
+#category-general[selected],
+#category-home[selected],
+#category-search[selected],
+#category-privacy[selected],
+#category-sync[selected] {
+  background-color: #bbb !important;
+  color: #9C04D1 !important;
+}
+
+#category-general:hover[selected],
+#category-home:hover[selected],
+#category-search:hover[selected],
+#category-privacy:hover[selected],
+#category-sync:hover[selected] {
+  background-color: #9C04D1 !important; 
+  color: #fff !important;
+}
+
+/* various other buttons */
+#category-general,
+#category-home,
+#category-search,
+#category-privacy,
+#category-sync{
+  border: 1px solid #999 !important;
+  margin-bottom: 5px !important;
+  border-radius: 8px !important; /* rounded corners */
+}
+
+.disco-cta-button.primary,
+#contentBlockingOptionStandard,
+#contentBlockingOptionStrict,
+#contentBlockingOptionCustom,
+#addonsButton,
+#containersView > richlistitem > hbox > button,
+#searchInput,
+#restoreDefaultHomePageBtn,
+#homeMode,
+#homePageUrl,
+#useCurrentBtn,
+#useBookmarkBtn,
+#newTabMode,
+#downloadAndInstallButton,
+#restoreDefaultSearchEngines,
+#removeEngineButton,
+#defaultEngine,
+#SiteDataSettingsDialog hbox button,
+#SiteDataSettingsDialog vbox hbox button,
+#homeContentsGroup > vbox > vbox > hbox > hbox {
+  border: 1px solid #999 !important;
+  margin-right: 3px !important;
+  border-radius: 8px !important; /* rounded corners */
+}
+
+/* about:about page buttons */
+#abouts>li>a:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+#abouts>li>a {
+  color: #ddd !important;
+  border: 1px solid #999 !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  margin-right: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 8px !important; /* rounded corners */
+}
