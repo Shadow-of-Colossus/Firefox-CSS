@@ -1,0 +1,75 @@
+/* MUST HAVE buttons glass effects enabled to work */
+
+/* hamburger - more tools button */
+#nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
+#nav-bar .toolbarbutton-1:not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack,
+#nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* overflow button */
+#nav-bar-overflow-button .toolbarbutton-icon {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* sidebar button */
+#sidebar-button .toolbarbutton-icon {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* home button */
+#home-button .toolbarbutton-icon {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* my uc.js buttons */
+#uc-restart .toolbarbutton-icon {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* sextensions options menu button */
+#eom-button .toolbarbutton-icon {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* extensions buttons */
+.webextension-browser-action .toolbarbutton-badge-stack {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* addon bar buttons */
+#addonbar .toolbarbutton-1 {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* menu bar buttons */
+#main-window toolbox toolbar :is(#home-button) .toolbarbutton-icon {
+  border-radius: 10px 100px / 120px !important;
+}
+
+/* Rounded corners on address bar */
+#identity-box,
+#urlbar,
+#identity-box:after {
+border-radius:10px 100px / 120px !important;
+}
+
+/* rounded top corners on tabs */
+.tabbrowser-tab,
+.tab-background,
+.tabbrowser-tab:not([selected]):hover .tab-content {
+	border-radius: 10px 100px / 120px !important;
+	position: relative !important;
+	border: 0 !important;
+}
+
+.tabbrowser-tab .tab-loading-burst {
+	border-radius: 10px 100px / 120px !important;
+}
+
+#policies-container {
+	border-radius: 10px 100px / 120px !important;
+}
