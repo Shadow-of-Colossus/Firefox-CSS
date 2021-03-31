@@ -1,5 +1,23 @@
 /* MUST HAVE buttons glass effects enabled to work */
 
+/* menubar items */
+#file-menu,
+#edit-menu,
+#view-menu,
+#history-menu,
+#bookmarksMenu,
+#tools-menu,
+#helpMenu{
+  border-radius: 50px !important;
+}
+
+/* bookmarks bar */
+
+#PlacesToolbarItems toolbarbutton.bookmark-item {
+  border-radius: 50px !important;
+   padding-bottom: 3px !important;
+}
+
 /* hamburger - more tools button */
 #nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
 #nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
