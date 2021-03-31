@@ -47,7 +47,7 @@
   border: 1px solid #999 !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+  border-radius: 10px 100px / 120px !important; /* two rounds two square */
 }
 
 /*
@@ -55,7 +55,7 @@
   border: 3px solid #999 !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
-  border-radius: 1px 10px / 12px !important; } /* two rounds two square */
+  border-radius: 10px 100px / 120px !important; } /* two rounds two square */
 
   
 /* PREFERENCES BUTTONS */
@@ -66,7 +66,7 @@
 .actionButtons button{
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+  border-radius: 10px 100px / 120px !important; /* two rounds two square */
 }
 
 
@@ -83,7 +83,7 @@
 .accessory-button{
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+  border-radius: 10px 100px / 120px !important; /* two rounds two square */
 }
 
 .disco-cta-button.primary:hover:not([selected]),
@@ -137,7 +137,7 @@
 #category-sync{
   border: 1px solid #999 !important;
   margin-bottom: 5px !important;
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+  border-radius: 10px 100px / 120px !important; /* two rounds two square */
 }
 
 .disco-cta-button.primary,
@@ -162,7 +162,7 @@
 #homeContentsGroup > vbox > vbox > hbox > hbox {
   border: 1px solid #999 !important;
   margin-right: 3px !important;
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+  border-radius: 10px 100px / 120px !important; /* two rounds two square */
 }
 
 /* about:about page buttons */
@@ -179,5 +179,5 @@
   padding-right: 3px !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
-  border-radius: 1px 10px / 12px !important; /* two rounds two square */
+  border-radius: 10px 100px / 120px !important; /* two rounds two square */
 }

@@ -1,7 +1,12 @@
 @-moz-document url-prefix("about:neterror") {
+
 body {
   background-color: #F2E3A8 !important;
   color: #000 !important;
+}
+
+#text-container {
+  background-image: url(server_not_found_lolifox_orange.jpg) !important;
 }
 
 #errorPageContainer {
