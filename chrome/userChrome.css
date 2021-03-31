@@ -1,15 +1,17 @@
 /* BUTTON STYLE - MUST have glass appearance enabled to work */
 /**/
 @import url(./css/buttons/buttons_background_2_round_2_square.css); /* two square and two round edges silhouette*/
-/*@import url(./css/buttons/buttons_background_round_radius.css); /* round background silhouette */
 /*@import url(./css/buttons/buttons_background_rounded_corners.css); /* rounded corners silhouette */
-/**/
+/*@import url(./css/buttons/buttons_background_round_radius.css); /* round background silhouette */
+
 /*The three button styles for the addons and preferences pages can be enabled/disabled  in the userContent.css file */
+
+
+@import url(./ZZ-TEST-CHROME.css); /* for testing new code*/
 
 
 /* OVERRIDE THE DEFAULT BACKGROUND THEME FOR THE NAVIGATOR TOOLBOX */
 /*@import url(./css/various/!!_BLACK_TOP_THEME.css); /* This makes the navigator toolbox background black overriding the default themes */
-
 
 /* ONLY WORKS IN ROOT FOLDER */
 @import url(./!!css_ONLY_works_in_ROOT.css); /*  ONLY HERE - toolbar, addon buttons and about:config tab icon tweaks */ 
@@ -124,62 +126,11 @@
 /*@import url(./css/generalui/notifications_dark.css); /* notification popups are dark*/
 
 
-/**/
-/* at bottom below bookmark custom favicons is userChrome.js code and code for addon bar and status panel inside it*/
-
-
-
-
-
-
-
-
-/* ========= BOOKMARK FOLDER TEXT WHITE ================
-/* Make bookmark folders */
-.bookmark-item[type="menu"] > .toolbarbutton-text {color: white;}
-menubar, menubutton/*, menulist, menu, menuitem*/{color: white;}
-
-
-
-
-
-/* ============= BOOKMARK FOLDER ICON =================
-/* Set icon for "FOLDER NAME" Bookmarks folder */
-#appmenu_bookmarksPopup .bookmark-item[container][label="FOLDER NAME"],
-#personal-bookmarks .bookmark-item[container][label="FOLDER NAME"],
-#BMB_bookmarksPopup .bookmark-item[container][label="FOLDER NAME"],
-#bookmarksMenuPopup .bookmark-item[container][label="FOLDER NAME"],
-#bookmarks-view treechildren::-moz-tree-image(primary,container,label-FOLDER NAME),
-#placesView     treechildren::-moz-tree-image(primary,container,label-FOLDER NAME),
-#laaBookmarksFolderImages-places-tree
-                treechildren::-moz-tree-image(primary,container,label-FOLDER NAME),
-#laaBookmarksFolderImages-images-folder-image[folderlabel="FOLDER NAME"]
-  { list-style-image:url("BookmarksFolderImages/Martha 1.ico")!important; -moz-image-region:auto!important; }
-
-
-
-
-  
-  /* ================ BOOKMARK  ICON ====================*/
-
-
-.bookmark-item[label="Enable/Disable WebGL"] image {
-width:0!important;
-height:0!important;
-padding: 0 0 16px 16px !important;
-background-image: url("BookmarksFolderImages/Firefox.ico")!important; -moz-image-region:auto!important; }
-
-.bookmark-item[label="Sticky"] image {
-width:0!important;
-height:0!important;
-padding: 0 0 16px 16px !important;
-background-image: url("BookmarksFolderImages/KillSticky.ico")!important; -moz-image-region:auto!important; }
-
-
 
 
 
 /* ENABLE JAVASCRIPT FILES - requires userChrome.xml file in chrome folder
+
 Copyright (c) 2017 Haggai Nuchi   Available for use under the MIT License: https://opensource.org/licenses/MIT */
 
 @charset "utf-8";
@@ -187,3 +138,374 @@ Copyright (c) 2017 Haggai Nuchi   Available for use under the MIT License: https
 toolbarbutton#alltabs-button {
     -moz-binding: url("userChrome.xml#js");
 }
+
+
+
+
+
+/* ========= BOOKMARK FOLDER TEXT WHITE ================ */
+
+/* Make bookmark folders *
+.bookmark-item[type="menu"] > .toolbarbutton-text {color: white;}
+menubar, menubutton {color: white;}
+/* menulist, menu, menuitem {color: white;} */
+
+
+
+
+
+/* ==== CHANGES THE COLOR OF FOLDERS ANYWHERE IN FF ===== */
+
+#bookmarks-view treechildren::-moz-tree-image(container),
+#PlacesToolbarItems toolbarbutton[container="true"],
+#PlacesToolbarItems menu[container="true"] .menu-iconic-left,
+#BMB_bookmarksPopup menu[container="true"] .menu-iconic-icon,
+#bookmarksMenu menu[container="true"] .menu-iconic-icon,
+.bookmark-item[container]
+{ fill:  orchid !important;}
+
+
+/* Change the individual color of  folder icons, WON'T WORK with global color change of folder colors
+
+/*
+#bookmarksMenu menu[container="true"][container="true"] [label="FOLDER"],
+#PlacesToolbarItems toolbarbutton.bookmark-item[container="true"] [label="FOLDER"],
+.bookmark-item[container="true"] [label="FOLDER"]
+{fill: lime !important}
+*/
+
+
+
+
+
+/* ============ BOOKMARK FOLDER ICONS ================== */
+
+/* Set icon for "Dew" Bookmarks folder */
+.bookmark-item[container="true"] [label="Dew"]
+{list-style-image:url("BookmarksFolderImages/Martha 1.ico")!important}
+
+/* Set icon for "Look Search Engines" Bookmarks folder */
+.bookmark-item[container="true"] [label="Look"]
+{list-style-image:url("BookmarksFolderImages/search.ico")!important}
+
+/* Set icon for "Gas" Bookmarks folder */
+ .bookmark-item[container="true"] [label="Gas"]
+{list-style-image:url("BookmarksFolderImages/Gas Pump.ico")!important}  
+  
+/* Set icon for "Puck" Bookmarks folder */
+.bookmark-item[container="true"] [label="Puck"]
+{list-style-image:url("BookmarksFolderImages/NHL Icons/Toronto-Maple-Leafs-1.ico")!important}
+
+/* Set icon for "Puck2" Bookmarks folder */
+.bookmark-item[container="true"] [label="Puck2"]
+{list-style-image:url("BookmarksFolderImages/NHL Icons/Edmonton-Oilers.ico")!important}
+
+/* Set icon for "DLs" Bookmarks folder */
+.bookmark-item[container="true"] [label="DLs"]
+{list-style-image:url("BookmarksFolderImages/DLs.ico")!important}
+
+/* Set icon for "DL2" Bookmarks folder */
+.bookmark-item[container="true"] [label="DL2"]
+{list-style-image:url("BookmarksFolderImages/DLs2.ico")!important}
+
+/* Set icon for "Comp" Bookmarks folder */
+.bookmark-item[container="true"] [label="Comp"]
+{list-style-image:url("BookmarksFolderImages/Computer.ico")!important}
+
+/* Set icon for "Comp2" Bookmarks folder */
+.bookmark-item[container="true"] [label="Comp2"]
+{list-style-image:url("BookmarksFolderImages/Computer.ico")!important}
+
+/* Set icon for "Secure" Bookmarks folder */
+.bookmark-item[container="true"] [label="Secure"]
+{list-style-image:url("BookmarksFolderImages/Security.ico")!important}
+
+/* Set icon for "Rents" Bookmarks folder */
+.bookmark-item[container="true"] [label="Rents"]
+{list-style-image:url("BookmarksFolderImages/utorrent icon.ico")!important}
+
+/* Set icon for "News" Bookmarks folder */
+.bookmark-item[container="true"] [label="News"]
+{list-style-image:url("BookmarksFolderImages/news.ico")!important}
+
+/* Set icon for "News2" Bookmarks folder */
+.bookmark-item[container="true"] [label="News2"]
+{list-style-image:url("BookmarksFolderImages/news.ico")!important}
+
+/* Set icon for "Reddit" Bookmarks folder */
+.bookmark-item[container="true"] [label="Reddit"] 
+{list-style-image:url("BookmarksFolderImages/Reddit.ico")!important}  
+
+/* Set icon for "Ints" Bookmarks folder */
+.bookmark-item[container="true"] [label="Ints"]
+{list-style-image:url("BookmarksFolderImages/ints.ico")!important}
+
+/* Set icon for "Weird" Bookmarks folder */
+.bookmark-item[container="true"] [label="Weird"]
+{list-style-image:url("BookmarksFolderImages/Weird.ico")!important}
+
+/* Set icon for "Food" Bookmarks folder */
+ .bookmark-item[container="true"] [label="Food"]
+ {list-style-image:url("BookmarksFolderImages/Food Hamburger.ico")!important}
+
+/* Set icon for "Misc" Bookmarks folder */
+.bookmark-item[container="true"] [label="Misc"]
+{list-style-image:url("BookmarksFolderImages/Misc Icon.ico")!important}
+
+/* Set icon for "Utube" Bookmarks folder */
+.bookmark-item[container="true"] [label="Utube"]
+{list-style-image:url("BookmarksFolderImages/Youtube.ico")!important}
+
+/* Set icon for "TV Shows" Bookmarks folder */
+.bookmark-item[container="true"] [label="TV"]
+{list-style-image:url("BookmarksFolderImages/tv.ico")!important}
+
+/* Set icon for "Crap" Bookmarks folder */
+.bookmark-item[container="true"] [label="Crap"]
+{list-style-image:url("BookmarksFolderImages/porn 2.ico")!important}
+
+/* Set icon for "Temp" Bookmarks folder */
+.bookmark-item[container="true"] [label="Temp"]
+{list-style-image:url("BookmarksFolderImages/Temp 2.ico")!important}
+  
+
+
+
+
+/* ============= BOOKMARK SUB-FOLDERS ================== */
+
+/* Set icon for "Firefox Add-ons Maybees" Bookmarks folder */
+.bookmark-item[container="true"] [label="Firefox Add-ons Maybees"]   
+{list-style-image:url("BookmarksFolderImages/Firefox.ico")!important}
+
+/* Set icon for "Firefox Help and Important Stuff" Bookmarks folder */
+.bookmark-item[container="true"] [label="Firefox Help and Important Stuff"]
+{list-style-image:url("BookmarksFolderImages/Firefox.ico")!important}
+
+/* Set icon for "Violent Monkey" Bookmarks folder */
+.bookmark-item[container="true"] [label="Violent Monkey"]
+{list-style-image:url("BookmarksFolderImages/ViolentMonkey.ico")!important}
+
+/* Set icon for "Icons, Fonts, Cursors and Codecs" Bookmarks folder */
+.bookmark-item[container="true"] [label="Icons, Fonts, Cursors and Codecs"]
+{list-style-image:url("BookmarksFolderImages/Icon_Icon.ico")!important}
+
+/* Set icon for "Windows BullShit" Bookmarks folder */
+.bookmark-item[container="true"] [label="Windows BullShit"]
+{list-style-image:url("BookmarksFolderImages/Windows.ico")!important}
+
+/* Set icon for "Windows Seven Tips Hacks and Help" Bookmarks folder */
+.bookmark-item[container="true"] [label="Windows Seven Tips Hacks and Help"]
+{list-style-image:url("BookmarksFolderImages/Windows.ico")!important}
+
+/* Set icon for "BSOD Online Analysis And Maybe Help" Bookmarks folder */
+.bookmark-item[container="true"] [label="BSOD Online Analysis And Maybe Help"]
+{list-style-image:url("BookmarksFolderImages/BSOD.ico")!important}
+
+/* Set icon for "Spyware Info Sites and File SCANNING" Bookmarks folder */
+.bookmark-item[container="true"] [label="Spyware Info Sites and File SCANNING"]
+{list-style-image:url("BookmarksFolderImages/Virus.ico")!important}
+
+/* Set icon for "Free Malware Removal Services Utilities" Bookmarks folder */
+.bookmark-item[container="true"] [label="Free Malware Removal Services Utilities"]
+{list-style-image:url("BookmarksFolderImages/Virus.ico")!important}
+
+/* Set icon for "Anti-Virus and Firewall Info Sites" Bookmarks folder */
+.bookmark-item[container="true"] [label="Anti-Virus and Firewall Info Sites"]
+{list-style-image:url("BookmarksFolderImages/Virus.ico")!important}
+
+/* Set icon for " File and Processes Info Sites" Bookmarks folder */
+.bookmark-item[container="true"] [label="File and Processes Info Sites"]
+{list-style-image:url("BookmarksFolderImages/FileInfo.ico")!important}
+
+/* Set icon for "Various Computer Stuff" Bookmarks folder */
+.bookmark-item[container="true"] [label="Various Computer Stuff"]
+{list-style-image:url("BookmarksFolderImages/Various.ico")!important}
+  
+/* Set icon for "Various Computer Magazines" Bookmarks folder */
+.bookmark-item[container="true"] [label="Various Computer Magazines"]
+{list-style-image:url("BookmarksFolderImages/Magazine.ico")!important}
+
+/* Set icon for "My Computer Driver Sites" Bookmarks folder */
+.bookmark-item[container="true"] [label="My Computer Driver Sites"]
+{list-style-image:url("BookmarksFolderImages/Drivers.ico")!important}
+
+/* Set icon for "Various Computer Magazines" Bookmarks folder */
+.bookmark-item[container="true"] [label="Various Computer Magazines"]
+{list-style-image:url("BookmarksFolderImages/Magazine.ico")!important}
+
+/* Set icon for "Visual Styles and WindowBlinds Skins" Bookmarks folder */
+.bookmark-item[container="true"] [label="Visual Styles and WindowBlinds Skins"]
+{list-style-image:url("BookmarksFolderImages/WinBlinds.ico")!important}
+
+/* Set icon for "VirtualBox Help" Bookmarks folder */
+.bookmark-item[container="true"] [label="VirtualBox Help"]
+{list-style-image:url("BookmarksFolderImages/Vbox.ico")!important}
+
+/* Set icon for "VBScript Info" Bookmarks folder */
+.bookmark-item[container="true"] [label="VBScript Info"]
+{list-style-image:url("BookmarksFolderImages/VBScript.ico")!important}
+
+/* Set icon for "Kodi Help For Installing Addons" Bookmarks folder */
+.bookmark-item[container="true"] [label="Kodi Help For Installing Addons"]
+{list-style-image:url("BookmarksFolderImages/Kodi.ico")!important}
+
+
+
+
+
+/* =============== BOOKMARK FAVICONS ==================== */
+
+#bookmarksToolbarFolderPopup menu.menu-iconic.bookmark-item menupopup menuitem.menuitem-iconic.bookmark-item.menuitem-with-favicon[label="About:Config - Advanced Preferences"] image,
+.bookmark-item[label="About:Config - Advanced Preferences"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("chrome://mozapps/skin/extensions/extension.svg")!important; fill: green !important}
+
+#bookmarksToolbarFolderPopup menu.menu-iconic.bookmark-item menupopup menuitem.menuitem-iconic.bookmark-item.menuitem-with-favicon[label="Debugging Addons with Firefox Developer Tools"] image,
+.bookmark-item[label="Debugging Addons with Firefox Developer Tools"] image {fill: limegreen !important}
+
+.bookmark-item[label="about:about - reference to all pages"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important}
+
+.bookmark-item[label="Firefox Profilemaker"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/lock1.ico")!important}
+
+.bookmark-item[label="WebGL Leaks your IP and Location"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important}
+
+.bookmark-item[label="Load Bookmarks In New Tab"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Firefox.ico")!important}
+
+.bookmark-item[label="Change It Up!!!!!"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/5 Canada Day.ico")!important}
+
+.bookmark-item[label="EI Reporting Service"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Canada.ico")!important}
+
+.bookmark-item[label="Sticky"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/KillSticky.ico")!important}
+
+.bookmark-item[label="Gmail Logon"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Web Sites/Google.ico")!important}
+
+.bookmark-item[label="NHL Free Streams Live"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/NHL Icons/Philadelphia-Flyers-1.ico")!important}
+
+.bookmark-item[label="Reuters"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/reuters.ico")!important}
+
+.bookmark-item[label="RawStory.com - Disqus"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/RawStory.ico")!important}
+
+.bookmark-item[label="Meat Temperature Cooking Chart"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Steak.ico")!important}
+
+.bookmark-item[label="What's Cooking America - Louisiana"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Food Pizza.ico")!important}
+
+.bookmark-item[label="FreshCo"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Fresh.ico")!important}
+
+.bookmark-item[label="Microsoft Update Catalog"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Windows.ico")!important}
+
+.bookmark-item[label="Microsoft Update Catalog"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/Windows.ico")!important}
+
+.bookmark-item[label="DNSSEC? Or Not?"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/DNS Icon.ico")!important}
+
+.bookmark-item[label="DNSSEC Resolver Test"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/DNS Icon.ico")!important}
+
+.bookmark-item[label="DNSSEC Website Analyzer"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/DNS Icon 2.ico")!important}
+
+.bookmark-item[label="Global Map of Outbreaks of Diseases"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/outbreak.ico")!important}
+
+.bookmark-item[label="LimeTorrents"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/LimeTorrents.ico")!important}
+
+.bookmark-item[label="The TVDB.com - Online TV Show Database"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/tv.ico")!important}
+
+.bookmark-item[label="Canadian Outages - Outlook currently down?"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/CanadaOutage.ico")!important}
+
+.bookmark-item[label="POLITICO"] image {
+width:0!important;
+height:0!important;
+padding: 0 0 16px 16px !important;
+background-image: url("BookmarksFolderImages/news.ico")!important}
