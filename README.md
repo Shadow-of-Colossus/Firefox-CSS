@@ -16,4 +16,4 @@ I've hidden the tracking protection icon but if you click it you'll get the trac
 
 This is a mish-mash of my code and others I've collected and edited over time to acheive this. It uses @import in the userChrome.css file so it's easier to enable or disable features you want or not. I works well for me but it's a work in progress.
 
-![Firefox](https://github.com/Shadow-of-Colossus/Firefox-CSS/blob/master/Screenshot%20with%20Info.jpg)
+![Firefox](https://github.com/Shadow-of-Colossus/Firefox-CSS/blob/master/My%20Screenshot%20with%20Info.jpg)
