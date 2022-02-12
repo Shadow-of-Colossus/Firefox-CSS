@@ -5,7 +5,7 @@ body,
 #sticky,
 #main {
 	/* font-family: Fira Sans !important; */
-	background-color: #333 !important;
+	background-color: #111 !important;
 	color: #ddd !important;
 }
 
@@ -17,14 +17,13 @@ a {
 	fill: #999 !important;
 }
 
-.fa-icon:hover {
-	fill: white !important;
-	/*background-color: #888 !important;*/
-}	
-
-code {
-	background-color: #555 !important;
+#switch {
+	background-color: #111 !important;
 }
+
+.fa-icon:hover {
+	fill: lime !important;
+}	
 
 #switch .fa-icon, 
 #switch .fa {
@@ -35,9 +34,9 @@ body.off #switch .fa-icon {
 	fill: limegreen !important;
 }	
 
-#switch .fa-icon:hover {
-	background: #333 !important;
-}	
+#refresh {
+	background-color: #ddd !important;
+    }
 
 html#ublock0-epicker,
 #ublock0-epicker body {
@@ -49,34 +48,19 @@ html#ublock0-epicker,
 	background-color: #000 !important;
 }
 
-body.off #switch .fa {
-	color: #555 !important;
-}
-
 .tool {
-	color: #999 !important;
+	color: #ddd !important;
+	background-color: #111 !important;
+	padding: 0 0.6em !important;
+	padding-bottom: 30px !important;
 }
 
 .tool.enabled:hover {
-	fill: white!important;
-	background-color: #333 !important;
+	fill: lime !important;
 }
 
 .tool.:hover {
-	fill: white!important;
-	background-color: #333 !important;
-}
-
-.permatoolbar {
-	background-color: #333 !important;
-}
-
-.permatoolbar .button {
-	background-color: #333 !important;
-}
-
-.permatoolbar .button:hover {
-	background-color: #888 !important;
+	fill: lime !important;
 }
 
 #tooltip {
@@ -86,15 +70,15 @@ body.off #switch .fa {
 }
 
 #firewall>div {
-	background-color: #333 !important;
+	background-color: #111 !important;
 }
 
 #firewall>div:hover {
-	background-color: #333 !important;
+	background-color: #111 !important;
 }
 
 #firewall>div>span {
-	color: #333 !important;
+	color: #111 !important;
 	border-bottom: 1px solid #111 !important;
 	/* font-size: 10pt !important; */
 	/* background-color: #777 !important; */ /* CAN'T see firewall selections */
@@ -105,13 +89,42 @@ body.off #switch .fa {
 }
 
 #extraTools {
-	background-color: #333 !important;
+	background-color: #111 !important;
 }
 
-#extraTools>span:hover {
-	fill: #1e90ff !important;
+
+
+/* These are for the dashboard window */
+
+/*checkboxes */
+:root {
+	--checkmark: white !important;
+	--checkbox-checked-ink: green !important;
+}
+	
+.checkbox {
+	border: 1px solid #ddd !important;
 }
 
+.checkbox:hover {
+	background-color: #9C04D1 !important;
+}
+
+.input.checkbox input[checked] > .checkbox-check {
+	background-color: green !important;
+}
+
+/* filter counters */
+span.counts {
+	color: #FACD2F !important;
+}
+
+/* background of active line */
+.CodeMirror-activeline-background {
+    background: #cdfabc !important;
+}
+
+/* top widget line */
 #dashboard-nav {
 	background-color: #111 !important;
 	border-bottom: 1px solid #777 !important;
@@ -123,7 +136,7 @@ body.off #switch .fa {
 }
 
 .tabButton {
-	background-color: #333 !important;
+	background-color: #111 !important;
 	border: 1px solid #666 !important;
 	border-bottom: 1px solid #777 !important;
 	color: #ddd !important;
@@ -135,88 +148,47 @@ body.off #switch .fa {
 	border-bottom: 1px solid #222 !important;
 }
 
+/*buttons line */
 #diff li {
 	background-color: #555 !important;
 }
 
 #diff li:nth-child(even) {
-	background-color: #333 !important;
+	background-color: #111 !important;
 }
 
 #diff textarea {
-	background-color: #333 !important;
-	color: #ffff !important;
-}
-
-hr {
-	display: none !important;
-}
-
-.fieldset-header {
-	color: var(--nords-0) !important;
-}
-
-#loggerSettingsDialog,
-#modalOverlayContainer,
-#netFilteringDialog,
-#netFilteringDialog>.panes>.details>div,
-#netFilteringDialog>div.panes>.dynamic .row {
-	background-color: #333 !important;
-}
-
-#domTree {
-	color: white !important;
-}
-
-#ruleFilter input,
-input[type=number] {
-	-moz-appearance: none !important;
-	background-color: #777 !important;
-	border: 1px solid !important;
-	border-color: #777 !important;
-	color: white !important;
-}
-
-#cloudWidget {
-	background: #333 !important;
-	color: #ddd !important;
-}
-
-#cloudWidget>span {
-	background: #333 !important;
-	color: #ddd !important;
-	/*  fill: white !important;*/
-}
-
-#cloudinfo {
-	background: #333 !important;
-	color: #ddd !important;
-}
-
-:root {
-	--checkmark: white !important;
-	--checkbox-checked-ink: #333 !important;
-}
-	
-.checkbox {
-	border: 1px solid #ddd !important;
-}
-.checkbox:hover {
-	background-color: #9C04D1 !important;
-}
-
-button#cloudPush,
-button#cloudPull,
-button#cloudPullAndMerge {
-	background: #9C04D1 !important;
+	background-color: #111 !important;
+	color: #fff !important;
 }
 
 #actions {
-	background: #333 !important;
+	background: #111 !important;
 }
 
-span.counts {
-		color: #FACD2F !important;
+/* buttons on hover */
+button:hover {
+	color: #fff !important;
+	background-color: #9C04D1 !important;
 }
-	
+
+button.preferred:not(.disabled):not([disabled]) {
+    background-color: limegreen !important;
+    }
+
+/* vaious other page settings */
+.supportEntry div p span {
+	color: lime !important;
+}
+
+code {
+	background-color: #555 !important;
+}
+
+.fieldset-header,
+.synopsis,
+h3 {
+	color: #fff !important;
+}
+
 }
