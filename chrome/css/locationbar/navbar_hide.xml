@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE bindings> <bindings xmlns="http://www.mozilla.org/xbl"> <binding id="urlbar" extends="chrome://browser/content/urlbarBindings.xml#urlbar"> <implementation> <constructor><![CDATA[ const self = this;
