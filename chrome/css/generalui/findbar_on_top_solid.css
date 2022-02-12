@@ -1,12 +1,13 @@
- /* hide reached the end of page */
- description.findbar-find-fast {
-	display: none !important
+ /* reached the end of page */
+description.findbar-label {
+	display: none !important; 
  }
  /**/
 
 .findbar-textbox {
     color: #000 !important;
 }
+ 
  
 .browserContainer {
     position: relative;
@@ -22,11 +23,12 @@ findbar {
   padding: 4px 6px 6px 6px;
   border: 1px solid var(--toolbox-border-bottom-color);
   border-top-width: 0;
-  border-radius: 0 0 var(--toolbarbutton-border-radius) var(--toolbarbutton-border-radius);
+  border-radius: 8px !important;
   position: absolute;
   top: 1px;
   left: 2px;
-    background-color: #2E2F2F !important; 
+  background: #2E2F2F !important; 
+	
     color: white !important; 
   display: flex; /* added display: flex; here */
 }
@@ -70,15 +72,31 @@ findbar .findbar-button {
 	 border-color: #6F6E6E !important;
 }
 
-/*
-findbar .findbar-closebutton {
-    margin-right: 4px !important;
-    padding-inline-end: 0 !important;
-    position: relative;
-    top: 6px;
-}*/
+.findbar-find-previous {
+margin-right: 4px !important;
+border-radius: 4px !important;
+border: 1px solid #888 !important;
+}
 
-/*
-findbar .findbar-closebutton {
-    display: none !important;
-   }
+.findbar-find-next {
+border-radius: 4px !important;
+border: 1px solid #888 !important;
+}
+
+checkbox.findbar-highlight.tabbable,
+checkbox.findbar-case-sensitive.tabbable,
+checkbox.findbar-match-diacritics.tabbable,
+checkbox.findbar-entire-word.tabbable {
+color: white !important; }
+
+
+.findbar-closebutton {
+color: yellow !important;
+}
+
+.findbar-closebutton:hover {
+color: red !important;
+transform: rotate(720deg) !important;
+transition: transform ease-in-out 2s !important;
+}
+

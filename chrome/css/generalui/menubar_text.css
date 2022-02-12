@@ -1,12 +1,19 @@
 .menubar-text { 
-	color: #ddd !important; 
+	color: #fff !important; 
 	font-family: Fira Sans !important;
 	font-weight: inherit !important;
 	font-size: 14px !important;
+	padding-top: 5px !important;
 }
 
  #urlbar-input-container  {
-	font-family: Fira Sans !important;
+	color: #fff !important; 
+    font-family: Fira Sans !important;
 	font-weight: inherit !important;
-	font-size: 14px !important;
+	font-size: 17px !important;
+}
+
+/* 
+.menupopup-arrowscrollbox {
+    color: #ddd !important;
 }

@@ -1,3 +1,8 @@
+/*Overflow Menu */
+#widget-overflow-mainView { background-color: #111 !important; }
+
+
+/*Library Menu */
 @-moz-document url(chrome://browser/content/places/places.xhtml) {
     toolbar {
         -moz-appearance: none !important;

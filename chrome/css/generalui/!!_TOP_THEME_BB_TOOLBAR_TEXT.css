@@ -1,0 +1,28 @@
+/* This makes the navigator toolbox background black overriding the default themes */
+
+#main-menubar {background-color: transparent !important;}
+
+#file-menu, #edit-menu, #view-menu, #history-menu, #bookmarksMenu, #tools-menu, #helpMenu
+{text-shadow: 0px 0px #111 !important;}
+
+
+#navigator-toolbox {
+background-image: url("./../../image/!header_black_eyes_1.jpg") !important;
+}
+
+/* header images 
+background-image: url("./../../image/!header_black.jpg") !important;
+background-image: url("./../../image/!header_black_eyes_1.jpg") !important;
+background-image: url("./../../image/!header_black_eyes_2.jpg") !important;
+background-image: url("./../../image/!header_black_lips_1.jpg") !important;
+background-image: url("./../../image/!header_black_abstract_fox.jpg") !important;
+background-image: url("./../../image/!header_dark_fox_7_lite.jpg") !important;
+background-image: url("./../../image/!header_glowing_tiger.jpg") !important;
+background-image: url("./../../image/!header_kelly_brook_01.jpg") !important;
+background-image: url("./../../image/!header_nipple.jpg") !important;
+*/
+
+
+
+
+ 

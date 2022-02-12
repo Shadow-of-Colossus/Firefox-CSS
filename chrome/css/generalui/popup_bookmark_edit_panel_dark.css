@@ -1,21 +1,56 @@
-.panel-arrowcontent {
-	background-color:#111 !important;
-	color: #fff !important;
+#editBookmarkPanel.panel-no-padding box.panel-header {
+  display: none !important;
+}
+
+#editBMPanel_newFolderBox {
+  height: 15px !important;
+}
+
+#bookmarkpropertiesdialog { 
+  background-color: #111 !important;
+}
+
+#editBMPanel_namePicker,
+#editBMPanel_locationField,
+#editBMPanel_tagsField,
+#editBMPanel_keywordField {
+  font-weight: bold !important;
+  color: #111 !important;
+  background-color: #ddd !important;
+}
+
+#tags-field-info,
+#keyword-field-info {
+  color:white !important;
+}
+
+.dialog-button-box button {
+  color:black !important;
+  background-color: #ddd !important;
+}
+
+.dialog-button-box button:hover:not([selected]) {
+  color:white !important;
+  background-color: #9C04D1 !important;
+}
+
+/*OLD */
+#editBMPanel_folderMenuList.folder-icon menupopup.in-menulist {
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;  
 }
 
 #editBMPanel_folderMenuList > menupopup {
   background-color: #aaa !important;
 }
 
-#editBMPanel_namePicker,
-#editBMPanel_tagsField ,
 #editBMPanel_folderMenuList{
   color: #111 !important; 
-  background-color: #aaa !important;
+  background-color: #ddd !important;
 }
 
 #editBMPanel_folderTree.placesTree treechildren {
-	background-color: #aaa !important;
+  background-color: #ddd !important;
 }
 
 #editBMPanel_folderTree > treechildren{ 
@@ -23,10 +58,17 @@
 }
 
 #editBMPanel_tagsSelectorRow richlistbox {
-	background-color: #aaa !important;
+  background-color: #ddd !important;
 }
 
-#editBookmarkPanelDoneButton {
- -moz-appearance: none !important;
- background-color: #9C04D1 !important;
+#editBookmarkPanelDoneButton,
+#editBookmarkPanelRemoveButton {
+  color: #111 !important;
+  background-color: #ddd !important;
+}
+
+#editBookmarkPanelDoneButton:hover,
+#editBookmarkPanelRemoveButton:hover {
+  color: #fff !important;
+  background-color: #9C04D1 !important;
 }

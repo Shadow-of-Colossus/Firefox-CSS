@@ -1,0 +1,41 @@
+/* Menu Popups */
+.PanelUI-subView,
+.panel-subview-body,
+#widget-overflow-mainView {
+  background-color: #111 !important;
+  color: #ddd !important;
+  border: none !important;
+}
+
+#overflowMenu-customize-button {
+  border: 1px solid #666 !important;
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+#overflowMenu-customize-button:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  color: white !important;
+}
+
+.panel-arrowcontent {
+  border: 1px solid #666 !important;
+}
+.panel-arrow {
+  display: none !important;
+  stroke: #777 !important;
+}
+
+toolbarseparator {
+  border-top: 1px solid #555 !important;
+}
+.panel-subview-footer {
+  border-top: 1px solid #888 !important;
+}
+.panel-header {
+  border-bottom: 1px solid #666 !important;
+}
+#appMenu-zoom-controls #appMenu-zoomReset-button {
+  border: 1px solid #555 !important;
+  background: #444 !important;
+}

@@ -1,3 +1,14 @@
+/*sidebar header icon colors */
+#sidebar-switcher-bookmarks > .toolbarbutton-icon,
+#sidebar-box[sidebarcommand="viewBookmarksSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
+  fill: yellow !important;
+}
+
+#sidebar-switcher-history > .toolbarbutton-icon,
+#sidebar-box[sidebarcommand="viewHistorySidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
+  fill: fuchsia  !important;
+}
+
 /*sidebar header dark */
 #sidebar-header:-moz-lwtheme {
   background-color: var(--toolbar-bgcolor) !important;
@@ -6,6 +17,19 @@
   background-repeat: no-repeat !important;
   border-bottom: 0 !important;
 }
+
+/*Sidebar Switcher menu */
+#sidebarMenu-popup.cui-widget-panel toolbarbutton.subviewbutton:hover:not([selected]) {
+  background-color: #777 !important;
+  color: #fff !important;
+}
+
+#sidebarMenu-popup.cui-widget-panel toolbarbutton.subviewbutton {
+  background-color: #111 !important;
+  color: #ddd !important;
+}
+
+#sidebarMenu-popup > toolbarseparator {display: none !important;}
 
 #main-window:-moz-lwtheme-darktext #sidebar-box,
 #main-window:-moz-lwtheme-darktext #sidebar-box * {
@@ -20,6 +44,8 @@
 /* sidebar appearnce dark */
 #bookmarksPanel.sidebar-panel {
   color: #DDD !important;
+  padding: 0px 3px 0px 3px  !important;
+  border-radius: 4px !important;
 }
 
 #sidebar,
@@ -31,6 +57,8 @@
 #viewButton {
   background: #111 !important;
   color: #DDD !important;
+  padding: 0px 3px 0px 3px  !important;
+  border-radius: 4px !important;
 }
 
 .sidebar-placesTreechildren::-moz-tree-cell(hover),
@@ -40,6 +68,8 @@
 #viewButton:hover {
  background: #666666 !important;
  color: #DDD !important;
+  padding: 0px 3px 0px 3px  !important;
+  border-radius: 4px !important;
 }
    
 /* Fix for remaining hovering borders */

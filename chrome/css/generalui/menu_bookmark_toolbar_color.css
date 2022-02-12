@@ -1,0 +1,19 @@
+/*hide open all in tabs */
+menuseparator.bookmarks-actions-menuseparator,
+menuitem.openintabs-menuitem {display: none !important; }
+
+/* bookmark toolbar dropdown color */
+#PlacesToolbar menupopup[placespopup="true"] {
+  --arrowpanel-background: #111 !important;
+  --arrowpanel-color: #ddd !important;
+}
+
+/* borders  - remove dumb thing*/
+#PlacesToolbar menupopup,
+menu.menu-iconic > menupopup { border: none !important; }
+/* set color */
+#PlacesToolbar menupopup { --my-preferred-border-color: #ddd }
+/* set border width */
+.menupopup-arrowscrollbox {  
+  border: 1px solid var(--my-preferred-border-color,var(--panel-border-color)) !important;
+}

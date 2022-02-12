@@ -1,14 +1,3 @@
-/* IN userChrome FILE ***** NOT SURE OF THE EFFECT OVERALL This changes all treechildren elements highlights (list-like elements) IN userChrome FILE*
-treechildren::-moz-tree-row {
-  background: #ddd !important;
-  }
-
-treechildren::-moz-tree-row(selected){
-  background: #6F6F6F !important;
-  color: #ddd !important
-  }
-  */
-  
 @-moz-document url("chrome://browser/content/pageinfo/pageInfo.xhtml") {
 
 	#topBar {

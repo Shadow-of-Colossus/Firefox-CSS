@@ -1,0 +1,26 @@
+/* dev tools and app menu border -----> slot overrides border */
+#appMenu-protonMainView > vbox,
+#appmenu-moreTools,
+#PanelUI-developer-tools-view  {
+  /*  border-radius: 8px !important;   border: 1px solid #ddd !important;*/
+  padding: 4px 0px 4px 0px  !important;
+}
+
+/*dev tools menu - MENU HOVER COLOUR */
+#PanelUI-moreTools-button:hover:not([selected]),
+#PanelUI-developer-tools.subview-subheader:hover:not([selected]), 
+#PanelUI-developer-tools-view > toolbarbutton:hover:not([selected]),
+/* app menu */
+#appMenu-protonMainView.PanelUI-subView toolbarbutton:hover:not([selected]),
+#PanelUI-bookmarks.PanelUI-subView toolbarbutton:hover:not([selected]),
+#PanelUI-history.PanelUI-subView toolbarbutton:hover:not([selected]),
+#appmenu-moreTools.PanelUI-subView toolbarbutton:hover:not([selected]),
+#PanelUI-helpView.PanelUI-subView toolbarbutton:hover:not([selected]) {
+  color: #ffffff !important; 
+  background-color: #777 !important;
+}
+
+/* "sync and save data" text */
+#appMenu-fxa-text {
+  color: #fff !important;
+}

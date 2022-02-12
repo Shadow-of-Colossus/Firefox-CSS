@@ -1,0 +1,126 @@
+/* HOVER SELECT highlight SHAPE - rounded corners  */
+menupopup > menuitem,
+menupopup > menu {
+  padding: 0px 3px 0px 3px  !important;
+  border-radius: 4px !important;
+}
+
+
+/* overflow menu hover color - MENU HOVER COLOUR */
+.widget-overflow-list .toolbarbutton-1:hover {
+  color: #ffffff !important;
+  background: #777 !important;
+}
+
+#widget-overflow-mainView toolbarseparator,
+menupopup menuseparator {
+  border-color: transparent !important;
+}
+
+
+/* minimum width for context menus */
+menupopup#placesContext {
+  min-width: 225px !important;
+}
+
+#bookmark-menu-container_robwu_nl-menuitem-_bookmark-menu-item menupopup {
+  min-width: 140px !important;
+}
+
+menupopup#new-tab-button-popup {
+  min-width: 165px !important;
+}
+
+menupopup#toolbar-context-menu {
+  min-width: 200px !important;
+}
+
+#contentAreaContextMenu ,
+#tabContextMenu {
+  min-width: 265px !important;
+}
+
+
+/* NEW clear history popup */
+/* .dialogBox, */ /* #commonDialog overides I think */
+#sanitizeDurationPopup {
+  background: #111 !important;
+  color: #ddd !important;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+}
+
+#sanitizeDurationChoice,
+#sanitizeEverythingWarningBox {
+  background: #ccc !important;
+  color: #111 !important;
+}
+
+#sanitizeDurationPopup > menuitem[selected] {
+  background-color: #9C04D1 !important; 
+  color: white !important;
+}
+
+#SanitizeDialog {
+  background: #111 !important;
+  color: #ddd !important;
+}
+
+
+/* popup menu color, borders ---> slot overrides these */
+/*
+#appmenu_historyMenupopup,
+#appmenu_customizeMenu,
+#appmenu_helpMenupopup,
+#appmenu_bookmarksPopup,
+#appmenu_bookmarksPopup menupopup,
+#appmenu_historyMenupopup menupopup,
+#widget-overflow-mainView
+*/
+
+/* main-menubar > menu > submenus */
+#file-menu menupopup,
+#edit-menu menupopup,
+#view-menu menupopup,
+#history-menu menupopup,
+#bookmarksMenu menupopup,
+#tools-menu menupopup,
+#helpMenu menupopup,
+/* bookmarks toolbar > menus > submenus */
+#placesContext,
+#placesContext menupopup,
+#toggle_PersonalToolbar menupopup,
+#bookmark-menu-container_robwu_nl-menuitem-_bookmark-menu-item > menupopup,
+/* bookmark  toolbar button menu */
+#bookmarks-menu-button menupopup,
+/* various menus */
+#new-tab-button-popup,
+#tabContextMenu,
+#tabContextMenu menupopup,
+#toolbar-context-menu,
+#toolbar-context-menu menupopup,
+#ContentSelectDropdown menupopup,
+menupopup.textbox-contextmenu,
+.popup-internal-box {
+  background: #111 !important;
+  color: #ddd !important;
+  border: 1px solid #ddd !important;
+  padding: 3px 3px 3px 3px  !important;
+  border-radius: 8px !important;
+}
+
+#contentAreaContextMenu {
+  background: #111 !important;
+  color: #ddd !important;
+  border: 1px solid #ddd !important;
+  padding: 0px 3px 3px 3px  !important;
+  border-radius: 8px !important;
+}
+
+#contentAreaContextMenu menupopup {
+  background: #111 !important;
+  color: #ddd !important;
+  border: 1px solid #ddd !important;
+  padding: 3px 3px 3px 3px  !important;
+  border-radius: 8px !important;
+}

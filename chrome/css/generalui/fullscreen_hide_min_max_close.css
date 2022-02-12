@@ -1,6 +1,10 @@
-#titlebar-buttonbox  {display:none !important;}
+/*/ NO TITLEBAR hide - titlebar button box... appears transparent */
 
-/* full screen */
-#restore-button {display:none !important;}
-#close-button {display:none !important;}
-#minimize-button {display:none !important;}
+.titlebar-buttonbox-container { 
+  visibility: hidden !important;
+}
+
+/* moves out of the way */
+.titlebar-buttonbox-container {
+  margin-left: 800px !important;
+} 
