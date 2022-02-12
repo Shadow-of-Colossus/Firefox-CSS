@@ -1,6 +1,0 @@
-/*  Remove the "Sign in to sync" from top of photon hamburger menu */
-
-#appMenu-fxa-label, 
-toolbarseparator.sync-ui-item {
-	display: none !important;
-	}
