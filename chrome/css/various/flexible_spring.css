@@ -1,6 +1,10 @@
 /* Change flexible spring widths */
-toolbar toolbarspring{
-  -moz-box-flex: 10 !important;
-  min-width: 10px !important;
-  max-width: 500px !important;
+
+#customizableui-special-spring126,
+toolbarspring {
+  max-width: none !important;
+  width: 100vw !important;
 }
+
+
+

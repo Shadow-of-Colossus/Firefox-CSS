@@ -1,10 +1,12 @@
 /* Change order of context entries */
-
 #bookmark-menu-container_robwu_nl-menuitem-_bookmark-menu-item { -moz-box-ordinal-group: 0  !important;}
 
 
-menu[id^='multitabx_j70_user_github_com-menuitem-'] { -moz-box-ordinal-group: 70 !important;} /* Close Tabs */
+menu[id^='multitabx_j70_user_github_com-menuitem-'] { -moz-box-ordinal-group: 68 !important;} /* Close Tabs */
+menu[id^='jid0-bnmfwww2w2w4e4edvcddbnmhdvg_jetpack-menuitem-']{ -moz-box-ordinal-group: 69 !important;} /* Tab Reloader */
+#_bb682c45-3136-4213-bf29-5f5833080bf4_-menuitem-_moveContext { -moz-box-ordinal-group: 70 !important;} /*Move to Container Tab */
 #_e85f814a-b0a1-4ce4-9a40-5325da7ba84b_-menuitem-_move_to_new_window { -moz-box-ordinal-group: 71 !important;} /*Move to New Window */ 
+
 
 /* START Normally Disabled */
 #_b9db16a4-6edc-47ec-a1f4-b86292ed211d_-menuitem-_vdh-main { -moz-box-ordinal-group: 76 !important;} /* Video Download Helper*/
@@ -19,20 +21,21 @@ menu[id^='bloodyvikings_ffs_bplaced_net-menuitem-']{ -moz-box-ordinal-group: 80 
 #context-searchselect { -moz-box-ordinal-group: 82 !important;} /* Search */
 #jid1-kdtticj6wxvafa_jetpack-menuitem-_sss{ -moz-box-ordinal-group: 83 !important;}  /*Swift Selection Search */
 
-#_479f0278-2c34-4365-b9f0-1d328d0f0a40_-menuitem-_separator { -moz-box-ordinal-group: 84 !important;} /* separater */
+#_479f0278-2c34-4365-b9f0-1d328d0f0a40_-menuitem-_separator { -moz-box-ordinal-group: 84 !important;} /* separator */
 
 #screenshots_mozilla_org-menuitem-_create-screenshot { -moz-box-ordinal-group: 85 !important;} /* Take Screenshot */
 #_ddc62400-f22d-4dd3-8b4a-05837de53c2e_-menuitem-_read-selection { -moz-box-ordinal-group: 86 !important;} /* Read Aloud */
-menu[id^='jid0-bnmfwww2w2w4e4edvcddbnmhdvg_jetpack-menuitem-'] { -moz-box-ordinal-group: 87 !important;}
 #s3download_statusbar-menuitem-_s3dm_context_menu { -moz-box-ordinal-group: 88 !important;}  /* Download Statusbar */
 menu[id^='_windscribeff-menuitem-'] { -moz-box-ordinal-group: 89 !important;} /* Winscribe */
 #_windscribeff-menuitem-_view-debug-log { -moz-box-ordinal-group: 89 !important;} /* Winscribe  Debug */
 #_74145f27-f039-47ce-a470-a662b129930a_-menuitem-_copy-link-to-clipboard { -moz-box-ordinal-group: 90 !important;} /* Clean URLs */
 #jid0-djsrwcas3wgq2xyyqqvl8dqk1lo_jetpack-menuitem-_scan { -moz-box-ordinal-group: 91 !important;} /* Virus Scan */
 #_54e2eb33-18eb-46ad-a4e4-1329c29f6e17_-menuitem-_top { -moz-box-ordinal-group: 92 !important;}  /* Block Site */
+#_54e2eb33-18eb-46ad-a4e4-1329c29f6e17_-menuitem-_frame { -moz-box-ordinal-group: 92 !important;}  /* Block Site */
 #cookieautodelete_kennydo_com-menuitem-_cad-parent-expression { -moz-box-ordinal-group: 93 !important;}  /* Cookie AutoDelete */
 menu[id^='cookieautodelete_kennydo_com-menuitem-'] { -moz-box-ordinal-group: 93 !important;}  /* Cookie AutoDelete */
 #_73a6fe31-595d-460b-a920-fcc0f8843232_-menuitem-_noscript-ctx-menu { -moz-box-ordinal-group: 94 !important;}  /* Noscript */
+menu[id^='#ublock0_raymondhill_net-menuitem-'] { -moz-box-ordinal-group: 95 !important;}  /* uBlock Origin */
 #ublock0_raymondhill_net-menuitem-_uBlock0-blockElement { -moz-box-ordinal-group: 95 !important;}  /* uBlock Origin */
 #_1018e4d6-728f-4b20-ad56-37578a4de76b_-menuitem-_Flagfox\:1\:submenu { -moz-box-ordinal-group: 96 !important;}  /* Flagfox */
 #_036a55b4-5e72-4d05-a06c-cba2dfcc134a_-menuitem-_translate-selected-text { -moz-box-ordinal-group: 97 !important;}  /* Translate */
@@ -51,43 +54,44 @@ menu[id^='zoompage-we_dw-dev-menuitem-'] { -moz-box-ordinal-group: 99 !important
 }
 
 
+/* photo menu stuff * */
+
+#image_search_for_googl_image_search_for_googl_org-menuitem-1 { -moz-box-ordinal-group: 62 !important;}
+#context-saveimage { -moz-box-ordinal-group: 63 !important;}
+#context-viewimage { -moz-box-ordinal-group: 64 !important;}
+#context-copyimage-contents { -moz-box-ordinal-group: 65 !important;}
+#context-copyimage { -moz-box-ordinal-group: 66 !important;}
+#context-viewimageinfo { -moz-box-ordinal-group: 67 !important;}
+
+
+
 /* Remove these Context Menu Entries */
 
-#switchyomega_feliscatus_addons_mozilla_org-menuitem-_inspectLink { display: none !important;} /* Proxy Switch Omega */
-
+/*#_287dcf75-bec6-4eec-b4f6-71948a2eea29_-menuitem-_ViewImage-SearchByImage, /*View Image */
+#switchyomega_feliscatus_addons_mozilla_org-menuitem-_inspectLink, /* Proxy Switch Omega */
 #_a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7_-menuitem-_WotContextMenu, /* WOT link */
-#context_sendTabToDevice,
-#context-sep-sendTabToDevice,
-#context-sendpagetodevice,
-#context-sep-sendpagetodevice,
-#context-sendlinktodevice,
-#context-sep-sendlinktodevice,
+menu[id^='cookieautodelete_kennydo_com-menuitem-'].menu-iconic menupopup menuseparator,
+/* the top menu buttons - back - forword - reload - bookmark */
 #context-navigation,
+#context_sendTabToDevice, #context-sep-sendTabToDevice,
+#context-sendpagetodevice, #context-sep-sendpagetodevice,
+#context-sendlinktodevice, #context-sep-sendlinktodevice,
 #context-sendimage,
-#inspect-separator,
-#context-inspect,
-#context-setDesktopBackground,
+#context-inspect, #inspect-separator,
+#context-setDesktopBackground, #context-sep-setbackground,
 #context-inspect-a11y,
-#context-print-selection
- {
+#context-print-selection,
+/*separators */
+#context-sep-copyimage,
+#context-sep-copylink,
+#frame-sep {
  display: none !important;
 }
 
-/*
-#context_reloadTab,
-#context_toggleMuteTab,
-#context_pinTab,
-#context_unpinTab,
-#context_bookmarkTab,
-#context_reopenInContainer,
-#context_moveTabOptions,
-#context_closeTabsToTheEnd,
-#context_closeOtherTabs,
-#context_undoCloseTab,
-#context_closeTab,
-#context_pinSelectedTabs,
-#context_unpinSelectedTabs,
-#context_selectAllTabs,
-#context_bookmarkSelectedTabs,
-#context_closeSelectedTabs
-*/
+/* Open bookmark in Container Tab menu item addon  -->  open all in tabs */
+menu[label="Open All in Container Tabs"],
+/* Open all ibookmaks and separator */
+#placesContext_openBookmarkContainer\:tabs,
+#placesContext_openSeparator {
+ display: none !important;
+}

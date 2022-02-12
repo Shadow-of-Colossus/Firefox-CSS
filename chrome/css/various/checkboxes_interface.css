@@ -1,0 +1,9 @@
+/* checkboxes of Firefox interface */
+.checkbox-check{
+  background-color: transparent !important;
+  fill: #fff !important;
+  border-color: #ddd !important;
+}
+.checkbox-check[checked]{ 
+  background-color: #9C04D1 !important;
+}

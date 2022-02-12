@@ -1,0 +1,8 @@
+/* hide the bar for enable DRM */
+notification-message[value="drmContentDisabled"]{
+  display: none !important;
+}
+
+/* this would disable all messages *
+.notificationbox-stack
+ { display: none !important; }
