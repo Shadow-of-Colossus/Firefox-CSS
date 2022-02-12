@@ -1,0 +1,12 @@
+/*------ EXPORT TABS URLs ------*/
+@-moz-document url-prefix(moz-extension://f7842559-b99b-47e6-84a8-eab7dd8a640c/) {
+
+*,
+body,
+h1,
+p+p {
+  background: #111!important;
+  color: #ddd !important;
+}
+
+}

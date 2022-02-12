@@ -1,16 +1,18 @@
 /*------ CONTAINERIZE ------*/
-@-moz-document url-prefix(moz-extension://0b40c6ba-8101-4f09-91c6-706686ab732d/) {
-html, body {background: #222 !important}
+@-moz-document url-prefix(moz-extension://139f926f-d3d1-4e48-a076-774ff750dfe2/) {
+html, body {background: #222 !important;
+  color:  #ddd !important;
+}
 
-h3, legend {color: #fff !important}
+h3, legend {color: #ddd !important}
 span:not(#current-container), #container-info-movetabs,
-.container-info-tab-title, .truncate-text {color: #ccc !important}
+.container-info-tab-title, .truncate-text {color: #ddd !important}
 
 #sort-containers-link, .userContext-wrapper, .show-tabs:not(.pop-button-image-small), 
 #edit-containers-link, #container-add-link, #edit-container-cancel-link, .panel-back-arrow,
 .container-panel-row {
 	background-color: #333 !important;
-	color: #ccc !important}
+	color: #ddd !important}
 
 #sort-containers-link:hover, .userContext-wrapper:hover, .show-tabs:hover, 
 #edit-containers-link:hover, #container-add-link:hover, #edit-container-cancel-link:hover,

@@ -1,16 +1,26 @@
 /*------ MULTI-ACCOUNTS CONTAINER ADDON ------*/
-@-moz-document url-prefix(moz-extension://789dc8cb-7527-4860-9d07-0671bb273c74/) {
-html, body {background: #222 !important}
+@-moz-document url-prefix(moz-extension://ba0306a3-e138-4b5a-ab63-6d15ac81b010/) {
 
-h3, legend {color: #fff !important}
+:root {
+  --bgColor: #111 !important;
+  --text-normal-color: #fff !important;
+  --text-heading-color: #ddd !important;
+}
+
+html , body {
+  --highlight-blue: #777 !important;
+  background: #111 !important;
+}
+
+h3, legend {color: #ddd !important}
 span:not(#current-container), #container-info-movetabs,
-.container-info-tab-title, .truncate-text {color: #ccc !important}
+.container-info-tab-title, .truncate-text {color: #ddd !important}
 
 #sort-containers-link, .userContext-wrapper, .show-tabs:not(.pop-button-image-small), 
 #edit-containers-link, #container-add-link, #edit-container-cancel-link, .panel-back-arrow,
 .container-panel-row {
-	background-color: #333 !important;
-	color: #ccc !important}
+	background-color: #555 !important;
+	color: #ddd !important}
 
 #sort-containers-link:hover, .userContext-wrapper:hover, .show-tabs:hover, 
 #edit-containers-link:hover, #container-add-link:hover, #edit-container-cancel-link:hover,

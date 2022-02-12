@@ -1,5 +1,67 @@
-/*! Alters the webextension Violentmonkey */
+/* webextension Violentmonkey */
 @-moz-document url-prefix("moz-extension://26ebab97-bb1b-471b-a55d-b6e1e2c2cc7b/")  {
+
+
+/********** POPUP SETTINGS ***********/
+body {
+	min-width: 360px !important;
+}
+
+.page-popup {
+	font-size: 12px !important;
+}
+
+.menu-area:hover {
+	background: #9C04D1 !important;
+	color: #fff !important;
+}
+
+.disabled>.menu-area:hover {
+	color: #fff !important;
+}
+
+.submenu-button:hover {
+	background: #9C04D1 !important;
+	opacity: 1 !important;
+}
+
+/*
+.script.disabled .submenu-button{ background: #dcdcdc !important; color: black !important; border: 1px solid black !important;}
+.script .submenu-button { background: #d1f4a9 !important; color: black !important; border: 1px solid black !important;}
+
+.script.disabled:hover .submenu-button{background: #9C04D1 !important; color: white !important;}
+.script:hover .submenu-button {background: #9C04D1 !important; color: white !important;}
+*/
+
+.submenu-buttons {
+	background: #9C04D1 !important; 
+	opacity: .8 !important;
+}
+
+.submenu-buttons:hover {
+	background: #9C04D1 !important; 
+	opacity: 1 !important;
+}
+
+footer {
+	background: black !important;
+}
+
+footer>span:hover {
+	color: #fff !important;
+}
+
+.message {
+	background: black !important; 
+	padding-bottom: 14px !important;
+	margin-left: 50px !important;
+	text-align-last: center !important;
+	border-style: none !important;
+}
+
+
+
+/******** DASHBOARD SETTINGS *********/
 html, body {background: #303030 !important; color: #ccc !important}
 
 /* active/inactive script colors */
@@ -10,10 +72,6 @@ html, body {background: #303030 !important; color: #ccc !important}
 .aside-menu {color: #999 !important;}
 .aside-menu a.active {color: #ddd !important;}
 
-/*
-.btn-ghost:hover:not([selected]) {background: #9C04D1 !important;}
-*/
-
 /* @require/@resource */
 .edit-externals,
 .flex.flex-col.abs-full,
@@ -21,7 +79,8 @@ select.monospace-font,
 option.ellipsis {background: #111 !important; color: #ccc !important}
 
 /* trash hit */
-.trash-hint {background: #eee !important; color: #111 !important}
+.trash-button {background: #333 !important; color: #ddd !important; border:none !important}
+.trash-hint {background: #555 !important; color: yellow !important; font-weight: bold !important}
 
 /* page backgrounds */
 .edit-settings,

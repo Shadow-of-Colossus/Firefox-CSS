@@ -1,0 +1,28 @@
+/* webextension Tab manager */
+@-moz-document url-prefix("moz-extension://a395b9c9-9db2-4ee1-83b0-6e7e33f694bb/")  {
+
+html,
+body {
+  color: #ddd !important;
+  background: #111 !important;
+  border-radius: 8px !important;
+
+}
+
+a {
+  color: #ddd !important;
+}
+ 
+ a:hover {
+   color: #ffffff !important;
+  background: #777 !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+}
+
+hr {
+  border-color: #555 !important;
+}
+ 
+}
+

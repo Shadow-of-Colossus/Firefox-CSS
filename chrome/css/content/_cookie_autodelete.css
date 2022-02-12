@@ -1,5 +1,5 @@
-/*! Alters the webextension Cookie AutoDelete */
-@-moz-document url-prefix("moz-extension://4f8c3497-6786-4579-8f01-d6e3633af692/") {
+/* webextension Cookie AutoDelete */
+@-moz-document url-prefix("moz-extension://b126e5ec-4d00-4737-829d-3a8eb44de22d/") {
   a {
     color: var(--accent-1)
   }
@@ -8,24 +8,24 @@
   }
   #layout,
   html {
-    background: #323234!important;
+    background: #111!important;
     color: var(--primary-light-color)!important
   }
   #menu {
-    background-color: #323234!important
+    background-color: #111!important
   }
   .menu-link {
-    background: #323234!important
+    background: #111!important
   }
 
   .pure-menu-item:hover,
   .pure-menu-selected {
-    background-color: #323234!important;
+    background-color: #111!important;
   }
   .form-control,
   input[type=number] {
     -moz-appearance: none!important;
-    background: #323234!important;
+    background: #111!important;
     color: var(--tone-4)!important;
     border-color: var(--tone-5)!important
   }
@@ -34,16 +34,16 @@
   }
   .nav-tabs .nav-link.active {
     color: var(--accent-1)!important;
-    background-color: #323234!important;
+    background-color: #111!important;
     border-color: #ddd #ddd #fff!important
   }
   body {
     color: #bbb !important;
-    background-color: #323234!important
+    background-color: #111!important
   }
   .btn-light {
     color: var(--tone-4)!important;
-    background-color: #323234!important;
+    background-color: #111!important;
     border-color: var(--tone-4)!important
   }
   

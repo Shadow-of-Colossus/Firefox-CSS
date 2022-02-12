@@ -1,12 +1,24 @@
-/*! Alters the webextension Theme Toggler */
-@-moz-document url-prefix("moz-extension://7166726b-e764-4e37-b76c-3bd6b0c0a636/")  {
-  body {
-    color: #ddd !important;
-    background: #bbb !important;
-  }
-  html {
-    color: #ddd !important;
-    background-color: #bbb !important;
-  }
- 
+/* webextension Clear Browsing Data */
+@-moz-document url-prefix("moz-extension://ed9070fc-eb6c-458e-bf08-d878e6bd2a66/")  {
+
+.list,
+.list-item {
+  color: #ddd !important;
+  background-color: #111 !important;
 }
+
+.mdc-list-item:hover {
+   color: #fff !important;
+  background-color: #777 !important;
+}
+
+.mdc-list-item:focus,
+.mdc-list-item--selected,
+.mdc-list-item--activated {
+   color: #fff !important;
+  background-color: #9C04D1 !important;
+}
+
+}
+
+

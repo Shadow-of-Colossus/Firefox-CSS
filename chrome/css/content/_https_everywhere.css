@@ -1,8 +1,8 @@
 /*------ HTTPS EVERYWHERE ADDON ------*/
-@-moz-document url-prefix("moz-extension://1026cd44-77b9-4c15-a98e-2e7b66566e3b/") {
-html, body {background: #303030 !important; color: #ccc !important}
+@-moz-document url-prefix("moz-extension://ef9a24e2-cc10-417a-b5e4-dedb917c97c1/") {
+html, body {background: #111 !important; color: #ddd !important}
 
-h1, h2, h3 {color: #fff !important}
+h1, h2, h3 {color: #ddd !important}
 
 label {color: #ccc !important}
 
@@ -17,7 +17,7 @@ button, input[type="button"] {
 
 button:hover, input[type="button"]:hover {  
   background-color: #222 !important;
-  color: #fff !important;
+  color: #ddd !important;
   box-shadow: none !important}
 
 a:link, a {color: #09f !important}

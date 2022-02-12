@@ -1,0 +1,23 @@
+/* webextension Tab Reloader */
+@-moz-document url-prefix("moz-extension://934a5734-5edc-4cda-90e4-11221f7d5ded/")  {
+
+html, body {
+  background-color: #111 !important;
+  color: #ddd !important;	
+}
+
+table, body, input {
+  color: #ddd !important;
+  background-color: #111 !important;
+}
+
+ .presets span {
+  background-color: #9C04D1 !important;
+}
+
+#permit 
+ {
+  color: #000 !important;
+}
+ 
+}

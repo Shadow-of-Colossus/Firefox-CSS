@@ -1,0 +1,30 @@
+/* webextension User-Agent Switcher and Manager */
+@-moz-document url-prefix("moz-extension://8f1a0421-4dba-4f90-aa91-915255a0094f/")  {
+
+:root {
+  --color: #ddd !important;
+  --bg-color: #333 !important;
+  --color-light: #ddd !important;
+  --bg-color-light: #222 !important;
+}
+	
+@media (prefers-color-scheme: dark) {
+:root {
+  --color: #ddd !important;
+  --bg-color: #333 !important;
+  --color-light: #ddd !important;
+  --bg-color-light: #222 !important;
+}
+
+}
+textarea,
+textarea:focus  {
+  background-color: #111 !important;
+  color: #ddd !important;
+  font-style: normal !important;
+  font-family: Fira Sans !important;
+}
+
+
+
+}

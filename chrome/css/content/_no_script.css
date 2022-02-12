@@ -1,8 +1,8 @@
 /*------ NOSCRIPT ADDON SETTINGS AND PROMPT PAGE ------*/
-@-moz-document url-prefix(moz-extension://fe3cff8c-0c18-4776-a016-1d391e670c53/ui/options.html),
-url-prefix(moz-extension://fe3cff8c-0c18-4776-a016-1d391e670c53/ui/prompt.html),
-url-prefix(moz-extension://fe3cff8c-0c18-4776-a016-1d391e670c53/ui/siteInfo.html) {
-body, html {background: #222 !important}
+@-moz-document url-prefix(moz-extension://471b71dc-a127-4db0-9363-4756f40f1727/ui/options.html),
+url-prefix(moz-extension://471b71dc-a127-4db0-9363-4756f40f1727/ui/prompt.html),
+url-prefix(moz-extension://471b71dc-a127-4db0-9363-4756f40f1727/ui/siteInfo.html) {
+body, html {background: #111 !important}
 
 #main {background: linear-gradient(#555,#111) !important; color: #fff !important}
 
@@ -58,8 +58,8 @@ a:active {color: #0050aa !important}
 }
 
 /*------ NOSCRIPT ADDON POPUP ------*/
-@-moz-document url-prefix(moz-extension://fe3cff8c-0c18-4776-a016-1d391e670c53/ui/popup.html) {
-body, html, #main {background: #333 !important; color: #ddd !important}
+@-moz-document url-prefix(moz-extension://471b71dc-a127-4db0-9363-4756f40f1727/ui/popup.html) {
+body, html, #main {background: #111 !important; color: #ddd !important}
 
 #top {border-bottom: 1px solid #555 !important}
 
@@ -67,9 +67,9 @@ button {background-color: transparent !important}
 
 tr {color: #ddd !important}
 
-#sites .sites tr {background: #333 !important}
+#sites .sites tr {background: #111 !important}
 
 span {color: #ddd !important}
 
-#sites .sites tr:nth-child(odd) {background: #404040 !important}
+#sites .sites tr:nth-child(odd) {background: #333 !important}
 }

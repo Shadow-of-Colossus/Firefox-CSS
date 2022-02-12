@@ -1,0 +1,20 @@
+/* webextension Read Aloud */
+@-moz-document url-prefix("moz-extension://94c4d458-9a22-4097-847a-74bbb73ea00b/")  {
+
+html, body {
+  background-color: #111 !important;
+  color: #ddd !important;	
+}
+
+#highlight,
+.dark-mode #highlight {
+  color: #fff !important;
+  background-color: #333 !important;
+}
+
+#highlight span.active,
+.dark-mode #highlight span.active {
+  background-color: #9C04D1 !important;
+}
+ 
+}

@@ -1,0 +1,23 @@
+/* _tab_list_button_enhanced */
+@-moz-document url-prefix("moz-extension://0f5d56f5-f905-43ba-9c63-e336c15254e6/") {
+
+html, body {
+  color: #ddd !important;
+  background-color: #111 !important;
+}
+
+.button {
+  color: #ddd !important;
+  border-top: 1px solid #555 !important;
+  border-right: 1px solid #555 !important;
+  border-bottom: 1px solid #555 !important;
+  border-radius: 6px !important;  
+}  
+
+.hover {
+  color: #fff !important;
+  background: #777 !important;  
+  border-radius: 6px !important;
+}
+
+}

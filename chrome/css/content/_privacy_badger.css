@@ -1,6 +1,6 @@
 /*------ PRIVACY BADGER ADDON SETTINGS PAGE ------*/
-@-moz-document url-prefix(moz-extension://a85a42d7-56b1-4366-8f2c-36948c5b6875/skin/options.html) {
-body, html {background: #222 !important; color: #fff !important}
+@-moz-document url-prefix(moz-extension://226078c1-8333-4620-af4c-8cdb9438186c/skin/options.html) {
+body, html {background: #111 !important; color: #fff !important}
 
 #tabs {background: #444 !important; color: #ccc !important; border: 1px solid #666 !important}
 
@@ -64,11 +64,17 @@ a:hover {color: #0dd !important}
 }
 
 /*------ PRIVACY BADGER ADDON POPUP ------*/
-@-moz-document url-prefix(moz-extension://a85a42d7-56b1-4366-8f2c-36948c5b6875/skin/popup.html) {
-body, html {background: #333 !important; color: #fff !important}
+@-moz-document url-prefix(moz-extension://226078c1-8333-4620-af4c-8cdb9438186c/skin/popup.html) {
+body, html {background: #111 !important; color: #ddd !important}
 
 label, span, .origin.tooltip {color: #ddd !important}
-span.i18n_name {color: #fff !important}
+span.i18n_name {color: #ddd !important}
+
+#options,
+#share,
+#help {
+  filter: invert(0.45) !important; 
+}
 
 button {
   -moz-appearance: none !important;
@@ -90,6 +96,6 @@ a:hover {color: #f0a15c !important}
 #blockedResources > .keyContainer > .key {background: none !important}
 #blockedResourcesInner > div {
 	background: #333 !important; 
-	color: #ccc !important;
+	color: #ddd !important;
 	border-top: 1px solid #555 !important}
 }
