@@ -1,31 +1,29 @@
 /* tab close - always visible*/
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned]) .tab-close-button {
+#tabbrowser-tabs  .tab-close-button {
   visibility: visible !important;
-  display: block !important;
-  color: #a2a9ab !important; 
+  color: lightgrey !important; 
+  filter:drop-shadow(1px 1px 2px lightgrey) !important;
 }
 
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned])[faviconized="true"] .tab-close-button {
-  visibility: visible !important;
-  display: none !important;
-  color: #ffd043 !important;
-}
 /*selected */
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned])[selected] .tab-close-button {
+#tabbrowser-tabs  .tab-close-button:not([pinned])[selected] {
   visibility: visible !important;
-  display: block !important;
-  color: lime !important;
-}
-/* hover default*/
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:hover:not([pinned]) .tab-close-button {
-  visibility: visible !important;
-  display: block !important;
-  color: #ffd043 !important;
-}
-/* hover selected*/
-#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:hover:not([pinned])[selected] .tab-close-button {
-  visibility: visible !important;
-  display: block !important;
-  color: lime !important;
+  color: yellow !important;
+  filter:drop-shadow(1px 1px 2px lime) !important;
 }
 
+/* hover default*/
+#tabbrowser-tabs  .tab-close-button:hover:not([pinned]) {
+  visibility: visible !important;
+  color: red !important;
+  background-color: transparent !important;
+  filter:drop-shadow(1px 1px 2px orange) !important;
+}
+
+/* hover selected*/
+#tabbrowser-tabs  .tab-close-button:hover:not([pinned])[selected] {
+  visibility: visible !important;
+  color: red !important;
+  background-color: transparent !important;
+  filter:drop-shadow(1px 1px 2px orange) !important;
+}

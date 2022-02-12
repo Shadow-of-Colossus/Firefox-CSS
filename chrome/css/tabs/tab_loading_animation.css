@@ -1,5 +1,9 @@
 /* Tab Animation: Loading progress line indicator */
 
+.tabbrowser-tab[class*="identity-color"] .tab-loading-burst {
+    background-image: linear-gradient(90deg, transparent, var(--identity-tab-color)) !important;
+}
+
 .tabbrowser-tab .tab-loading-burst {
     background-image: linear-gradient(90deg, transparent, #9C04D1 ) !important;
     background-repeat: no-repeat !important;

@@ -1,0 +1,80 @@
+/* tab height */
+#TabsToolbar, .tabbrowser-tab {
+	max-height: 34px !important;
+}
+
+/* change active tab border color */
+#navigator-toolbox { --lwt-tabs-border-color: transparent !important; }
+#tabbrowser-tabs{ --lwt-tab-line-color: lime !important; }
+
+/* new tab plus sign color and opacity */
+.tabs-newtab-button {
+	opacity:.5!important;
+   /*color: grey !important;*/
+ }
+
+ /* Make tab line transparent */
+    .tab-line {background: transparent !important;
+}
+  /* Change the tab line color */  
+ #tabbrowser-tabs .tab-line {
+    --tab-line-color: transparent !important;
+}
+ 
+/* default tab opacity and color */
+.tab-background {
+    background-attachment: none!important;
+    background-color: #444!important;
+    background-image: none!important;
+    background-position: none!important;
+    background-repeat: none!important;
+    background-size: none!important;
+	opacity:.3!important;
+}
+ /* selected tab opacity and color */
+.tab-background[selected="true"] {
+    background-attachment: none!important;
+    background-color: #555!important;
+    background-image: none!important;
+    background-position: none!important;
+    background-repeat: none!important;
+    background-size: none!important;
+	opacity:.5!important;
+}
+
+/* hide tab separators */
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+  opacity: 0 !important;
+  color: white !important;
+}
+
+/* Hide container label and name on navbar */
+ #userContext-indicator {
+  display: none !important;
+}
+
+#userContext-label {
+  display: none !important;
+}
+
+/* usercontext line colors */
+.tab-context-line{
+margin-block: 0 !important;
+opacity: 1 !important;
+}
+
+.tabbrowser-tab[usercontextid] .tab-context-line{
+  margin-top: 1px !important;
+  background:var(--identity-tab-color)!important;
+  transform:scaleX(.8)!important;
+  height:4px!important;
+  border-radius:0 0 3px 3px!important;
+}
+
+.tabbrowser-tab[usercontextid][pinned] .tab-context-line{
+  margin-top: 1px !important;
+  background:var(--identity-tab-color)!important;
+  transform:scaleX(.55)!important;
+    height:6px!important;
+}

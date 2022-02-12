@@ -1,0 +1,27 @@
+/* OLD SETUP */
+
+#titlebar{
+  -moz-box-ordinal-group: 2;
+  -moz-appearance: none !important;
+  --tabs-navbar-shadow-size: 0px;
+}
+
+#navigator-toolbox{ padding-top: calc(32px + var(--uc-titlebar-padding,0px)) !important }
+
+#toolbar-menubar{
+  position: fixed;
+  display: flex;
+  top: var(--uc-titlebar-padding,0px);
+  height: 32px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#tabbrowser-tabs {
+width: 100vw !important;
+
+}
+
+#TabsToolbar {
+ bottom: 1px !important;  /*this line adjusts the position of the toolbar *
+}

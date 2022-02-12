@@ -1,7 +1,18 @@
+/*addon icon */
 .tabbrowser-tab .tab-icon-image[src="chrome://mozapps/skin/extensions/extension.svg"]{
   fill: #05b405 !important;
 }
 
+/* settings icon */
 .tabbrowser-tab .tab-icon-image[src="chrome://global/skin/icons/settings.svg"]{
   fill: #e0850f !important;
 }
+
+/* globe icon */
+.tab-icon-image:not([src]) {
+  fill: limegreen !important; 
+} 
+
+
+
+

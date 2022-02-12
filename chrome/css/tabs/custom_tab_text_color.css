@@ -1,7 +1,8 @@
 /*NEW TAB */
 
 #tabs-newtab-button {
-     opacity: 0.5 !important;
+  color: white !important;
+  opacity: 0.7 !important;
 }
 
 #tabs-newtab-button:hover:not([selected]) {
@@ -12,10 +13,10 @@
 /* SELECTED TAB */
 
 .tabbrowser-tab[selected] .tab-label {
-  color: white !important;
+  color: white;
   font-size: 10pt !important;
   text-shadow:	0px 1px 0px black,
-				0px 1px 4px black !important;
+				0px 1px 1px black !important;
   font-weight: bold !important;
   font-style: normal !important;
   /*text-decoration: underline;*/
@@ -25,10 +26,10 @@
 /* DEFAULT TAB */
 
 .tabbrowser-tab .tab-label {
-  color: #91f2ff !important;
+  color: #91f2ff;
   font-size: 10pt !important;
   text-shadow:	0px 1px 0px black,
-				0px 1px 4px black !important;
+				0px 1px 1x black !important;
   font-weight: bold !important;
   font-style: italic !important;
   /*text-decoration: underline;*/  
@@ -38,10 +39,10 @@
 /* HOVERED TAB */
 
 .tabbrowser-tab:hover:not([selected]) .tab-label {
-  color: yellow !important;
+  color: yellow;
   font-size: 10pt !important;
   text-shadow:	0px 1px 0px black,
-				0px 1px 4px black !important;
+				0px 1px 1px black !important;
   font-weight: bold !important;
   font-style: normal !important;
   /*text-decoration: underline;*/  
@@ -50,10 +51,10 @@
 /* UNLOADED/PENDING TAB */
 
 .tabbrowser-tab[pending] .tab-label {
-  color: #9c04d1 !important;
+  color: #9c04d1;
   font-size: 9pt !important;
   text-shadow:	0px 1px 0px white,
-				0px 1px 4px white !important;
+				0px 1px 1px white !important;
   font-weight: bold !important;
   font-style: italic !important;
   /*text-decoration: underline;*/
@@ -63,27 +64,11 @@
 /* UNREAD TAB */
 
 .tabbrowser-tab[unread] .tab-label {
-  color: red !important;
+  color: red;
   font-size: 9pt !important;
   text-shadow:	0px 1px 0px white,
-				0px 1px 4px white !important;
+				0px 1px 1px white !important;
   font-weight: bold !important;
   font-style: italic !important;
   /*text-decoration: underline;*/  
 }
-
-
-/* BUSY/LOADING TAB */
-
-/*
-.tabbrowser-tab[busy] .tab-label {
-  color: green !important;
-  font-size: 9pt !important;
-  text-shadow:	0px 1px 0px #FFCCFF, 
-				0px 1px 4px #FFCCFF !important;
-  font-weight: initial !important;
-  font-size: 9pt !important; 
-  font-style: italic !important;
-  /*text-decoration: underline;*/  
-} */
-

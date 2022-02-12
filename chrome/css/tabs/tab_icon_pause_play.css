@@ -1,16 +1,25 @@
-/*Change pause/play icon color and size */
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/inline_tab_audio_icons.css */
 
-.tab-icon-sound[soundplaying]{
-width: 20px !important;
-height: 20px !important;
-opacity: 1 !important;
-color: #08eb2a !important;
+/* Shows tab audio icons next to the tab icon, and by default removes the tab secondary line */
+
+/*.tabbrowser-tab:is([soundplaying],[activemedia-blocked]) .tab-label,*/
+.tabbrowser-tab:not([pinned]) .tab-icon-stack:is([soundplaying],[activemedia-blocked]){
+  grid-template-areas: "a s";
+  color: lime !important;
 }
 
-.tab-icon-sound[muted]{
-width: 20px !important;
-height: 20px !important;
-opacity: 1 !important;
-color: #ff9f05 !important;
+/*.tabbrowser-tab:is([muted],[activemedia-blocked]) .tab-label,*/
+.tabbrowser-tab:not([pinned]) .tab-icon-stack:is([muted],[activemedia-blocked]){
+  grid-template-areas: "a s";
+  color: orange !important;
 }
- 
+
+.tabbrowser-tab:not([pinned]) .tab-icon-overlay:is([muted],[soundplaying],[activemedia-blocked]){ grid-area: s; }
+.tab-icon-overlay,
+.tab-icon-image,
+.tab-throbber{ opacity: 1 !important; }
+
+.tab-icon-overlay:not([pinned]){
+  padding: 0px !important;
+  margin-inline: -3px 1px !important;
+}
