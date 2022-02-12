@@ -1,0 +1,6 @@
+/* Remove DDG New Tab Flash */
+
+@-moz-document domain("duckduckgo.com"),url-prefix("https://duckduckgo.com/") {
+    body { background: #1c1c1c !important;  }
+}
+

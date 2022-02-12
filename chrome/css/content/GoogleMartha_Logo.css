@@ -1,0 +1,48 @@
+@-moz-document url-prefix("http://www.google."), url-prefix("https://www.google.") {
+div.om7nvf { padding: 90px !important }
+  
+  img#hplogo, img.lnXdpd {
+    background: url("./../../css/content/GoogleMartha_Logo_Dark.jpg") no-repeat!important;
+    background-size: 450px 179px!important;
+    height: 0!important;
+    width: 450px!important;
+	padding-top:179px !important;
+  }
+  
+  #hplogo, .lnXdpd {
+    background: url("./../../css/content/GoogleMartha_Logo_Dark.jpg") no-repeat !important;
+    background-size: 450px 179px!important;	
+    width: 450px !important;
+    height: 179px !important;
+	padding-top:179px !important;
+  }
+
+  div#hplogo, div.lnXdpd {
+    background: url("./../../css/content/GoogleMartha_Logo_Dark.jpg") no-repeat!important;
+    background-size: 450px 179px!important;
+    height: 179px!important;
+    width: 450px!important;
+	padding-top:179px !important;
+  }
+
+/* google crap */  
+ #hplogoy, .ddlv-a,
+.FPdoLc, 
+.szppmdbYutt__middle-slot-promo, 
+#gws-output-pages-elements-homepage_additional_languages__als  {
+	display: none !important;
+}
+
+
+/* some new animated shit */
+#hplogo2, #hpcta, #hpctaplay {
+	display: none !important;
+}
+
+}
+
+/*
+@-moz-document regexp("https?://www.google.(co.uk)).*")
+
+
+*/

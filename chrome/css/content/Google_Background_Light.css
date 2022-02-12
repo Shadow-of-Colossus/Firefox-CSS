@@ -1,0 +1,6 @@
+@-moz-document url-prefix("https://www.google.com/web"), url-prefix("https://www.google.ca/web")
+{
+    body { background-image: url(Google_Background_Light.jpg) !important; }
+
+	#gb {background: transparent !important;)
+}

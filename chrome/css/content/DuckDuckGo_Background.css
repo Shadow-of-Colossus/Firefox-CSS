@@ -1,0 +1,4 @@
+@-moz-document domain("duckduckgo.com") {
+    body { 	background: #1c1c1c !important;
+	background-image: url(DuckDuckGo_Background.jpg) !important; }
+}

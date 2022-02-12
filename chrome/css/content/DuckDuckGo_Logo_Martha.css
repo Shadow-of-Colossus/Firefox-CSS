@@ -1,0 +1,33 @@
+@-moz-document domain("duckduckgo.com") {
+
+.logo_homepage {background-image: url("./../../css/content/DuckDuckGo_Logo_Martha.jpg") !important;
+  width: 580px !important;
+  height: 225px !important;
+}
+
+/* logo position */
+#content_homepage {
+  margin-top: -60px !important;
+}
+
+.logo_homepage__tt,
+ .header--aside,
+.tag-home--slide,
+.onboarding-ed,
+.site-wrapper-border {
+  display: none !important;
+}
+
+.header-wrap--home, .header-wrap {border-top: none !important}
+.logo-wrap--home {max-width: 634px !important; width: 70% !important;}
+
+.header__logo  {background-image: url("./../../css/content/DuckDuckGo_Logo_Martha.jpg") !important;
+}
+
+/* bottom advertizing and faq */
+.badge-link,
+.faq__content  {
+  display: none !important;
+}
+
+}
