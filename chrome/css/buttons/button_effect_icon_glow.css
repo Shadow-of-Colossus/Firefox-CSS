@@ -17,10 +17,8 @@ toolbar toolbarbutton > .toolbarbutton-badge-stack,
 toolbarbutton.scrollbutton-up,
 toolbarbutton.scrollbutton-down{ background-color: transparent !important; border-color: transparent !important;}
 
-.close-icon{ fill-opacity: 0 !important; }
-
 /* Glow effects on hover */
-.close-icon:hover,
+/*.close-icon:hover, */
 .urlbar-history-dropmarker:hover,
 #page-action-buttons > .urlbar-icon:hover,
 .urlbar-icon-wrapper:hover > .urlbar-icon,
@@ -36,8 +34,8 @@ toolbarbutton.scrollbutton-down:not([disabled]):hover{
 }
 
 /* Active states and close window button hover state */
-#titlebar .titlebar-buttonbox > .titlebar-close:hover > .toolbarbutton-icon,
-.close-icon:active,
+/*#titlebar .titlebar-buttonbox > .titlebar-close:hover > .toolbarbutton-icon, */
+/*.close-icon:active, */
 .urlbar-history-dropmarker:active,
 #page-action-buttons > .urlbar-icon:active,
 #page-action-buttons > .urlbar-icon[open],

@@ -17,8 +17,6 @@
 #web-apps-button,
 #e10s-button,
 #panic-button,
-.tabs-closebutton:hover,
-.tab-close-button:hover,
 #cut-button,
 #zoom-out-button {
   fill: red !important;
@@ -30,10 +28,8 @@
 #forward-button,
 #new-window-button,
 #new-tab-button,
-#alltabs-button,
 .scrollbutton-up,
 .scrollbutton-down,
-#navigator-toolbox #TabsToolbar:not(:-moz-lwtheme) #alltabs-button,
 #navigator-toolbox #TabsToolbar:not(:-moz-lwtheme) .tabbrowser-arrowscrollbox > .scrollbutton-up,
 #navigator-toolbox #TabsToolbar:not(:-moz-lwtheme) .tabbrowser-arrowscrollbox > .scrollbutton-down,
 .search-go-button,

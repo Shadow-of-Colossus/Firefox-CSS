@@ -1,4 +1,3 @@
-
 /* transparent button style */
 #main-window:not([customizing]) #TabsToolbar .toolbarbutton-1[disabled=true]:is([open],[checked],:hover:active,:active) > .toolbarbutton-icon,
 #main-window:not([customizing]) #TabsToolbar .toolbarbutton-1[disabled=true]:is([open],[checked],:hover:active,:active) > .toolbarbutton-text,

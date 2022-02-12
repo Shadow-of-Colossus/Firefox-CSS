@@ -36,6 +36,19 @@
   visibility: collapse !important;
 }
 
+/* button spacing */
+#nav-bar .toolbarbutton-1{
+  /*
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  */
+  
+  /* Proton */
+  margin-left: -2px !important;
+  margin-right: -2px !important;
+}
+
+
 /* transparent button style */
 #main-window:not([customizing]) #nav-bar .toolbarbutton-1[disabled=true]:is([open],[checked],:hover:active,:active) > .toolbarbutton-icon,
 #main-window:not([customizing]) #nav-bar .toolbarbutton-1[disabled=true]:is([open],[checked],:hover:active,:active) > .toolbarbutton-text,
