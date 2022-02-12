@@ -1,6 +1,6 @@
 # Firefox-CSS
 
-# Updated March 28, 2021 , it works in version 87 and has us.js that restores the old ABOUT:CONFIG and funtionality.
+# Updated February 12, 2022 , it works in version 97 on my system and has us.js that restores the old ABOUT:CONFIG and funtionality.
 
 This gives Firefox a decorative appearance with enhanced security features in the identity box and location bar.
 
