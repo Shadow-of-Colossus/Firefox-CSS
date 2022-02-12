@@ -1,18 +1,27 @@
-/* BUTTON STYLE - MUST have glass appearance enabled to work */
+/*BUTTON STYLE */
 
-@import url(./css/content/addon_button_style_and_color_2_rounded_2_square.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
-/*@import url(./css/content/addon_button_style_and_color_round.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
+@import url(./css/content/addon_button_style_and_color_2_rounded_2_square.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/
 /*@import url(./css/content/addon_button_style_and_color_rounded_corners.css); /* three styles (two round-twosquare), (round), (rounded corners) and color setting*/ 
 
+@import url(./ZZ-TEST-CONTENT.css); /* for testing new code*/
 
+
+@import url(./css/content/focus_rings.css); /* change hovered and visited links */
 @import url(./css/content/!change_link_colors.css); /* change hovered and visited links */
-@import url(./css/content/_Google_Background.css); /* google background */
-@import url(./css/content/_DuckDuckGo_Background.css); /* duckduckgo background */
-@import url(./css/content/_Google_logo.css); /* google home screen logo*/
-@import url(./css/content/_DuckDuckGo.css); /* duckduckgo home screen logo */
-@import url(./css/content/_theweathernetwork.css); /* fixes !?!?*/
+@import url(./css/content/GoogleMartha_Logo.css); /* google home screen logo*/
+/*@import url(./css/content/Google_Background_Dark.css); /* google background */
+@import url(./css/content/Google_Background_Light.css); /* google background */
+
+@import url(./css/content/DuckDuckGo_Logo_Martha.css); /* duckduckgo home screen logo */
+@import url(./css/content/DuckDuckGo_remove_tab_flash_darkmode.css); /* remove the flash when DDG new tab loads */
+@import url(./css/content/DuckDuckGo_Background.css); /* duckduckgo background and remove flash */
+
+
+@import url(./css/content/remove_tab_flash_content.css); /* remove the flash when pages load */
+
+@import url(./css/content/youtube_separate_scroll_no_ad.css); /*youtube keep main screen with separate scrollbar fo suggestions with no side advert */
+@import url(./css/content/theweathernetwork.css); /* fixes !?!?*/
 @import url(./css/content/server_not_found.css); /* server not found colors */
-@import url(./css/content/remove_tab_flash.css); /* remove the flash when pages load */
 @import url(./css/content/arrow-cursor-over-text.css.css); /* set to default */
 @import url(./css/content/selected_text_colors.css); /* text and background colors of selected/highlighted text */
 /*@import url(./css/content/select_menu.css); /**/
@@ -32,7 +41,6 @@
 @import url(./css/content/_privacy_badger.css); /**/
 @import url(./css/content/_decentraleyes.css); /**/
 @import url(./css/content/_no_script.css); /**/
-@import url(./css/content/_firefox_multi-container_accounts.css); /**/
 @import url(./css/content/_containerize.css); /**/
 @import url(./css/content/_violentmonkey.css); /**/
 @import url(./css/content/_cookie_autodelete.css); /**/
@@ -41,4 +49,10 @@
 @import url(./css/content/_theme_toggler.css); /**/
 @import url(./css/content/_undo_closed_tabs_button.css); /**/
 @import url(./css/content/_clear_browsing_data.css); /**/
-
+@import url(./css/content/_firefox_multi-container_accounts.css); /**/
+@import url(./css/content/_tab_manager.css); /**/
+@import url(./css/content/_tab_list_button_enhanced.css); /**/
+@import url(./css/content/_read_aloud.css); /**/
+@import url(./css/content/_tab_reloader.css); /**/
+@import url(./css/content/_user_agent_switcher.css); /**/
+/*@import url(./css/content/_export_tab_urls.css); /**/

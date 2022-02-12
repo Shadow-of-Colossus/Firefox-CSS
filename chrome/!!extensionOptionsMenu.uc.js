@@ -8,6 +8,7 @@
 
 // inspired by https://addons.mozilla.org/en-US/firefox/addon/extension-options-menu/
 
+
 UC.extensionOptionsMenu = {
   // config
   showVersion:    true,
@@ -16,10 +17,14 @@ UC.extensionOptionsMenu = {
   enabledFirst:   true,
   blackListArray: [
   
-  		//  NORMALLY ENABLED //
+    		//  NORMALLY ENABLED //
 	
+		"{28b9a619-2822-413b-bcb6-4586920bec23}", // Add to List-O-Matic
 		"add-search-engine-from-mycroft-project@qw.thucfb.com", // Add Search Engine from Mycroft Project
+		"jid0-OqxcSY9VMeMm8jJqJYy5KM0nmS8@jetpack", //  app.telemetry Page Speed Monitor
 		"@autopagerizetweaked", //  AutoPagerize Advanced
+//		"autoplay@html5", // AutoplayStopper
+//		"aos@avg.com", //AVG Online Security
 		"{36bde3a5-9f17-4ad9-a587-d4a3c8e8d200}", //  Background Tab-It
 		"baidu-code-update@mozillaonline.com", // Baidu Search Update
 		"{c0e1baea-b4cb-4b62-97f0-278392ff8c37}", //  Behind the Overlay Revival
@@ -30,56 +35,64 @@ UC.extensionOptionsMenu = {
 		"{ce9f4b1f-24b8-4e9a-9051-b9e472b1b2f2}", // Clear Browsing Data
 		"tb-tab-close-history-single@codefisher.org", // Close Tab History Button
 		"containerise@kinte.sh", // Containerise
+		"{bb682c45-3136-4213-bf29-5f5833080bf4}", // Context Plus
 		"cookieautodelete@kennydo.com", // Cookie AutoDelete
-		"addon@darkreader.org", // Dark Reader	
+//		"addon@darkreader.org", // Dark Reader	
+		"jid1-BoFifL9Vbdl2zQ@jetpack", // Decentraleyes	
 		"{e90f5de4-8510-4515-9f67-3b6654e1e8c2}", // Dictionary Anywhere
 		"{e85f814a-b0a1-4ce4-9a40-5325da7ba84b}", // Disable to Detach 2
 		"{6b938c0c-fc53-4f27-805f-619778631082}", // Don't touch my tabs! (rel=noopener)
 //		"s3download@statusbar", // Download Manager (S3)
 		"{b9acf540-acba-11e1-8ccb-001fd0e08bd4}", // Easy Youtube Video Downloader Express
+		"{9a41dee2-b924-4161-a971-7fb35c053a4a}", // enhanced-h264ify
+		"{72bd91c9-3dc5-40a8-9b10-dec633c0873f}", // Enhanced GitHub
 		"enhancerforyoutube@maximerf.addons.mozilla.org", // Enhancer for YouTube
+		"{17165bd9-9b71-4323-99a5-3d4ce49f3d75}", // Export Tabs URLs
 		"crxviewer-firefox@robwu.nl", // Extension source viewer
-		"{890a0705-1a67-47a4-8583-446ca3081ead}", // Find Next Page
+		"{65b77238-bb05-470a-a445-ec0efe1d66c4}", // External Application Button
 		"@testpilot-containers", // Firefox Multi-Account Containers
 		"{1018e4d6-728f-4b20-ad56-37578a4de76b}", // flagfox
 		"{23cc126f-bd98-4a53-807a-cbc9af2cfe89}", // Google Search "View Image" Button
-		"{c7812b2a-ab08-475a-806d-326718a58747}", // Google Search Keyboard Shortcuts
 		"image_search_for_googl@image_search_for_googl.org", // Image Search for Google
 		"jid0-XWJxt5VvCXkKzQK99PhZqAn7Xbg@jetpack", // Google search link fix
 //		"{00000f2a-7cde-4f20-83ed-434fcb420d71}", // Imagus
 		"{252ee273-8c8d-4609-b54d-62ae345be0a1}", // IndicateTLS
+		"{479f0278-2c34-4365-b9f0-1d328d0f0a40}", // JavaScript Toggle On and Off
 		"multitabx@j70.user.github.com", // Multi-Tab Close
-//		"neaturl@hugsmile.eu", // Neat URL
 		"newtaboverride@agenedia.com", // New Tab Override
 		"nextpage@yuanle.song", //nextpage
 		"jid1-YMBCq41qvDdqcA@jetpack", // No YouTube comments
 		"bookmark-menu-container@robwu.nl", // Open bookmark in Container Tab menu item
 		"openwith@darktrojan.net", // Open With
 		"{c86567ab-c9be-4823-a1ea-af0f62f9fd49}", // Overlay Remover Auto
+		"PopupVideoWebExt@ettoolong", // Popup Video(WebExtension)
+		"jid1-CKHySAadH4nL6Q@jetpack", // Privacy Settings
 //		"switchyomega@feliscatus.addons.mozilla.org", // Proxy SwitchyOmega
 		"{ea156e76-66fc-4ef0-8d82-b94c4256fd83}", // PunyCodeChecker
+		"{ddc62400-f22d-4dd3-8b4a-05837de53c2e}", // Read Aloud: A Text to Speech Voice Reader
 		"{e1ed7a80-7c11-4f7e-968b-79b551a0067f}", // Reload in address bar
+		"resizeit-2@futuretech.in", // ResizeIT 2
 		"{B5F5E8D3-AE31-49A1-AC42-78B7B1CC5CDC}", // Right Links WE
-		"{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}", // Search by Image
+		"{ca22ca17-3237-4018-8e9e-c29fce75ef2c}", // Save Open Tabs
+		"scotthelme@hotmail.com", // SecurityHeaders.io Analyser
 //		"skipredirect@sblask", // Skip Redirect
-//		"smart-referer@meh.paranoid.pk", // Smart Referer
 		"jid1-KdTtiCj6wxVAFA@jetpack", // Swift Selection Search
-		"{d8d927ce-6f13-4bab-9f4d-16606428ac6c}", // Tab Manager
-		"webext@tabmixplus.org", // Tab Mix Plus (experimental)
+		"tablistbuttonenhanced@doub", // Tab List Button Enhanced
+		"tab-manager@chocobeton", // Tab manager - save open tabs to file
 		"jid0-bnmfwWw2w2w4e4edvcdDbnMhdVg@jetpack", // Tab Reloader
 		"Text-Link-WE@nekoziroo.org", // Text Link webext
+		"{9072080f-7321-4db1-badd-053f0c40765e}", // Theme Toggler
 		"{036a55b4-5e72-4d05-a06c-cba2dfcc134a}", // Translate Web Pages
 		"{a6c4a591-f1b2-4f03-b3ff-767e5bedf4e7}", // User-Agent Switcher and Manager
 		"jid0-DjsrWcAS3Wgq2xyyqqVL8Dqk1Lo@jetpack", // URL analyzing with VirusTotal
+		"{06d12594-5176-4a4f-a3d1-b75d651ffc99}", // Video Autoplay Blocker
 		"{287dcf75-bec6-4eec-b4f6-71948a2eea29}", // View Image
 		"{aecec67f-0d10-4fa7-b7c7-609a2db280cf}", // Violentmonkey
 //		"@windscribeff", // Windscribe - Free Proxy and Ad Blocker
-		"zoompage-we@DW-dev", // Zoom Page WE
+		"{a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7}", // WOT Web of Trust, Website Reputation Ratings
+		"{f73df109-8fb4-453e-8373-f59e61ca4da3}", // YouTube Video and Audio Downloader (Dev Edt.)
 		"yetanothersmoothscrollingwe@kataho", // Yet Another Smooth Scrolling WE
-
-		// NORMALLY DISABLED //
-		
-		"jid1-CKHySAadH4nL6Q@jetpack", // Privacy Settings
+		"zoompage-we@DW-dev", // Zoom Page WE		
 
 		
 		// FIREFOX ADDONS //
@@ -97,7 +110,17 @@ UC.extensionOptionsMenu = {
 		"presentation@mozilla.org",
 		"aushelper@mozilla.org",
 		"webcompat-reporter@mozilla.org",
-		"e10srollout@mozilla.org"
+		"e10srollout@mozilla.org",
+		"fxmonitor@mozilla.org",
+		"amazondotcom@search.mozilla.org",
+		"amazon@search.mozilla.org",
+		"bing@search.mozilla.org",
+		"ddg@search.mozilla.org",
+		"ebay@search.mozilla.org",
+		"ecosia@search.mozilla.org",
+		"google@search.mozilla.org",
+		"leo_ende_de@search.mozilla.org",
+		"wikipedia@search.mozilla.org"
   
   ],
 
@@ -134,8 +157,7 @@ UC.extensionOptionsMenu = {
   },
 
   evalPopulateMenu: function (e) {
-    let win = e.view;
-    new win.Function('e', `
+    new e.view.Function('e', `
       AddonManager.getAddonsByTypes(['extension']).then(addons => UC.extensionOptionsMenu.populateMenu(e, addons));
     `).call(null, e);
   },
@@ -281,6 +303,23 @@ UC.extensionOptionsMenu = {
         break;
       case 3:
         win.switchToTabHavingURI(addon.optionsURL, true);
+        break;
+      case 1:
+        var windows = Services.wm.getEnumerator(null);
+        while (windows.hasMoreElements()) {
+          var win2 = windows.getNext();
+          if (win2.closed) {
+            continue;
+          }
+          if (win2.document.documentURI == addon.optionsURL) {
+            win2.focus();
+            return;
+          }
+        }
+        var features = 'chrome,titlebar,toolbar,centerscreen';
+        var instantApply = Services.prefs.getBoolPref('browser.preferences.instantApply');
+        features += instantApply ? ',dialog=no' : '';
+        win.openDialog(addon.optionsURL, addon.id, features);
     }
   },
 
