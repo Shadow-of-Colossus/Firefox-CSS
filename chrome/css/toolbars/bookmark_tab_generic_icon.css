@@ -1,20 +1,4 @@
- /* replace generic icon color in tabs and bookmarks */
-
-/* generic tab icon must be first of the three */
-.tab-content image.tab-icon-image:not([container]) {
-    fill: violet !important;
-}
-
-/* addon button on tab */
-.tab-content image.tab-icon-image[src="chrome://mozapps/skin/extensions/extension.svg"]{
-  fill: #05b405 !important;
-}
-
-/* preferences button on tab */
-.tab-content image.tab-icon-image[src="chrome://global/skin/icons/settings.svg"]{
-  fill: #e0850f !important;
-}
-
+/* replace generic icon color in tabs and bookmarks */
 
 /* bookmark toolbar */
 #PlacesToolbarItems>.bookmark-item:not([container])>.toolbarbutton-icon[label]:not([label=""]) {
@@ -22,6 +6,9 @@
 }    
 /* bookmark folder */
 .bookmark-item.menuitem-with-favicon:not([container]) {
-    fill: violet !important;
+    fill: darkviolet !important;
 }
-
+/* tab icon */
+.tab-content image.tab-icon-image:not([container]) {
+    fill: limegreen !important;
+}

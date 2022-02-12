@@ -1,0 +1,5 @@
+/* bookmarks bar visible in fullscreen */
+
+:root[inFullscreen] #PersonalToolbar {
+  visibility: visible !important;
+}

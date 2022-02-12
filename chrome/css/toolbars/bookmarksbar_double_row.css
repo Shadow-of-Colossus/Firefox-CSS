@@ -24,9 +24,9 @@ See the above repository for updates as well as full license text. */
   scrollbar-width: thin;
   
   padding-top: 1px !important;
-  padding-bottom: 0px !important;
-  margin-top: 1px !important;
-  margin-bottom: 1px !important;
+  padding-bottom: 1px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
   vertical-align: middle;
 }
 

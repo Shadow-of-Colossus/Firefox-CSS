@@ -1,0 +1,18 @@
+/* bookmark folder colors*/
+#bookmarks-view treechildren::-moz-tree-image(container),
+#bookmarksMenu menu[container="true"] .menu-iconic-icon,
+.bookmark-item[container] { 
+  fill: fuchsia !important;
+}
+
+/* OLD CODE 
+#bookmarks-view treechildren::-moz-tree-image(container),
+#PlacesToolbarItems toolbarbutton[container="true"] .toolbarbutton-icon,
+#BMB_bookmarksPopup menu[container="true"] .menu-iconic-icon,
+#bookmarksToolbarFolderMenu,
+#menu_unsortedBookmarks,
+#otherBookmarksFolderPopup menu.menu-iconic.bookmark-item,
+    menu.menu-iconic {
+    fill: fuchsia !important;
+}
+*/
