@@ -1,0 +1,76 @@
+/* MUST HAVE buttons glass effects enabled to work */
+
+/* urlbar border load on new tab */
+#urlbar,
+#urlbar-background,
+#urlbar-input-container { 
+    border-radius: 4px !important; border: none !important; 
+}
+
+/*menubar items */
+#file-menu, #edit-menu, #view-menu, #history-menu,
+#bookmarksMenu, #tools-menu, #helpMenu {
+  margin-top: 4px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* menubar items hovered*/
+#file-menu:hover, #edit-menu:hover, #view-menu:hover, #history-menu:hover,
+#bookmarksMenu:hover, #tools-menu:hover, #helpMenu:hover {
+  border-radius: 4px !important;
+  background: rgba(151,152,153,.05) linear-gradient(rgba(251,252,253,.55), rgba(246,247,248,.17) 49%, 
+			  rgba(231,232,233,.25) 51%, rgba(225,226,229,.1)) !important;
+}
+
+/* bookmarks bar */
+#PlacesToolbarItems toolbarbutton.bookmark-item:hover {
+  border-radius: 4px !important;
+  background: rgba(151,152,153,.05) linear-gradient(rgba(251,252,253,.55), rgba(246,247,248,.17) 49%, 
+			  rgba(231,232,233,.25) 51%, rgba(225,226,229,.1)) !important;
+}
+
+/* hamburger - more tools button */
+#nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1:not([checked]):not([open]):not(:active) > .toolbarbutton-badge-stack,
+#nav-bar .toolbarbutton-1:not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:not([disabled=true]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack,
+#nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:not([disabled=true]):is([open],[checked],:hover:active,:active) > .toolbarbutton-badge-stack,
+/* new tab button */
+#tabs-newtab-button .toolbarbutton-icon,
+/* private tab button */
+#privateTab-button .toolbarbutton-icon,
+/* overflow button */
+#nav-bar-overflow-button .toolbarbutton-icon,
+/* sidebar button */
+#sidebar-button .toolbarbutton-icon,
+/* home button */
+#home-button .toolbarbutton-icon,
+/* my uc.js buttons */
+#uc-restart .toolbarbutton-icon,
+/* sextensions options menu button */
+#eom-button .toolbarbutton-icon,
+/* extensions buttons */
+.webextension-browser-action .toolbarbutton-badge-stack,
+/* addon bar buttons */
+#addonbar .toolbarbutton-1,
+/* menu bar buttons */
+#main-window toolbox toolbar :is(#home-button) .toolbarbutton-icon,
+/*policies container */
+#policies-container {
+  border-radius: 8px !important;
+}
+
+/* round corners on address bar */
+#identity-box, 
+#urlbar,
+#identity-box:after,
+/* round top corners on tabs */
+.tabbrowser-tab,
+.tab-background,
+.tabbrowser-tab:not([selected]):hover .tab-content,
+/* tab loading burst */
+.tabbrowser-tab .tab-loading-burst {
+	border-radius: 8px !important;
+}
