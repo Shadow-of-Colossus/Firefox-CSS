@@ -34,6 +34,11 @@
   background: #0a84ff; /* Firefox Blue 50 */
 }
 
+/* about:pages and local files */
+#urlbar[pageproxystate='valid'] #identity-box.localResource:after {
+  background: #0a84ff; /* Firefox Blue 50 */
+}
+
 /* uBlock Origin Dashboard */
 #urlbar[pageproxystate='valid'] #identity-box.extensionPage:after {
   background: #45a1ff; /* Firefox Blue 40 */

@@ -15,7 +15,7 @@
   border-right: -27px !important;
    border-image-slice: 0 !important;
   opacity: 0.0;
-  /*display: none;*/
+  /*display: none !important;*/
 }
 
 #tracking-protection-icon {

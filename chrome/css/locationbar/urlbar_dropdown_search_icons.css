@@ -1,0 +1,33 @@
+/* urlbar dropdown of search icons */
+.search-one-offs {background-color: #333 !important;     border-radius: 0px 0px 8px 8px !important;}
+
+.searchbar-engine-one-off-item[selected] {background-color: #999 !important}
+
+#urlbar-search-mode-indicator {background: transparent !important; border: 0px !important;}
+
+#urlbar-search-mode-indicator-title {color: #ddd !important; font-size: 13px !important}
+
+#urlbar-search-mode-indicator-close {background-color: darkred !important}
+
+/* This time search with text hidden *
+#urlbar-one-offs-header-label.search-panel-one-offs-header-label {display: none !important;}
+*/
+
+/* change one-off name */
+#urlbar-one-offs-header-label{ display: none }
+.search-one-offs > .search-panel-one-offs-header::before{
+  margin-left: 20px !important;
+  margin-right: 5px !important;
+  display: block;
+  content: "Search with:";
+}
+
+/* hide bookmark, tab and history buttons */
+#urlbar-engine-one-off-item-bookmarks.searchbar-engine-one-off-item,
+#urlbar-engine-one-off-item-tabs.searchbar-engine-one-off-item,
+#urlbar-engine-one-off-item-history.searchbar-engine-one-off-item {
+  display: none !important;
+}
+
+
+

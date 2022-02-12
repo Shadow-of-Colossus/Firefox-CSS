@@ -1,0 +1,12 @@
+/* url bar and selected text and highlight color */ 
+ ::-moz-selection {
+    background: #9C04D1 !important;
+    color: #fff !important;
+}
+::selection {
+    background: #9C04D1 !important;
+    color: #fff !important;
+}
+
+
+

@@ -1,0 +1,5 @@
+/* hides the Extension prefix or...whatever) thing in address bar */
+
+#identity-icon-label {
+	display: none !important;
+}

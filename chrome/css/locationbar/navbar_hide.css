@@ -1,10 +1,4 @@
-/*Replace the url with the tab title when not hovered or focused */
-#urlbar {
-/* Place bindings.xml in the same folder as userChrome.css */
- -moz-binding url(./css/locationbar/searchbar_hide.xml#search-container) !important;
-  border: none !important;
-  transition: background-color 0.25s;
-}
+/* makes the navbar transparent when not hover */
 
 #urlbar:not(:hover){
   background-color: transparent !important;

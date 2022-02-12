@@ -1,29 +1,8 @@
-/* Hide page action separator only */
-#pageActionSeparator {
- display: none !important;
-}
+/*Multi-Containers */
+#pageAction-urlbar-_testpilot-containers {display: none !important}
 
 /* Translate Web Page */
 #pageAction-urlbar-_036a55b4-5e72-4d05-a06c-cba2dfcc134a_ {display: none !important}
-
-/* Hide email link and send tab to device */
-#pageAction-panel-emailLink,
-#pageAction-panel-sendToDevice {display: none !important}
-
-/*hide page action button */
-#pageActionButton[class^=urlbar-icon]{
-  margin-inline-end: -26px;
-  opacity: 0;
-  transition: margin-inline-end 100ms linear, opacity 200ms linear;
-}
-:root[uidensity="compact"] #pageActionButton[class^=urlbar-icon]{ margin-inline-end: -22px; }
-#page-action-buttons:hover > *[class^=urlbar-icon],
-#pageActionButton[class^=urlbar-icon][open],
-#pageActionButton[class^=urlbar-icon][open] ~ *[class^=urlbar-icon]{
-  opacity: 1;
-  margin-inline-end: 0px !important;
-   transition: all 1s ease-in-out 1s
-}
 
 /* page action panel */
 #pageAction-panel-jid1-ymbcq41qvddqca_jetpack, /* youtube no comments */
@@ -31,11 +10,12 @@
 #pageAction-panel-_breadcrumbus, /* breadcrumbus */
 #pageAction-panel-crxviewer-firefox_robwu_nl, /* crx viewer */
 #pageAction-panel-canvasblocker_kkapsner_de, /* canvasblocker */
-#pageAction-panel-_036a55b4-5e72-4d05-a06c-cba2dfcc134a_, /* simple translate */
 #pageAction-panel-_c0e1baea-b4cb-4b62-97f0-278392ff8c37_  /* remove page overylay */
 {  visibility: collapse !important}
 
-#pageAction-urlbar-_70b4fb8a-ae41-4e66-99f5-0fa89e411d69_ {color: white !important}
+/* Hide email link and send tab to device */
+#pageAction-panel-emailLink,
+#pageAction-panel-sendToDevice {display: none !important}
 
 /*THIS TOTALLY HIDES the page action button *
 #pageActionButton {  visibility: collapse !important}

@@ -77,7 +77,7 @@
 }
 
 #urlbar:is([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked), 
-#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage) {
+#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage,.localResource) {
   background: linear-gradient(#fcfcfc,#d4d4d4) !important;
   color: black !important;
   border-inline-end: 1px solid #bebebe !important;
@@ -87,18 +87,18 @@
 }
 	
 #urlbar:is([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked) #identity-icon, 
-#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage) #identity-icon{
+#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage,.localResource) #identity-icon{
   background-color: unset !important;
 }
 	
 #urlbar:is([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked):hover,
-#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage):hover {
+#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage,.localResource):hover {
   background: linear-gradient(#f2f2f2,#c0c0c0) !important;
   opacity: .8 !important;
 }
 
 #urlbar:is([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked):is([open="true"],:hover:active),
-#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage):is([open="true"],:hover:active) {
+#urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage,.localResource):is([open="true"],:hover:active) {
   background: linear-gradient(#f0f0f0,#c0c0c0) !important;
   box-shadow: 0 1px 1px hsla(0,0%,48%,1.0) inset,
 			  0 1px 3px 1px hsla(0,0%,48%,1.0) inset !important;
@@ -166,7 +166,7 @@
 }
 
 #main-window:-moz-lwtheme-brighttext #urlbar:is([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked), 
-#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage) {
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage,.localResource) {
   background: linear-gradient(#474749,#414141,#333333) !important;
   color: white !important;
   border-inline-end: 1px solid #262627 !important;
@@ -174,7 +174,7 @@
 }
 
 #main-window:-moz-lwtheme-brighttext #urlbar:is([pageproxystate="invalid"],[pageproxystate="valid"]) .unknownIdentity:not(.mixedDisplayContentLoadedActiveBlocked):is(:hover,[open="true"],:hover:active),
-#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage):is(:hover,[open="true"],:hover:active) {
+#main-window:-moz-lwtheme-brighttext #urlbar[pageproxystate="valid"] :is(.chromeUI,.extensionPage,.localResource):is(:hover,[open="true"],:hover:active) {
   box-shadow: 0 1px 1px hsla(0,0%,48%,1.0) inset,
 			  0 1px 3px 1px hsla(0,0%,48%,1.0) inset !important;
 			  opacity: .8 !important;

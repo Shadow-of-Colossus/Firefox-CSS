@@ -1,56 +1,77 @@
+/*protection dropdown */
+#protections-popup  {
+  border-radius: 8px !important;
+}
+
 /* site info dropdown */
-#identity-popup-mainView-panel-header {
-	background: #9C04D1 !important
-}
-
-#identity-popup-security > vbox,
-#identity-popup-clear-sitedata-button,
-#identity-popup-permissions-content {
-	background-color: #111 !important
-}
-
-#identity-popup-security-expander {
+#identity-popup-mainView {
 	background-color: #111 !important;
-	color: white !important;
+	color: #ddd !important;
 }
 
 /*protections dropdown */
-#protections-popup-mainView-panel-header {
-	background: #9C04D1 !important
+#protections-popup-mainView-panel-header,
+#identity-popup-mainView-panel-header,
+#identity-popup-securityView.PanelUI-subView box.panel-header,
+#protections-popup-fingerprintersView box.panel-header,
+#protections-popup-trackersView box.panel-header,
+#protections-popup-socialblockView box.panel-header,
+#protections-popup-cookiesView box.panel-header,
+#protections-popup-cryptominersView box.panel-header {
+	color: #fff !important;
+	background: #9C04D1 !important;
 }
 
 /* parts of page are not secure */
 description.identity-popup-warning-box {
 	background-color: gold !important;
-	color: black important;
+	color: black !important;
 	border: double !important;
 	border-color: red !important;
 }
 
-#protections-popup,
 #protections-popup-tp-switch-section,
 #tracking-protection-container,
 #protections-popup-no-trackers-found-description,
 #protections-popup-footer,
 #protections-popup-fingerprintersView,
-#protections-popup-fingerprinters-heading,
 #protections-popup-fingerprintersView-list,
 #protections-popup-mainView,
 #protections-popup-trackersView,
 #protections-popup-socialblockView,
-#protections-popup-socialblockView-heading,
 #protections-popup-socialblockView-list,
 #protections-popup-cookiesView,
-#protections-popup-cookiesView-heading,
 #protections-popup-cookiesView-list,
 #protections-popup-cryptominersView,
 #protections-popup-category-list,
  #protections-popup-category-cryptominers,
 #protections-popup-sendReportView,
 #protections-popup-siteNotWorkingView {
+	color: #ddd !important;
 	background: #111 !important;
- }
- 
+}
+
  #protections-popup-socialblockView-settings-button {
 	background: #777 !important;
- }
+}
+
+#identity-popup-security-button:hover,
+#identity-popup-clear-sitedata-button:hover,
+#identity-popup-more-info:hover,
+#protections-popup-category-fingerprinters:hover,
+#protections-popup-category-trackers:hover,
+#protections-popup-category-socialblock:hover,
+#protections-popup-category-cookies:hover,
+#protections-popup-category-cryptominers:hover,
+#protections-popup-settings-button:hover,
+#protections-popup-show-report-button:hover,
+#protections-popup-fingerprintersView-settings-button.subviewbutton.panel-subview-footer-button:hover,
+#protections-popup-trackersView-settings-button.subviewbutton.panel-subview-footer-button:hover,
+#protections-popup-socialblockView-settings-button.subviewbutton.panel-subview-footer-button:hover,
+#protections-popup-cookiesView-settings-button.subviewbutton.panel-subview-footer-button:hover,
+#protections-popup-cryptominersView-settings-button.subviewbutton.panel-subview-footer-button:hover,
+.subviewbutton-iconic:hover,
+.panel-header toolbarbutton.subviewbutton.subviewbutton-iconic.subviewbutton-back:hover {
+color: #ffffff !important;
+background: #777 !important;
+}

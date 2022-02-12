@@ -1,0 +1,118 @@
+/********** MEGABAR SHIT **************/
+/* prevent enlargement */
+#urlbar[breakout-extend] {
+  top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+  left: 0 !important;
+  width: 100% !important;
+}
+
+/*
+#urlbar[breakout-extend] #urlbar-input-container {
+  height: var(--urlbar-height) !important;
+  padding: 0px !important;
+  padding-block: 0px !important;
+  padding-inline: 0px !important;
+}
+*/
+
+/* remove black background and orange border */
+#urlbar-background,
+#urlbar-container,
+.urlbar-input-box {
+  border: none !important;
+  color: none !important;
+  background-color: none !important;
+  background: none !important;
+}
+
+
+
+/****** RICH LIST DROPDOWN SHIT ******/
+
+/* selected background color */
+:root{ --autocomplete-popup-highlight-background: #999 !important }
+
+/*location bar drop down list colors */
+#urlbar-results {
+  background: #111 !important;
+  color: #bbb !important;
+  padding: 0px 4px 0px 4px  !important;
+}
+
+/* hover color */
+.urlbarView-row:hover:not([selected]) {
+  background-color: #777 !important;
+  border-radius: 4px !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important; 
+}
+
+/* action button - like we need it */
+.urlbarView-action {
+  background-color: transparent !important;
+  color: yellow !important;
+  font-weight: bold !important;
+}
+
+.urlbarView-action:hover:not([selected]) {
+  background-color: #111 !important;
+  color: lime !important;
+  font-weight: bold !important;
+}
+
+/* title in dropdown */
+.urlbarView-title {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* url in dropdown */
+.urlbarView-url {
+  color: cyan !important;
+  font-size: 8pt !important;
+}
+
+/* reduce row paddings to make them more compact */
+.urlbarView-row {
+  padding: 2px !important;
+  line-height: 1.20em !important;
+}
+.urlbarView-row-inner {
+  padding-bottom: 8px !important;
+}
+.urlbarView {
+  margin: 0px !important;
+  width: 100% !important;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+}
+
+/* move the type icons to the left of the favicon. */
+.urlbarView .urlbarView-favicon {
+  margin-left: 20px !important;
+}
+
+.urlbarView .urlbarView-type-icon {
+  position: relative !important;
+  left: -54px !important;
+  top: -4px !important;
+  margin-right: -24px !important;
+  height: 16px !important;
+  width: 16px !important;
+  filter: contrast(90%) brightness(110%);
+}
+
+
+
+/****** SEARCH ICON SHIT ******/
+
+/*search icon hover color */
+.searchbar-engine-one-off-item:hover:not([selected]) {
+  background-color: #999 !important; 
+}
+/* search icon spacing */
+.searchbar-engine-one-off-item {
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+}
+
