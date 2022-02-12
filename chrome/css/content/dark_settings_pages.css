@@ -14,7 +14,7 @@
   url-prefix("chrome://mozapps/content/"),
   url-prefix("chrome://pippki/content/"),
   url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"),
-  url-prefix("chrome://userchromejs/content/aboutconfig/config.xhtml"){
+  url-prefix("chrome://userchromejs/content/aboutconfig/config.xhtml") {
     :root,
     html|html{
       --in-content-page-color: rgb(210,210,210) !important;
@@ -63,7 +63,7 @@
 }
 
 
-/* EXTRAS on preferences page */
+/* EXTRAS on PREFERENCES PAGE */
 .disco-cta-button.primary,
 .dialogTitleBar {
   background-color: var(--in-content-box-background) !important;
@@ -85,3 +85,105 @@ background: #555 !important;
 .policies-label {
 color: #fff !important;
 }
+
+
+
+
+
+/* tracking protection settings */
+#blockCookiesMenu,
+#trackingProtectionMenu
+{ background: #555 !important; }
+#blockCookiesMenu:hover:not([selected]),
+#blockCookiesMenu[selected],
+#trackingProtectionMenu[selected],
+#trackingProtectionMenu:hover:not([selected])
+{ background: #9C04D1 !important; }
+
+
+/* cookies and site data dialog boxes */
+#sitesList richlistitem[selected] {
+  color: white !important;
+  font-weight: bold !important;
+  background: #777 !important; 
+}
+
+/* dialog boxes for cookies*/
+vbox.dialogOverlay,
+.box-inherit.dialog-content-box,
+.dialog-button-box {
+  color: #ddd !important;
+  background: #333 !important;
+}
+
+/* login exceptions */
+#url,
+#searchBox,
+/* various boxes */
+#historyItems,
+#activeLanguages,
+#selectedLocales,
+#networkProxyType,
+#engineName,
+#engineUrl,
+#engineAlias,
+#permissionsBox,
+#permissionsBox richlistitem hbox menulist.website-status,
+#siteCol,
+#sanitizeEverythingWarningBox,
+#statusCol,
+#ClearSiteDataDialog dialog vbox.contentPane.doScroll vbox.options-container,
+.options-container,
+#hostCol,
+#cookiesCol,
+#usageCol,
+#lastAccessedCol,
+#sitesList {
+  color: #ddd !important;
+  background: #333 !important; 
+}
+
+/* certificates and devices text color */
+#ca-tree > treechildren,
+#device_list,
+#info_list { color: #333 !important; 
+}
+
+
+/*about: logins page */
+.edit-button.ghost-button,
+.delete-button.ghost-button {
+  color: #ddd !important;
+}
+
+.login-item-title {
+  color: yellow !important;
+  font-style: italic !important; 
+}
+
+.origin-input {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+login-list,
+input.filter,
+#login-sort,
+div.meta,
+.login-list-item,
+.empty-search-message,
+.create-login-button,
+.create-login-button-container,
+div.tooltip-container div.arrow-box,
+.tooltip-message,
+.detail-row label.detail-cell input,
+.reveal-password-wrapper input {
+background: #333 !important;
+color: #ddd !important;
+}
+
+.login-list-item div.labels span.username {color: #bbb !important; }
+
+.reveal-password-checkbox{ filter:brightness(300%) !important; }
+
+.reveal-password-wrapper input { font-style: normal !important; }

@@ -1,45 +1,69 @@
-@-moz-document url-prefix("about:preferences") {
+@-moz-document url-prefix("about:preferences"),
+  url-prefix("chrome://browser/#dialogBox/"),
+  url-prefix("chrome://browser/content/") {
 
 /* This block changes the colors of the check marks and radio (the circle checks) */
 checkbox[checked] > .checkbox-check {
   /*list-style-image: url("chrome://global/skin/icons/check.svg"); with a custom path will 
    *allow you to change the check or radio */
-  fill: #ddd !important;
+  fill: #fff !important;
+  border: 1px solid #fff !important;
+  background-color: green !important;
 }
 
 input[type="checkbox"]:checked {
-  fill: #ddd !important;
+  fill: #fff !important;
 }
 
 .radio-check[selected] {;
   -moz-context-properties: fill;
-  fill: #ddd !important;
+  fill: #fff !important;
 }
 
 /* Changes the background color of the check boxes and radio circles when not touched */  
 .checkbox-check,
 input[type="checkbox"] {
   border: 1px solid #ddd !important;
-  background-color: #2a2a2e !important;
+  background-color: transparent !important;
 }
 
 .radio-check {
   border: 1px solid #ddd !important;
-  background-color: #2a2a2e !important;
+  background-color: transparent !important;
 }
 
 /* Changes the color of the checkboxes and radio on hover */
 checkbox:not([disabled="true"]):hover > .checkbox-check,
 input[type="checkbox"]:not(:disabled):hover {
-  fill: #000 !important;
+  fill: #fff !important;
+  border: 2px solid #fff !important;
+  background-color: #9C04D1 !important;
+}
+
+.radio-check[selected] {
+  fill: lime !important;
+  border-color: #fff !important;
+  background-color: green !important;
+}
+
+radio:not([disabled="true"]):hover > .radio-check {
+  fill: #fff !important;
   border-color: #ddd !important;
   background-color: #9C04D1 !important;
 }
 
-radio:not([disabled="true"]):hover > .radio-check {
-  fill: #000 !important;
-  border-color: #ddd !important;
-  background-color: #9C04D1 !important;
+/* cookies and site data dialog boxes checkmarks */
+checkbox#clearSiteData:not([disabled="true"]) > .checkbox-check,
+checkbox#clearCache:not([disabled="true"]) > .checkbox-check {
+  border: 1px solid #ddd !important;
+  background-color: transparent !important;
+}
+
+checkbox#clearSiteData[checked] > .checkbox-check,
+checkbox#clearCache[checked] > .checkbox-check {
+  fill: #fff !important;
+  border: 1px solid #fff !important;
+  background-color: green !important;
 }
 
 }

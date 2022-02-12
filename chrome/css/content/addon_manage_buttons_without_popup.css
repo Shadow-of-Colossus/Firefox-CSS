@@ -1,7 +1,7 @@
 /* Show addon management buttons without opening popup .......................................... By MrOtherGuy*/
 
 @-moz-document url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"), url("about:addons"){
- 
+
   .addon-card-message{ margin-bottom: 0px !important; margin-top: 0px !important; }
   .card.addon{ padding-bottom: 0px !important; }
   

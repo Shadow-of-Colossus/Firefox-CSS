@@ -1,0 +1,15 @@
+/* remove buy advert */
+#watch-checkout-offers.style-scope.ytd-unlimited-offer-module-renderer {
+  display: none !important;
+}
+
+/* separate scrolling */
+@-moz-document domain("youtube.com"){
+  ytd-watch-flexy:not([theater]):not([fullscreen]) #related > ytd-watch-next-secondary-results-renderer > #items{
+  max-height: calc(100vh - var(--ytd-toolbar-offset) - 2 * var(--ytd-margin-6x));
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  scrollbar-width: none;
+  }
+}

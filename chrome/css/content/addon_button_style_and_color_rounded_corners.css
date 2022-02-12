@@ -1,7 +1,105 @@
-/* Hide the 'Add-ons Support' button */
-#helpButton, #help-button { display: none !important; }
+@-moz-document url-prefix("chrome://mozapps/content/extensions/aboutaddons.html"), url("about:addons") {
+  button:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  border-radius: 8px !important; /* rounded corners */
+}
 
-/* ADDON BUTTONS */
+/* Hide the 'Add-ons Support' button */
+#help-button { display: none !important; border: none !important;}
+
+/* addon card color */
+.card.addon addon-options panel-list,
+.card.addon {
+  background-color: #2A2A2E !important; /* makes card match page color */
+  border-radius: 8px !important; /* rounded corners */
+}
+
+.card.addon addon-options panel-list panel-item:hover:not([selected]),
+.addon plugin-options panel-list panel-item:hover:not([selected]),
+.card.addon addon-options panel-list panel-item,
+.addon plugin-options panel-list panel-item {
+  margin-left: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+/* hover on addon opened */
+#details-deck-button-details.tab-button.ghost-button:hover:not([selected]),
+#details-deck-button-preferences.tab-button.ghost-button:hover:not([selected]),
+#details-deck-button-permissions.tab-button.ghost-button:hover:not([selected]) {
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+  border-radius: 8px !important; /* rounded corners */
+}
+
+/* color of selected addon choice */
+#details-deck-button-details.tab-button.ghost-button[selected],
+#details-deck-button-preferences.tab-button.ghost-button[selected],
+#details-deck-button-permissions.tab-button.ghost-button[selected] {
+  background-color: #bbb !important;
+  color: #9C04D1 !important;
+  border-radius: 8px !important; /* rounded corners */
+}
+
+/* color of selected addon choice when hovered */
+#details-deck-button-details.tab-button.ghost-button:hover[selected],
+#details-deck-button-preferences.tab-button.ghost-button:hover[selected],
+#details-deck-button-permissions.tab-button.ghost-button:hover[selected] {
+  background-color: #9C04D1 !important; 
+  color: white !important;
+  border-radius: 8px !important; /* rounded corners */
+}
+
+
+/* Addon Card Hover/Border Outline */
+:root { --card-outline-color: #9C04D1 !important; 
+  --card-shadow-hover: var(--card-shadow), 0 0 0 3px var(--card-outline-color) !important; }
+}
+
+/* get rid of border around the panel buttons */
+.card.addon addon-options panel-list:hover:not([selected]),
+.card.addon addon-options panel-list {
+  border-color: green !important;
+  border-top: none !important; 
+  border-right: none !important; 
+}
+
+/* addon card border color enabled */
+addon-list > section > addon-card > .card { 
+  border-color: green !important; 
+  border-width: 2px !important; 
+}
+
+/* addon card border color disabled */
+addon-list > section + section > addon-card > .card { 
+  border-color: grey !important; 
+  border-width: 2px !important; 
+}
+
+/*addon card button disabled */
+input[type="checkbox"].toggle-button {
+  background-color: orange !important;
+  border-color: orange !important;
+}
+
+/*addon card button enabled */
+input[type="checkbox"].toggle-button:checked {
+background-color: green !important;
+  border-color: green !important;}
+}
+
+
+
+
+
+/* Hide the 'Add-ons Support' button */
+#help-button.sidebar-footer-link,
+#help-button.sidebar-footer-link img.sidebar-footer-icon,
+#help-button { display: none !important; border: none !important;}
+ 
+/*spacing */
+ #categories button.category,
+#preferencesButton  {  margin-bottom: 8px !important;}
+
+.addon-name-container button.more-options-button:hover:not([selected]),
  .card.addon addon-options panel-list panel-item:hover:not([selected]),
 .addon plugin-options panel-list panel-item:hover:not([selected]),
 .page-options-menu button:hover:not([selected]),
@@ -32,6 +130,7 @@
   color: white !important;
 }
 
+.addon-name-container button.more-options-button,
 .addon plugin-options panel-list panel-item,
 .page-options-menu button,
 .theme-enable-button,
@@ -43,32 +142,50 @@
 #help-button.sidebar-footer-link.help-icon,
 #preferencesButton.text-link hbox,
 #help-button.text-link hbox,
-#updates-message {
+#updates-message,
+#blockCookiesMenu,
+#trackingProtectionMenu,
+.content-blocking-warning {
   border: 1px solid #999 !important;
   margin-right: 3px !important;
   margin-top: 2px !important;
 	 border-radius: 8px !important; /* rounded corners */
 }
 
-/*
-.card.addon {
-  border: 3px solid #999 !important;
-  margin-right: 3px !important;
-  margin-top: 2px !important;
-	 border-radius: 8px !important; } /* rounded corners */
+
+
 
 
 /* PREFERENCES BUTTONS */
+#removeSelected,
+#removeAll,
+.dialog-button-box button {
+  color: #fff !important;
+  background-color: #7d7d80 !important; 
+  border: 1px solid #999 !important;
+	 border-radius: 8px !important; /* rounded corners */
+margin-bottom: 8px !important;
+}
+
+#removeSelected:hover:not([selected]),
+#removeAll:hover:not([selected]),
+.dialog-button-box button:hover:not([selected]) {
+  color: #fff !important;
+  background-color: #9C04D1 !important; /* HOVER COLOR */
+	 border-radius: 8px !important; /* rounded corners */
+}
+
 .actionButtons button:hover:not([selected]) {
+  color: #fff !important;
   background-color: #9C04D1 !important; /* HOVER COLOR */
 }
 
 .actionButtons button{
+  color: #fff !important;
   border: 1px solid #999 !important;
   margin-right: 3px !important;
 	 border-radius: 8px !important; /* rounded corners */
 }
-
 
 /* preferences dialog buttons */
 .dialogTitleBar button.dialogClose.close-icon:hover:not([selected]),
@@ -76,7 +193,6 @@
 .accessory-button:hover:not([selected]) {
   background-color: #9C04D1 !important; /* HOVER COLOR */
 }
-
 
 .dialogTitleBar button.dialogClose.close-icon,
 .dialog-button,
@@ -104,6 +220,7 @@
 #downloadAndInstallButton:hover:not([selected]),
 #restoreDefaultSearchEngines:hover:not([selected]),
 #removeEngineButton:hover:not([selected]),
+#addEngineButton:hover:not([selected]),
 #defaultEngine:hover:not([selected]),
 #SiteDataSettingsDialog hbox button:hover:not([selected]),
 #SiteDataSettingsDialog vbox hbox button:hover:not([selected]),
@@ -136,11 +253,23 @@
 #category-privacy,
 #category-sync{
   border: 1px solid #999 !important;
-  margin-bottom: 5px !important;
+  margin-bottom: 10px !important;
   border-radius: 8px !important; /* rounded corners */
 }
 
+#helpButton{
+  display: none !important;
+}
+
 .disco-cta-button.primary,
+#defaultBrowserLanguage,
+#defaultZoom,
+#defaultFontSize,
+#defaultFont,
+#downloadFolder,
+#updateSettingsContainer,
+#checkForUpdatesButton3,
+#browserContainersExtensionContent,
 #contentBlockingOptionStandard,
 #contentBlockingOptionStrict,
 #contentBlockingOptionCustom,
@@ -156,6 +285,7 @@
 #downloadAndInstallButton,
 #restoreDefaultSearchEngines,
 #removeEngineButton,
+#addEngineButton,
 #defaultEngine,
 #SiteDataSettingsDialog hbox button,
 #SiteDataSettingsDialog vbox hbox button,
@@ -180,4 +310,12 @@
   margin-right: 3px !important;
   margin-top: 2px !important;
   border-radius: 8px !important; /* rounded corners */
+}
+
+/* about:config and hacked version */
+#textbox,
+#about-config-search{
+  border-radius: 10px 100px / 120px !important; /* rounded corners */
+}
+
 }

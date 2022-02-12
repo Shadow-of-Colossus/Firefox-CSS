@@ -1,0 +1,24 @@
+/* Keep taskbar at top no gap */
+
+@-moz-document url("https://www.theweathernetwork.com/") 
+
+#hm_on_210518_27 { position:absolute !important;
+ margin-bottom:38px  !important;
+ top:0px  !important;
+ }
+
+.taskbar { position:absolute !important;
+  margin-bottom:38px  !important;
+ top:0px  !important;
+}
+
+#hm_on_210518_27.taskbar { position:absolute !important;
+  margin-bottom:38px  !important;
+ top:0px  !important;
+}
+
+#hm_on_210518_27 { position:absolute !important;
+  margin-bottom:38px  !important;
+ top:0px  !important;
+ }
+

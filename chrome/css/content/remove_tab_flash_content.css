@@ -1,0 +1,9 @@
+/* Remove New Tab Flash */
+
+@-moz-document url-prefix(about:blank), url-prefix(about:newtab), url(moz-extension://18833d05-ae1d-4d36-a8e1-a0b85a34bab3/redirect.html), url(moz-extension://18833d05-ae1d-4d36-a8e1-a0b85a34bab3/html/newtab.html)
+{
+    html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay
+    {
+        background: #68798a !important;
+    } 
+}
