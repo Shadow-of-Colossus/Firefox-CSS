@@ -1,18 +1,33 @@
-/* EXTENSION OPTIONS MENU SCRIPT - enabled text green */
-#eom-button-popup  {
-	color: #64ae64 !important
-}
+/* Hide icon on Remove the overlay popup */ .titleIcon {display: none !important; }
 
+
+/* EXTENSION OPTIONS MENU SCRIPT - enabled text green */
+#eom-button-popup /*menuitem*/ {
+  color: #64ae64 !important;
+  min-width: 350px !important;
+  border: 1px solid #ddd !important;
+  padding: 3px 3px 3px 3px  !important;
+  border-radius: 8px !important;
+  }
+
+ 
 /*TOOLBAR BUTTONS */
 
-/*Manage Your Addos Button changes it to green */
+/*Manage Your Addons Button changes it to green */
 #add-ons-button > .toolbarbutton-icon { fill: green !important; }
 
 /*Changes the More Tools/Overflow Button I icon */
-#nav-bar-overflow-button > .toolbarbutton-icon { list-style-image: url("./image/overflow.png") !important;}
+#nav-bar-overflow-button > .toolbarbutton-icon { list-style-image: url("./image/overflow.png") !important; margin-right: 3px !important;}
 
 /*Changes the Open Menu Button I icon */
-#PanelUI-menu-button {list-style-image: url("./image/open_menu.png") !important;}
+#PanelUI-menu-button {list-style-image: url("./image/open_menu.png") !important; }
+
+/* reduces space between buttons on right tab bar */
+#privateTab-button,
+#tb-tab-close-history-single_codefisher_org-browser-action {
+  margin-left: -3px !important;
+  margin-right: -3px !important;
+}
 
 /*END TOOLBAR BUTTONS */
 
@@ -20,14 +35,9 @@
 
 /* ADDON BUTTONS */
 
-/*Overlay Revmoval Auto */
-#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/behind_overlay_removal_auto.png") !important;
-}
-
 /*Behind The Overlay Revival */
 #_c0e1baea-b4cb-4b62-97f0-278392ff8c37_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/behind_overlay_revival.png") !important;
+  list-style-image: url("./image/behind_overlay_revival.png") !important; 
 }
 
 /*Block Site */
@@ -35,19 +45,14 @@
   list-style-image: url("./image/block_site.png") !important;
 }
 
+/* Check_All_Scripts_with_URLVoid */
+#_c64b7090-a19c-41f5-a624-490cd627ce06_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/check_all_scripts_with_urlvoid.png") !important;
+}
+
 /*Clear Browsing Data */
 #_ce9f4b1f-24b8-4e9a-9051-b9e472b1b2f2_-browser-action .toolbarbutton-icon {
   list-style-image: url("./image/eraser1.png") !important;
-}
-
-/*Export Tabs URLs */
-#_17165bd9-9b71-4323-99a5-3d4ce49f3d75_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/export_tabs_urls.png") !important;
-}
-
-/*Theme Toggler */
-#_9072080f-7321-4db1-badd-053f0c40765e_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/theme_toggler.png") !important;
 }
 
 /* CCS Exfil Protection */
@@ -55,9 +60,19 @@
   list-style-image: url("./image/css_exfil_protection.png") !important;
 }
 
-/* Check_All_Scripts_with_URLVoid */
-#_c64b7090-a19c-41f5-a624-490cd627ce06_-browser-action .toolbarbutton-icon {
-  list-style-image: url("./image/check_all_scripts_with_urlvoid.png") !important;
+/*Export Tabs URLs *
+#_17165bd9-9b71-4323-99a5-3d4ce49f3d75_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/export_tabs_urls.png") !important;
+}
+
+/*Overlay Revmoval Auto */
+#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/behind_overlay_removal_auto.png") !important;
+}
+
+/*Theme Toggler */
+#_9072080f-7321-4db1-badd-053f0c40765e_-browser-action .toolbarbutton-icon {
+  list-style-image: url("./image/theme_toggler.png") !important;
 }
 
 /* END ADDON BUTTONS */
@@ -65,13 +80,6 @@
 
 
 /* ADDON BADGES */
-
-/* uBlock Origin */
-#ublock0_raymondhill_net-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
 
 /* CCS Exfil Protection */
 #_7fc8ef53-24ec-4205-87a4-1e745953bb0d_-browser-action label {
@@ -82,48 +90,6 @@ color: black !important;
 opacity: 1 !important;
 } 
 
-/* Noscript */
-#_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Ghostery */
-#firefox_ghostery_com-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Privacy Badger */
-#jid1-mnnxcxisbpnsxq_jetpack-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Cookie Autodelete */
-#cookieautodelete_kennydo_com-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* HTTPS Everywhere */
-#https-everywhere_eff_org-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Bitdefender Trafficlight */
-#trafficlight_bitdefender_com-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
 /*app.telemetry Page Speed Monitor */
 #jid0-oqxcsy9vmemm8jjqjyy5km0nms8_jetpack-browser-action label {
 color: white !important;
@@ -132,6 +98,35 @@ min-width: 28px !important;
 opacity: 1 !important;
 }
 
+/* Zoompage WE */
+#zoompage-we_dw-dev-browser-action label {
+color: white !important;
+background-color: indigo !important;
+min-width: 24px !important;
+opacity: 1 !important;
+}
+
+
+/* AutopalyStopper */
+#autoplay_html5-browser-action label, 
+/* Canvasblocker */
+#canvasblocker_kkapsner_de-browser-action label, 
+/* ClearUrls */
+#_74145f27-f039-47ce-a470-a662b129930a_-browser-action  label, 
+/* Cookie Autodelete */
+#cookieautodelete_kennydo_com-browser-action label, 
+/* HTTPS Everywhere */
+#https-everywhere_eff_org-browser-action label, 
+/* Noscript */
+#_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action label, 
+/*Overlay Revmoval Auto */
+#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action label, 
+/* Privacy Badger */
+#jid1-mnnxcxisbpnsxq_jetpack-browser-action label, 
+/* Tab List Button Enhanced */
+#tablistbuttonenhanced_doub-browser-action label, 
+/* uBlock Origin */
+#ublock0_raymondhill_net-browser-action label, 
 /* Violentmonkey */
 #_aecec67f-0d10-4fa7-b7c7-609a2db280cf_-browser-action label {
 color: white !important;
@@ -139,65 +134,7 @@ background-color: indigo !important;
 opacity: 1 !important;
 }
 
-/*AutopalyStopper */
-#autoplay_html5-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/*Zoompage WE */
-#zoompage-we_dw-dev-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Canvasblocker */
-#canvasblocker_kkapsner_de-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* ClearUrls */
-#_74145f27-f039-47ce-a470-a662b129930a_-browser-action  label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/*Overlay Revmoval Auto */
-#_c86567ab-c9be-4823-a1ea-af0f62f9fd49_-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Neat URLs */
-#neaturl_hugsmile_eu-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* Tab List Button Enhanced */
-#tablistbuttonenhanced_doub-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
-/* AVG Online Security */
-#aos_avg_com-browser-action label {
-color: white !important;
-background-color: indigo !important;
-opacity: 1 !important;
-}
-
 /* END ADDON BADGES */
-
-
 
 
 
@@ -215,7 +152,6 @@ opacity: 1 !important;
   background-repeat: no-repeat !important;
 }
 
-
 /* set custom 'about:config' favicon */
 .tabbrowser-tab:not([busy])[label^="About About"] .tab-icon-image {
   list-style-image: none !important;
@@ -230,5 +166,10 @@ opacity: 1 !important;
 /* set custom 'about:debugging' favicon */
 .tabbrowser-tab:not([busy])[label^="Debugging - Runtime / this-firefox"] .tab-icon-image {
   fill: limegreen !important;
+}
+
+/* remove gap between pinned tabs and unpinned tabs */
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab[first-visible-unpinned-tab] {
+  margin-inline-start: 0 !important;
 }
 
